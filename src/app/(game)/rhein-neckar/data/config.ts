@@ -184,6 +184,14 @@ export const alternateNames: { [stationName: string]: string[] | undefined } = {
   'Heidelberg-Weststadt/Südstadt': ['Weststadt/Südstadt'],
   'Pfalzbau/Wilhelm-Hack-Museum': ['Pfalzbau', 'Wilhelm-Hack-Museum'],
   'Rathaus/REM': ['REM'],
+  // stops renamed by town above: the plain name reveals all stops of that name
+  'Eppelheim Rathaus': ['Rathaus'],
+  'Heidelberg Rheinstraße': ['Rheinstraße'],
+  'Weinheim Freiburger Straße': ['Freiburger Straße'],
+  // stops outside the town they are usually associated with
+  'Kirchheimer Straße': ['Eppelheim Kirchheimer Straße'],
+  'Kranichweg/Stotz': ['Pfaffengrund Kranichweg/Stotz'],
+  Friedhof: ['Leimen Friedhof'],
   'Tivoli/Rhein-Neckar-Zentrum': ['Rhein-Neckar-Zentrum', 'Tivoli'],
   'Luisenpark/Technoseum': ['Luisenpark'],
   'Zum Guten Hirten/BG Unfallklinik': ['Zum Guten Hirten', 'BG Unfallklinik'],

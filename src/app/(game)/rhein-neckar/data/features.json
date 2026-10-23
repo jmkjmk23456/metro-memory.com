@@ -12242,8 +12242,10 @@
         "id": 595,
         "name": "Weinheim Freiburger Straße",
         "alternate_names": [
+          "Freiburger Straße",
           "Weinheim Freiburger Str",
-          "WHFE"
+          "WHFE",
+          "RBFS"
         ],
         "line": "RheinNeckarTram5",
         "order": 19
@@ -16829,6 +16831,9 @@
       "properties": {
         "id": 803,
         "name": "Kranichweg/Stotz",
+        "alternate_names": [
+          "Pfaffengrund Kranichweg/Stotz"
+        ],
         "line": "RheinNeckarTram22",
         "order": 29
       },
@@ -16863,6 +16868,11 @@
       "properties": {
         "id": 805,
         "name": "Eppelheim Rathaus",
+        "alternate_names": [
+          "Rathaus",
+          "RLU",
+          "RLRA"
+        ],
         "line": "RheinNeckarTram22",
         "order": 29
       },
@@ -16881,6 +16891,7 @@
         "id": 806,
         "name": "Kirchheimer Straße",
         "alternate_names": [
+          "Eppelheim Kirchheimer Straße",
           "Kirchheimer Str"
         ],
         "line": "RheinNeckarTram22",
@@ -16901,6 +16912,7 @@
         "id": 827,
         "name": "Friedhof",
         "alternate_names": [
+          "Leimen Friedhof",
           "LEFH"
         ],
         "line": "RheinNeckarTram23",
@@ -17145,6 +17157,7 @@
         "id": 815,
         "name": "Heidelberg Rheinstraße",
         "alternate_names": [
+          "Rheinstraße",
           "Heidelberg Rheinstr",
           "SSRS"
         ],
@@ -17558,6 +17571,7 @@
         "id": 840,
         "name": "Heidelberg Rheinstraße",
         "alternate_names": [
+          "Rheinstraße",
           "Heidelberg Rheinstr",
           "SSRS"
         ],
