@@ -18,7 +18,11 @@ export type SourceJson = {
     lat: number
     lon: number
   }[]
+  localStopCodes: { code: string; name: string }[]
 }
+
+// operator codes of tram stops (none known for rnv)
+export const localStopCodesUrl: string | undefined = undefined
 
 export type LinesMetadata = {
   [id: string]: {

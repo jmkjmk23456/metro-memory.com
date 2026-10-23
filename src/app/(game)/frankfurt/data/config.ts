@@ -18,7 +18,13 @@ export type SourceJson = {
     lat: number
     lon: number
   }[]
+  localStopCodes: { code: string; name: string }[]
 }
+
+// operator codes of U-Bahn/tram stops (VGF), compiled by Bjørn Bäuchle,
+// licensed under the European Public License 1.2
+export const localStopCodesUrl: string | undefined =
+  'https://ds100.frankfurtium.de/dumps/orte_ffm/'
 
 export type LinesMetadata = {
   [id: string]: {

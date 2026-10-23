@@ -1,6 +1,25 @@
-import { linesMetadata, type SourceJson } from './config'
+import { linesMetadata, localStopCodesUrl, type SourceJson } from './config'
 import * as path from 'path'
 import { promises as fs } from 'fs'
+
+/**
+ * Read the table "Abk | Name" of a ds100.frankfurtium.de dump, keeping letter codes only
+ * (numbers are internal stop numbers, "_" marks turning loops).
+ */
+async function getLocalStopCodes(): Promise<SourceJson['localStopCodes']> {
+  if (!localStopCodesUrl) return []
+  const html = await (await fetch(localStopCodesUrl)).text()
+  const stripTags = (s: string) =>
+    s
+      .replace(/<[^>]+>/g, '')
+      .replace(/&amp;/g, '&')
+      .trim()
+  return [
+    ...html.matchAll(/<tr>\s*<td>([\s\S]*?)<\/td>\s*<td>([\s\S]*?)<\/td>/g),
+  ]
+    .map((match) => ({ code: stripTags(match[1]), name: stripTags(match[2]) }))
+    .filter(({ code }) => /^[A-ZÄÖÜ]{2,4}$/.test(code))
+}
 
 // Several public Overpass instances, tried in turn (they are often busy)
 const OVERPASS_SERVERS = [
@@ -188,6 +207,7 @@ const main = async () => {
       .filter((nodeId) => nodes.has(nodeId))
       .map((nodeId) => nodes.get(nodeId)!),
     railwayStations: [...railwayStations.values()],
+    localStopCodes: await getLocalStopCodes(),
   }
   console.debug(
     `Saving ${sourceData.ways.length} ways and ${sourceData.nodes.length} nodes ...`,

@@ -136,8 +136,13 @@ function isDefined<T>(arg: T): arg is Exclude<T, null | undefined> {
 
 const main = async () => {
   const data = Bun.file(path.join(__dirname, './source.json'))
-  const { lines, nodes, ways, railwayStations } =
-    (await data.json()) as SourceJson
+  const {
+    lines,
+    nodes,
+    ways,
+    railwayStations,
+    localStopCodes = [],
+  } = (await data.json()) as SourceJson
 
   // unify station names (OSM names differ between S-Bahn, U-Bahn and tram stops)
   for (const node of nodes) {
@@ -435,6 +440,56 @@ const main = async () => {
         (name) => name !== station.name,
       )
     }
+
+    // U-Bahn/tram stops can also be entered by local operator codes (e.g. VGF "HW"),
+    // unless the code is ambiguous or equals a name/code of another station
+    const normalize = (name: string) =>
+      name
+        .toLowerCase()
+        .replace(/\([^)]*\)/g, '')
+        .replace(/straße|strasse|str\./g, 'str')
+        .replace(/ß/g, 'ss')
+        .replace(/[^a-z0-9äöü]/g, '')
+    const localCodesByStation = new Map<StationDetails, string[]>()
+    for (const station of stationSortedAtoZ) {
+      const servedByLocalLines = station.coords.some((coords) =>
+        [...coords.lineIds.keys()].some(
+          (lineId) => !linesMetadata[lineId].name.startsWith('S'),
+        ),
+      )
+      if (!servedByLocalLines) continue
+      const names = new Set(
+        [station.name, ...station.alternateNames].map(normalize),
+      )
+      const codes = localStopCodes
+        .filter((stopCode) => names.has(normalize(stopCode.name)))
+        .map((stopCode) => stopCode.code)
+      if (codes.length > 0) localCodesByStation.set(station, codes)
+    }
+    const stationsByToken = new Map<string, Set<StationDetails>>()
+    for (const station of stationSortedAtoZ) {
+      for (const token of [
+        station.name,
+        ...station.alternateNames,
+        ...(localCodesByStation.get(station) ?? []),
+      ]) {
+        const key = normalize(token)
+        if (!stationsByToken.has(key)) stationsByToken.set(key, new Set())
+        stationsByToken.get(key)!.add(station)
+      }
+    }
+    for (const [station, codes] of localCodesByStation) {
+      for (const code of new Set(codes)) {
+        if (stationsByToken.get(normalize(code))!.size > 1) {
+          console.debug(
+            ` *** Warning: Local code ${code} of ${station.name} is ambiguous, skipped ***`,
+          )
+        } else {
+          station.alternateNames.push(code)
+        }
+      }
+    }
+
     for (const name of Object.keys(alternateNames)) {
       if (mapAlternateNamesUsed.has(name) === false) {
         console.debug(
