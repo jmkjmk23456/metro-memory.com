@@ -86,13 +86,15 @@ export const linesMetadata: LinesMetadata = {
   FrankfurtTram17: line('17', [1875171], '#E94E0F'),
   FrankfurtTram18: {
     // OSM has the diversion during the construction works on Mörfelder Landstraße;
-    // regular route: Südbahnhof - Oppenheimer Landstraße - Breslauer Straße - Louisa Bahnhof
+    // regular route: Südbahnhof - Südbahnhof/Schweizer Straße - Schweizer Straße/Mörfelder
+    // Landstraße - Oppenheimer Landstraße - Breslauer Straße - ... - Louisa Bahnhof
     ...line('18', [1875175], '#F7A600'),
     osm: {
       relationIds: [1875175],
       truncateAtStation: 'Südbahnhof',
       extraStationNodeIds: [
-        763206460, 115927728, 115927733, 763206488, 763206467,
+        763206441, 582939282, 763206460, 115927728, 115927733, 763206488,
+        763206467,
       ],
       extraRouteWayIds: [
         60792306, 60933252, 4566832, 60792303, 23115547, 12691650, 1494338282,
@@ -101,19 +103,8 @@ export const linesMetadata: LinesMetadata = {
       ],
     },
   },
-  FrankfurtTram19: {
-    // OSM only has Schwanheim -> Südbahnhof; school trips also loop via
-    // Heilbronner Straße, Hafenstraße, Hauptbahnhof Südseite and Baseler Platz
-    ...line('19', [948994], '#D45A1E'),
-    osm: {
-      relationIds: [948994],
-      extraStationNodeIds: [763027950, 763027957, 762004997, 117091061],
-      extraRouteWayIds: [
-        322052952, 367817108, 60792295, 60880800, 62111099, 60892758, 139106360,
-        318283876, 24241886, 332680423, 60950149, 60950148,
-      ],
-    },
-  },
+  // school line Südbahnhof - Rheinlandstraße
+  FrankfurtTram19: line('19', [948994], '#D45A1E'),
   FrankfurtTram20: line('20', [1875174], '#F7A600'),
   FrankfurtTram21: line('21', [1871117], '#F7A600'),
 }

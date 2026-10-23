@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { MapboxOptions } from 'mapbox-gl'
 import { Config, Line } from '@/lib/types'
 import lines from './data/lines.json'
+import mapStyle from './mapStyle'
 
 export const BEG_THRESHOLD = 0.5
 
@@ -26,7 +27,11 @@ export const METADATA: Metadata = {
 
 export const MAP_CONFIG: MapboxOptions = {
   container: 'map',
-  style: 'mapbox://styles/mapbox/light-v11', // generic
+  // style without labels (see mapStyle.ts); mapbox adds the game sources to the style
+  // object, so every map gets a fresh copy
+  get style() {
+    return structuredClone(mapStyle)
+  },
   minZoom: 6,
   fadeDuration: 50,
   dragRotate: false,
@@ -40,13 +45,9 @@ export const LOCALE = 'de'
 
 export const MAP_FROM_DATA = true
 
-// light-v11 shows street and stop names, which would give away the answers
-export const HIDE_BASEMAP_LABELS = true
-
 const config: Config = {
   GAUGE_COLORS: 'inverted',
   MAP_FROM_DATA,
-  HIDE_BASEMAP_LABELS,
   LOCALE,
   STRIPE_LINK,
   CITY_NAME,

@@ -11768,6 +11768,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.6836755,
+          50.0979893
+        ]
+      },
+      "properties": {
+        "id": 672,
+        "name": "Südbahnhof/Schweizer Straße",
+        "alternate_names": [
+          "Südbahnhof/Schweizer Str",
+          "SBSW"
+        ],
+        "line": "FrankfurtTram18",
+        "order": 25
+      },
+      "id": 672
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6838716,
+          50.0965324
+        ]
+      },
+      "properties": {
+        "id": 673,
+        "name": "Schweizer Straße/Mörfelder Landstraße",
+        "alternate_names": [
+          "Schweizer Str/Mörfelder Landstraße",
+          "Schweizer Straße/Mörfelder Landstr"
+        ],
+        "line": "FrankfurtTram18",
+        "order": 25
+      },
+      "id": 673
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.6814088,
           50.0953217
         ]
@@ -12276,89 +12318,6 @@
         "order": 26
       },
       "id": 664
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6545619,
-          50.1020392
-        ]
-      },
-      "properties": {
-        "id": 665,
-        "name": "Heilbronner Straße",
-        "alternate_names": [
-          "Heilbronner Str",
-          "HEIB"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 665
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6573644,
-          50.1032448
-        ]
-      },
-      "properties": {
-        "id": 666,
-        "name": "Hafenstraße",
-        "alternate_names": [
-          "Hafenstr",
-          "HAFS"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 666
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6644675,
-          50.1058471
-        ]
-      },
-      "properties": {
-        "id": 667,
-        "name": "Hauptbahnhof Südseite",
-        "alternate_names": [
-          "Hbf Südseite",
-          "HBSU"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 667
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6647942,
-          50.1044881
-        ]
-      },
-      "properties": {
-        "id": 668,
-        "name": "Baseler Platz",
-        "alternate_names": [
-          "BASP"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 668
     },
     {
       "type": "Feature",
@@ -13119,7 +13078,7 @@
     }
   ],
   "properties": {
-    "totalStations": 311,
+    "totalStations": 310,
     "stationsPerLine": {
       "FrankfurtS1": 32,
       "FrankfurtS2": 27,
@@ -13145,11 +13104,11 @@
       "FrankfurtTram15": 25,
       "FrankfurtTram16": 30,
       "FrankfurtTram17": 18,
-      "FrankfurtTram18": 24,
-      "FrankfurtTram19": 24,
+      "FrankfurtTram18": 26,
+      "FrankfurtTram19": 20,
       "FrankfurtTram20": 12,
       "FrankfurtTram21": 25
     },
-    "nextStationId": 672
+    "nextStationId": 674
   }
 }
