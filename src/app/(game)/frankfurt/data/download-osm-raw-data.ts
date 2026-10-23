@@ -194,6 +194,48 @@ function getRelationsDetails(
   return [{ relationId, stationsNodeIds, routesWayIds }, ...childDetails]
 }
 
+/**
+ * Administrative areas (town, district) each stop lies in, e.g. "Eppelheim" for "Kirchheimer Straße"
+ */
+async function getStationAreas(
+  nodeIds: number[],
+): Promise<SourceJson['stationAreas']> {
+  if (nodeIds.length === 0) return {}
+  const query = `
+    [out:json][timeout:300];
+    node(id:${nodeIds.join(',')});
+    foreach -> .stop (
+      .stop out ids;
+      .stop is_in -> .areas;
+      area.areas["boundary"="administrative"]["admin_level"~"^(6|8|9|10)$"];
+      out tags;
+    );
+  `
+  const elements = (await queryOverpass(query)) as unknown as {
+    type: string
+    id: number
+    tags?: { [key: string]: string }
+  }[]
+  const stationAreas: SourceJson['stationAreas'] = {}
+  let current: number | undefined
+  for (const element of elements) {
+    if (element.type === 'node') {
+      current = element.id
+      stationAreas[current] = []
+    } else if (current !== undefined && element.tags?.name) {
+      stationAreas[current].push({
+        level: Number(element.tags.admin_level),
+        name: element.tags.name,
+      })
+    }
+  }
+  // some Overpass servers have no area data and silently return none
+  if (!Object.values(stationAreas).some((areas) => areas.length > 0)) {
+    throw new Error('Overpass returned no administrative areas, try again')
+  }
+  return stationAreas
+}
+
 const main = async () => {
   const allRelationIds = Object.values(linesMetadata).flatMap(
     (lineMetadata) => lineMetadata.osm.relationIds,
@@ -242,8 +284,23 @@ const main = async () => {
     ...sourceWays.flatMap((way) => way.nodeIds),
   ])
 
+  // areas only for U-Bahn and tram stops (S-Bahn station names already contain the town)
+  const localStopNodeIds = [
+    ...new Set(
+      lines
+        .filter((line) => !linesMetadata[line.lineId].name.startsWith('S'))
+        .flatMap((line) => [
+          ...line.relations.flatMap((relation) => relation.stationsNodeIds),
+          ...line.extraStationNodeIds,
+        ]),
+    ),
+  ]
+  console.debug(`Fetching areas of ${localStopNodeIds.length} stops ...`)
+  const stationAreas = await getStationAreas(localStopNodeIds)
+
   const sourceData: SourceJson = {
     lines,
+    stationAreas,
     ways: sourceWays,
     nodes: [...usedNodeIds]
       .filter((nodeId) => nodes.has(nodeId))

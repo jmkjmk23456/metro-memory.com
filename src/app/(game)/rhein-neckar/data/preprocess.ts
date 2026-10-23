@@ -142,6 +142,7 @@ const main = async () => {
     ways,
     railwayStations,
     localStopCodes = [],
+    stationAreas = {},
   } = (await data.json()) as SourceJson
 
   // unify station names (OSM names differ between S-Bahn, U-Bahn and tram stops)
@@ -335,6 +336,10 @@ const main = async () => {
             stationAlternateNames.push(
               stationNode.name.replaceAll('Hauptbahnhof', 'Hbf'),
             )
+          }
+          if (/ bei /.test(stationNode.name)) {
+            // e.g. "Neckarhausen bei Neckarsteinach" -> "Neckarhausen"
+            stationAlternateNames.push(stationNode.name.split(' bei ')[0])
           }
           if (stationNode.name.includes('bei')) {
             stationAlternateNames.push(stationNode.name.replaceAll('bei', 'b.'))
@@ -543,8 +548,7 @@ const main = async () => {
     console.debug(`Short names without town (${shortNamesAdded.length}):`)
     shortNamesAdded.forEach((line) => console.debug(`  ${line}`))
 
-    // U-Bahn/tram stops can also be entered by local operator codes (e.g. VGF "HW");
-    // an ambiguous code reveals all stations using it
+    // compare names roughly (case, umlauts, "Straße"/"Str.")
     const normalize = (name: string) =>
       name
         .toLowerCase()
@@ -552,6 +556,56 @@ const main = async () => {
         .replace(/straße|strasse|str\./g, 'str')
         .replace(/ß/g, 'ss')
         .replace(/[^a-z0-9äöü]/g, '')
+
+    // U-Bahn/tram stops can also be entered with their town or district in front,
+    // e.g. "Eppelheim Kirchheimer Straße" or "Pfaffengrund Kranichweg/Stotz"
+    const cleanAreaName = (name: string) =>
+      name
+        .replace(/\s*\([^)]*\)/g, '')
+        .replace(/ (am|an der|im|in der|vor der) .*$/, '')
+        .trim()
+    // e.g. Frankfurt "Ortsbezirke" like "Nord-Ost" or "Innenstadt I" are no real place names
+    const genericDistricts =
+      /^((Mitte|Nord|Süd|Ost|West)(-(Mitte|Nord|Süd|Ost|West))?|Altstadt|Zentrum)$|Innenstadt|\/| [IVX]+$/
+    const areaNamesAdded: string[] = []
+    for (const station of stationSortedAtoZ) {
+      const nodeIds = station.coords.flatMap((coords) =>
+        coords.nodeIds
+          .filter(({ lineId }) => !linesMetadata[lineId].name.startsWith('S'))
+          .map(({ nodeId }) => nodeId),
+      )
+      const areas = nodeIds
+        .map((nodeId) => stationAreas[nodeId])
+        .find((nodeAreas) => nodeAreas?.length)
+      if (!areas) continue
+      const town = cleanAreaName(
+        areas.find((area) => area.level === 8)?.name ??
+          areas.find((area) => area.level === 6 && !/kreis/i.test(area.name))
+            ?.name ??
+          '',
+      )
+      const districts = areas
+        .filter((area) => area.level === 9 || area.level === 10)
+        .map((area) =>
+          cleanAreaName(area.name)
+            .replace(new RegExp(`^${town}[- ]`), '')
+            .replace(new RegExp(`^${town}$`), ''),
+        )
+        .filter((district) => district && !genericDistricts.test(district))
+      const stationName = normalize(station.name)
+      // names that already start with their town ("Heidelberg Hauptbahnhof") stay as they are
+      if (town && stationName.includes(normalize(town))) continue
+      for (const prefix of new Set([town, ...districts].filter(Boolean))) {
+        if (stationName.includes(normalize(prefix))) continue
+        station.alternateNames.push(`${prefix} ${station.name}`)
+        areaNamesAdded.push(`${prefix} ${station.name}`)
+      }
+    }
+    console.debug(`Names with town/district (${areaNamesAdded.length}):`)
+    areaNamesAdded.forEach((name) => console.debug(`  ${name}`))
+
+    // U-Bahn/tram stops can also be entered by local operator codes (e.g. VGF "HW");
+    // an ambiguous code reveals all stations using it
     const localCodesByStation = new Map<StationDetails, string[]>()
     for (const station of stationSortedAtoZ) {
       const servedByLocalLines = station.coords.some((coords) =>

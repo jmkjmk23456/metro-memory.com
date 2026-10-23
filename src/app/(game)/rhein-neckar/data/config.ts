@@ -18,6 +18,8 @@ export type SourceJson = {
     lat: number
     lon: number
   }[]
+  // administrative areas (level 6 = city/district, 8 = town, 9/10 = city district) per stop
+  stationAreas: { [nodeId: number]: { level: number; name: string }[] }
   localStopCodes: { code: string; name: string; lat?: number; lon?: number }[]
 }
 
@@ -192,6 +194,9 @@ export const alternateNames: { [stationName: string]: string[] | undefined } = {
   'Kirchheimer Straße': ['Eppelheim Kirchheimer Straße'],
   'Kranichweg/Stotz': ['Pfaffengrund Kranichweg/Stotz'],
   Friedhof: ['Leimen Friedhof'],
+  // former stop names
+  'Johann-Fischer-Straße': ['Biethsstraße'],
+  'Gneisenaustraße Süd': ['Gneisenaustraße'],
   'Tivoli/Rhein-Neckar-Zentrum': ['Rhein-Neckar-Zentrum', 'Tivoli'],
   'Luisenpark/Technoseum': ['Luisenpark'],
   'Zum Guten Hirten/BG Unfallklinik': ['Zum Guten Hirten', 'BG Unfallklinik'],

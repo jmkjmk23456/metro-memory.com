@@ -18,6 +18,8 @@ export type SourceJson = {
     lat: number
     lon: number
   }[]
+  // administrative areas (level 6 = city/district, 8 = town, 9/10 = city district) per stop
+  stationAreas: { [nodeId: number]: { level: number; name: string }[] }
   localStopCodes: { code: string; name: string; lat?: number; lon?: number }[]
 }
 
