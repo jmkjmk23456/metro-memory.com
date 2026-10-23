@@ -190,6 +190,34 @@ const main = async () => {
   const waysMap = toMap(ways, 'wayId')
   const nodesMap = toMap(nodes, 'nodeId')
 
+  // cut relations at a station (stops and ways are ordered along the route):
+  // keep the part before it in one direction and the part after it in the other
+  for (const line of lines) {
+    const truncateAtStation = linesMetadata[line.lineId].osm.truncateAtStation
+    if (!truncateAtStation) continue
+    for (const relation of line.relations) {
+      const stops = relation.stationsNodeIds
+      const stopIndex = stops.findIndex(
+        (nodeId) => nodesMap.get(nodeId)?.name === truncateAtStation,
+      )
+      const wayIndex = relation.routesWayIds.findIndex(
+        (wayId) => waysMap.get(wayId)?.nodeIds.includes(stops[stopIndex]),
+      )
+      if (stopIndex < 0 || wayIndex < 0) {
+        throw new Error(
+          `Cannot cut relation ${relation.relationId} at ${truncateAtStation}`,
+        )
+      }
+      const keepStart = stopIndex >= stops.length / 2
+      relation.stationsNodeIds = keepStart
+        ? stops.slice(0, stopIndex + 1)
+        : stops.slice(stopIndex)
+      relation.routesWayIds = keepStart
+        ? relation.routesWayIds.slice(0, wayIndex + 1)
+        : relation.routesWayIds.slice(wayIndex)
+    }
+  }
+
   // lines
   const augmentedLinesMetadataMap = new Map<
     string,
@@ -446,6 +474,74 @@ const main = async () => {
         (name) => name !== station.name,
       )
     }
+
+    // S-Bahn stations can also be entered without their town if that is unambiguous,
+    // e.g. "Wixhausen" for "Darmstadt-Wixhausen" (towns: station names or prefixes of 2+ stations;
+    // tram stops are left out as their names are mostly streets like "Carl-Benz-Straße")
+    const stationNames = new Set(
+      stationSortedAtoZ.map((station) => station.name),
+    )
+    const splitPoints = (name: string) =>
+      [...name.matchAll(/[ -]/g)].map((match) => match.index!)
+    const prefixCount = new Map<string, number>()
+    for (const name of stationNames) {
+      for (const prefix of new Set(
+        splitPoints(name).map((i) => name.slice(0, i)),
+      )) {
+        prefixCount.set(prefix, (prefixCount.get(prefix) ?? 0) + 1)
+      }
+    }
+    const notTowns = new Set([
+      'Alt',
+      'Bad',
+      'Groß',
+      'Klein',
+      'Neu',
+      'Nieder',
+      'Ober',
+      'St.',
+      'Sankt',
+    ])
+    const genericWords =
+      /^((Nord|Süd|Ost|West)(-?(Nord|Süd|Ost|West))?|Mitte|Bahnhof|Bf|Hbf|Hauptbahnhof|Platz|Straße|Weg|Allee|Endstelle)$/
+    const shortNameCandidates = new Map<string, Set<StationDetails>>()
+    for (const station of stationSortedAtoZ) {
+      const servedBySBahn = station.coords.some((coords) =>
+        [...coords.lineIds.keys()].some((lineId) =>
+          linesMetadata[lineId].name.startsWith('S'),
+        ),
+      )
+      if (!servedBySBahn) continue
+      for (const i of splitPoints(station.name)) {
+        const prefix = station.name.slice(0, i)
+        const rest = station.name.slice(i + 1).trim()
+        const isTown =
+          !notTowns.has(prefix) &&
+          (stationNames.has(prefix) || (prefixCount.get(prefix) ?? 0) >= 2)
+        if (!isTown || rest.length < 4 || genericWords.test(rest)) continue
+        if (!/^[A-ZÄÖÜ0-9]/.test(rest)) continue
+        if (!shortNameCandidates.has(rest))
+          shortNameCandidates.set(rest, new Set())
+        shortNameCandidates.get(rest)!.add(station)
+      }
+    }
+    const takenNames = new Map<string, Set<StationDetails>>()
+    for (const station of stationSortedAtoZ) {
+      for (const name of [station.name, ...station.alternateNames]) {
+        if (!takenNames.has(name)) takenNames.set(name, new Set())
+        takenNames.get(name)!.add(station)
+      }
+    }
+    const shortNamesAdded: string[] = []
+    for (const [rest, stations] of shortNameCandidates) {
+      const [station] = stations
+      const taken = takenNames.get(rest)
+      if (stations.size > 1 || (taken && !taken.has(station))) continue
+      station.alternateNames.push(rest)
+      shortNamesAdded.push(`${station.name} -> ${rest}`)
+    }
+    console.debug(`Short names without town (${shortNamesAdded.length}):`)
+    shortNamesAdded.forEach((line) => console.debug(`  ${line}`))
 
     // U-Bahn/tram stops can also be entered by local operator codes (e.g. VGF "HW");
     // an ambiguous code reveals all stations using it

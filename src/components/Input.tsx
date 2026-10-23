@@ -60,7 +60,13 @@ const Input = ({
       e.preventDefault()
 
       const sanitizedSearch = normalizeString(search)
-      const results = fuse.search(sanitizedSearch)
+      const fuzzyResults = fuse.search(sanitizedSearch)
+      // an exact name wins over similar ones (e.g. "Praunheim" must not reveal "Raunheim")
+      const exactResults = fuzzyResults.filter(
+        (result) =>
+          result.matches?.some((match) => match.value === sanitizedSearch),
+      )
+      const results = exactResults.length > 0 ? exactResults : fuzzyResults
       let someAlreadyFound = false
       const matches: number[] = []
       for (let i = 0; i < results.length; i++) {

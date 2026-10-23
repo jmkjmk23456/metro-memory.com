@@ -36,6 +36,8 @@ export type LinesMetadata = {
       relationIds: number[]
       extraStationNodeIds: number[]
       extraRouteWayIds: number[]
+      // use the relations only up to this station (e.g. when OSM has a diversion)
+      truncateAtStation?: string
     }
     color: string
   }
@@ -75,14 +77,43 @@ export const linesMetadata: LinesMetadata = {
   FrankfurtU8: line('U8', [4656735], '#C77DB5'),
   FrankfurtU9: line('U9', [4656736], '#C9B800'),
   // tram colours from the official traffiQ "Liniennetz Frankfurt am Main 2026"
-  // (line 19 is not part of the official network plan)
+  // (school line 19 is not in the plan, its colour is chosen to fit)
   FrankfurtTram11: line('11', [1875166], '#FDC300'),
   FrankfurtTram12: line('12', [1875167], '#C54409'),
   FrankfurtTram14: line('14', [1875169], '#E94E0F'),
   FrankfurtTram15: line('15', [1875170], '#FDC300'),
   FrankfurtTram16: line('16', [1871120], '#EF7D00'),
   FrankfurtTram17: line('17', [1875171], '#E94E0F'),
-  FrankfurtTram18: line('18', [1875175], '#F7A600'),
+  FrankfurtTram18: {
+    // OSM has the diversion during the construction works on Mörfelder Landstraße;
+    // regular route: Südbahnhof - Oppenheimer Landstraße - Breslauer Straße - Louisa Bahnhof
+    ...line('18', [1875175], '#F7A600'),
+    osm: {
+      relationIds: [1875175],
+      truncateAtStation: 'Südbahnhof',
+      extraStationNodeIds: [
+        763206460, 115927728, 115927733, 763206488, 763206467,
+      ],
+      extraRouteWayIds: [
+        60792306, 60933252, 4566832, 60792303, 23115547, 12691650, 1494338282,
+        1484529052, 1494338287, 1494338288, 1484529050, 1484529049, 1494338285,
+        894827395,
+      ],
+    },
+  },
+  FrankfurtTram19: {
+    // OSM only has Schwanheim -> Südbahnhof; school trips also loop via
+    // Heilbronner Straße, Hafenstraße, Hauptbahnhof Südseite and Baseler Platz
+    ...line('19', [948994], '#D45A1E'),
+    osm: {
+      relationIds: [948994],
+      extraStationNodeIds: [763027950, 763027957, 762004997, 117091061],
+      extraRouteWayIds: [
+        322052952, 367817108, 60792295, 60880800, 62111099, 60892758, 139106360,
+        318283876, 24241886, 332680423, 60950149, 60950148,
+      ],
+    },
+  },
   FrankfurtTram20: line('20', [1875174], '#F7A600'),
   FrankfurtTram21: line('21', [1871117], '#F7A600'),
 }
@@ -173,4 +204,7 @@ export const alternateNames: { [stationName: string]: string[] | undefined } = {
   'Römer/Paulskirche': ['Paulskirche'],
   'Heinrich-Hoffmann-Straße/Blutspendedienst': ['Heinrich-Hoffmann-Straße'],
   'Weißkirchen/Steinbach': ['Weißkirchen', 'Steinbach'],
+  'Schwalbach Limes': ['Schwalbach'],
+  Ostbahnhof: ['Frankfurt Ost', 'Frankfurt Ostbahnhof', 'Frankfurt (Main) Ost'],
+  Heerstraße: ['Praunheim Heerstraße', 'Praunheim'],
 }

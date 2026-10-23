@@ -41,6 +41,8 @@ export type LinesMetadata = {
       relationIds: number[]
       extraStationNodeIds: number[]
       extraRouteWayIds: number[]
+      // use the relations only up to this station (e.g. when OSM has a diversion)
+      truncateAtStation?: string
     }
     color: string
   }

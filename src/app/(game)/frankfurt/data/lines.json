@@ -174,18 +174,25 @@
     "textColor": "#FFFFFF",
     "order": 25
   },
+  "FrankfurtTram19": {
+    "name": "19",
+    "color": "#D45A1E",
+    "backgroundColor": "#6A2D0F",
+    "textColor": "#FFFFFF",
+    "order": 26
+  },
   "FrankfurtTram20": {
     "name": "20",
     "color": "#F7A600",
     "backgroundColor": "#7C5300",
     "textColor": "#FFFFFF",
-    "order": 26
+    "order": 27
   },
   "FrankfurtTram21": {
     "name": "21",
     "color": "#F7A600",
     "backgroundColor": "#7C5300",
     "textColor": "#FFFFFF",
-    "order": 27
+    "order": 28
   }
 }

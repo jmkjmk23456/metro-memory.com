@@ -80,6 +80,13 @@ async function queryOverpass(query: string): Promise<OsmElement[]> {
  * Retrieve all relations (incl. child relations of route_masters), their ways and nodes in one Overpass query.
  */
 async function getOsmElements(relationIds: number[]) {
+  // stations and ways configured in addition to the relations
+  const extraNodeIds = Object.values(linesMetadata).flatMap(
+    (lineMetadata) => lineMetadata.osm.extraStationNodeIds,
+  )
+  const extraWayIds = Object.values(linesMetadata).flatMap(
+    (lineMetadata) => lineMetadata.osm.extraRouteWayIds,
+  )
   const query = `
     [out:json][timeout:300];
     relation(id:${relationIds.join(',')});
@@ -98,6 +105,18 @@ async function getOsmElements(relationIds: number[]) {
     .ways out body;
     node(w.ways);
     out skel;
+    ${
+      extraNodeIds.length > 0
+        ? `node(id:${extraNodeIds.join(',')}); out body;`
+        : ''
+    }
+    ${
+      extraWayIds.length > 0
+        ? `way(id:${extraWayIds.join(
+            ',',
+          )})->.extraWays; .extraWays out body; node(w.extraWays); out skel;`
+        : ''
+    }
   `
   const elements = await queryOverpass(query)
   const relations = new Map<number, OsmMember[]>()
