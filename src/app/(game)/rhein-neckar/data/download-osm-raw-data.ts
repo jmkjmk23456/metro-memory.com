@@ -1,4 +1,9 @@
-import { linesMetadata, localStopCodesUrl, type SourceJson } from './config'
+import {
+  linesMetadata,
+  localStopCodeTags,
+  localStopCodesUrl,
+  type SourceJson,
+} from './config'
 import * as path from 'path'
 import { promises as fs } from 'fs'
 
@@ -84,6 +89,11 @@ async function getOsmElements(relationIds: number[]) {
     .stops out body;
     node(around.stops:600)["railway"~"^(station|halt)$"]["railway:ref"]["station"!~"^(subway|light_rail)$"];
     out body;
+    ${
+      localStopCodeTags.length > 0
+        ? 'node(around.stops:80)["public_transport"~"^(platform|stop_position)$"]; out body;'
+        : ''
+    }
     way(r.routes)->.ways;
     .ways out body;
     node(w.ways);
@@ -97,6 +107,7 @@ async function getOsmElements(relationIds: number[]) {
     number,
     SourceJson['railwayStations'][number]
   >()
+  const localStopCodes: SourceJson['localStopCodes'] = []
   for (const element of elements) {
     if (element.type === 'relation') relations.set(element.id, element.members)
     else if (element.type === 'way') ways.set(element.id, element.nodes)
@@ -118,9 +129,22 @@ async function getOsmElements(relationIds: number[]) {
           lat: element.lat,
           lon: element.lon,
         })
+      // operator codes of tram stops, e.g. rnv "MIWA" for Wasserturm
+      for (const tag of localStopCodeTags) {
+        const value = element.tags?.[tag]
+        if (!value || !element.tags?.name) continue
+        for (const code of value.split(';')) {
+          localStopCodes.push({
+            code: code.trim(),
+            name: element.tags.name,
+            lat: element.lat,
+            lon: element.lon,
+          })
+        }
+      }
     }
   }
-  return { relations, ways, nodes, railwayStations }
+  return { relations, ways, nodes, railwayStations, localStopCodes }
 }
 
 /**
@@ -160,9 +184,8 @@ const main = async () => {
       Object.keys(linesMetadata).length
     } lines from Overpass ...`,
   )
-  const { relations, ways, nodes, railwayStations } = await getOsmElements(
-    allRelationIds,
-  )
+  const { relations, ways, nodes, railwayStations, localStopCodes } =
+    await getOsmElements(allRelationIds)
   console.debug(
     `Fetched ${relations.size} relations, ${ways.size} ways, ${nodes.size} nodes`,
   )
@@ -207,7 +230,7 @@ const main = async () => {
       .filter((nodeId) => nodes.has(nodeId))
       .map((nodeId) => nodes.get(nodeId)!),
     railwayStations: [...railwayStations.values()],
-    localStopCodes: await getLocalStopCodes(),
+    localStopCodes: [...localStopCodes, ...(await getLocalStopCodes())],
   }
   console.debug(
     `Saving ${sourceData.ways.length} ways and ${sourceData.nodes.length} nodes ...`,

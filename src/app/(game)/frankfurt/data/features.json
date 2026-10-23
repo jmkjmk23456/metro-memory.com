@@ -2504,7 +2504,8 @@
         "id": 115,
         "name": "Louisa",
         "alternate_names": [
-          "FLSS"
+          "FLSS",
+          "LOUI"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -3168,7 +3169,8 @@
         "id": 152,
         "name": "Niederrad",
         "alternate_names": [
-          "FNI"
+          "FNI",
+          "NRBF"
         ],
         "line": "FrankfurtS7",
         "order": 7
@@ -3499,7 +3501,8 @@
         "id": 168,
         "name": "Niederrad",
         "alternate_names": [
-          "FNI"
+          "FNI",
+          "NRBF"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -4044,7 +4047,8 @@
         "id": 194,
         "name": "Niederrad",
         "alternate_names": [
-          "FNI"
+          "FNI",
+          "NRBF"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -7068,6 +7072,9 @@
       "properties": {
         "id": 320,
         "name": "Friedhof Westhausen",
+        "alternate_names": [
+          "FW"
+        ],
         "line": "FrankfurtU7",
         "order": 16
       },
@@ -8467,6 +8474,7 @@
         "name": "Hugo-Junkers-Straße",
         "alternate_names": [
           "Hugo-Junkers-Str",
+          "HJSL",
           "HUJU"
         ],
         "line": "FrankfurtTram11",
@@ -8732,7 +8740,8 @@
         "id": 442,
         "name": "Niederrad",
         "alternate_names": [
-          "FNI"
+          "FNI",
+          "NRBF"
         ],
         "line": "FrankfurtTram12",
         "order": 20
@@ -9325,6 +9334,7 @@
         "name": "Hugo-Junkers-Straße",
         "alternate_names": [
           "Hugo-Junkers-Str",
+          "HJSL",
           "HUJU"
         ],
         "line": "FrankfurtTram12",
@@ -10999,7 +11009,8 @@
         "id": 545,
         "name": "Louisa",
         "alternate_names": [
-          "FLSS"
+          "FLSS",
+          "LOUI"
         ],
         "line": "FrankfurtTram17",
         "order": 24

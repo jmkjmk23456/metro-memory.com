@@ -18,11 +18,21 @@ export type SourceJson = {
     lat: number
     lon: number
   }[]
-  localStopCodes: { code: string; name: string }[]
+  localStopCodes: { code: string; name: string; lat?: number; lon?: number }[]
 }
 
-// operator codes of tram stops (none known for rnv)
+// list of operator codes of tram stops (none for rnv, they come from OSM)
 export const localStopCodesUrl: string | undefined = undefined
+
+// OSM tags of tram stops holding operator codes:
+// rnv RBL, MVV control system, OEG, Rhein-Haardtbahn and DB (DS100) codes
+export const localStopCodeTags: string[] = [
+  'ref:RNV:RBL',
+  'railway:ref:MVV_VBL',
+  'railway:ref:OEG',
+  'railway:ref:RHB',
+  'railway:ref:DBAG',
+]
 
 export type LinesMetadata = {
   [id: string]: {

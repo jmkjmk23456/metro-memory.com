@@ -145,19 +145,25 @@ const main = async () => {
   } = (await data.json()) as SourceJson
 
   // unify station names (OSM names differ between S-Bahn, U-Bahn and tram stops)
-  for (const node of nodes) {
-    node.name ??= stationNamesByNodeId[node.nodeId]
-    if (!node.name) continue
+  function renameStation(name: string, lat?: number, lon?: number): string {
     const areaRename = renamedStationsInArea.find(
       ({ area: [minLon, minLat, maxLon, maxLat], names }) =>
-        names[node.name!] &&
-        node.lon >= minLon &&
-        node.lon <= maxLon &&
-        node.lat >= minLat &&
-        node.lat <= maxLat,
+        names[name] &&
+        lat !== undefined &&
+        lon !== undefined &&
+        lon >= minLon &&
+        lon <= maxLon &&
+        lat >= minLat &&
+        lat <= maxLat,
     )
-    node.name =
-      areaRename?.names[node.name] ?? renamedStations[node.name] ?? node.name
+    return areaRename?.names[name] ?? renamedStations[name] ?? name
+  }
+  for (const node of nodes) {
+    node.name ??= stationNamesByNodeId[node.nodeId]
+    if (node.name) node.name = renameStation(node.name, node.lat, node.lon)
+  }
+  for (const stopCode of localStopCodes) {
+    stopCode.name = renameStation(stopCode.name, stopCode.lat, stopCode.lon)
   }
 
   // stop positions without a name can't be guessed => skip them
@@ -441,8 +447,8 @@ const main = async () => {
       )
     }
 
-    // U-Bahn/tram stops can also be entered by local operator codes (e.g. VGF "HW"),
-    // unless the code is ambiguous or equals a name/code of another station
+    // U-Bahn/tram stops can also be entered by local operator codes (e.g. VGF "HW");
+    // an ambiguous code reveals all stations using it
     const normalize = (name: string) =>
       name
         .toLowerCase()
@@ -482,11 +488,10 @@ const main = async () => {
       for (const code of new Set(codes)) {
         if (stationsByToken.get(normalize(code))!.size > 1) {
           console.debug(
-            ` *** Warning: Local code ${code} of ${station.name} is ambiguous, skipped ***`,
+            `  Note: local code ${code} of ${station.name} is also used by another station`,
           )
-        } else {
-          station.alternateNames.push(code)
         }
+        station.alternateNames.push(code)
       }
     }
 
