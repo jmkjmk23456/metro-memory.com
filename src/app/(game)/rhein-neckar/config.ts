@@ -40,9 +40,13 @@ export const LOCALE = 'de'
 
 export const MAP_FROM_DATA = true
 
+// light-v11 shows street and stop names, which would give away the answers
+export const HIDE_BASEMAP_LABELS = true
+
 const config: Config = {
   GAUGE_COLORS: 'inverted',
   MAP_FROM_DATA,
+  HIDE_BASEMAP_LABELS,
   LOCALE,
   STRIPE_LINK,
   CITY_NAME,

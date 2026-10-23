@@ -11,6 +11,13 @@ export type SourceJson = {
   }[]
   ways: { wayId: number; nodeIds: number[] }[]
   nodes: { nodeId: number; name?: string; lat: number; lon: number }[]
+  railwayStations: {
+    nodeId: number
+    name?: string
+    ds100: string[]
+    lat: number
+    lon: number
+  }[]
 }
 
 export type LinesMetadata = {
@@ -53,24 +60,27 @@ export const linesMetadata: LinesMetadata = {
   RheinNeckarS9: line('S9', [19971777, 12010750, 12010751], '#73C82C'),
   RheinNeckarS10: line('S10', [16381671], '#A46FA9'),
   RheinNeckarS12: line('S12', [16384836], '#F4A9CA'),
-  RheinNeckarTram1: line('1', [2619044], '#F39B9B'),
-  RheinNeckarTram2: line('2', [2619045], '#B10346'),
-  RheinNeckarTram3: line('3', [2621587], '#D6AD00'),
+  // tram colours from the official rnv "Liniennetzplan Schiene" (Stand September 2026),
+  // line 5 from Wikidata (its badge is drawn differently in the plan)
+  RheinNeckarTram1: line('1', [2619044], '#F39B9A'),
+  RheinNeckarTram2: line('2', [2619045], '#B00044'),
+  RheinNeckarTram3: line('3', [2621587], '#D5AD00'),
   RheinNeckarTram4: line('4', [2619046], '#E3000B'),
   RheinNeckarTram4A: line('4A', [14712448], '#E3000B'),
-  RheinNeckarTram5: line('5', [2619047], '#00975F'),
-  RheinNeckarTram6: line('6', [2621588], '#966C29'),
-  RheinNeckarTram6A: line('6A', [13417394], '#966C29'),
+  RheinNeckarTram5: line('5', [2619047], '#00AC6F'),
+  RheinNeckarTram6: line('6', [2621588], '#956B25'),
+  RheinNeckarTram6A: line('6A', [13417394], '#956B25'),
   RheinNeckarTram7: line('7', [2621590], '#FFCC00'),
-  RheinNeckarTram10: line('10', [3303135], '#7EC3E6'),
-  RheinNeckarTram12: line('12', [20822304], '#DA603B'),
-  RheinNeckarTram15: line('15', [16179482], '#F7AB64'),
-  RheinNeckarTram16: line('16', [16626601], '#5A8DCA'),
-  RheinNeckarTram21: line('21', [2617691], '#E2000A'),
-  RheinNeckarTram22: line('22', [2617692], '#FCC200'),
+  RheinNeckarTram9X: line('9X', [3757041], '#93C23B'),
+  RheinNeckarTram10: line('10', [3303135], '#A60F80'),
+  RheinNeckarTram12: line('12', [20822304], '#DB603C'),
+  RheinNeckarTram15: line('15', [16179482], '#F7AB63'),
+  RheinNeckarTram16: line('16', [16626601], '#5E6BAF'),
+  RheinNeckarTram21: line('21', [2617691], '#E3000B'),
+  RheinNeckarTram22: line('22', [2617692], '#FDC300'),
   RheinNeckarTram23: line('23', [2617693], '#E48E00'),
-  RheinNeckarTram24: line('24', [2617694], '#8B1C75'),
-  RheinNeckarTram26: line('26', [2617695], '#F39A9A'),
+  RheinNeckarTram24: line('24', [2617694], '#8C1D75'),
+  RheinNeckarTram26: line('26', [2617695], '#F39B9A'),
 }
 
 // ----------------------------------------

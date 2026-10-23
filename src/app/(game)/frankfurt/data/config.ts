@@ -11,6 +11,13 @@ export type SourceJson = {
   }[]
   ways: { wayId: number; nodeIds: number[] }[]
   nodes: { nodeId: number; name?: string; lat: number; lon: number }[]
+  railwayStations: {
+    nodeId: number
+    name?: string
+    ds100: string[]
+    lat: number
+    lon: number
+  }[]
 }
 
 export type LinesMetadata = {
@@ -58,16 +65,17 @@ export const linesMetadata: LinesMetadata = {
   FrankfurtU7: line('U7', [4656734], '#E4A024'),
   FrankfurtU8: line('U8', [4656735], '#C77DB5'),
   FrankfurtU9: line('U9', [4656736], '#C9B800'),
-  FrankfurtTram11: line('11', [1875166], '#9C1C26'),
-  FrankfurtTram12: line('12', [1875167], '#7A4E9C'),
-  FrankfurtTram14: line('14', [1875169], '#2F8F83'),
-  FrankfurtTram15: line('15', [1875170], '#D0711E'),
-  FrankfurtTram16: line('16', [1871120], '#5C8F2E'),
-  FrankfurtTram17: line('17', [1875171], '#C2185B'),
-  FrankfurtTram18: line('18', [1875175], '#1F6FB2'),
-  FrankfurtTram19: line('19', [948994], '#8D6E63'),
-  FrankfurtTram20: line('20', [1875174], '#E53935'),
-  FrankfurtTram21: line('21', [1871117], '#546E7A'),
+  // tram colours from the official traffiQ "Liniennetz Frankfurt am Main 2026"
+  // (line 19 is not part of the official network plan)
+  FrankfurtTram11: line('11', [1875166], '#FDC300'),
+  FrankfurtTram12: line('12', [1875167], '#C54409'),
+  FrankfurtTram14: line('14', [1875169], '#E94E0F'),
+  FrankfurtTram15: line('15', [1875170], '#FDC300'),
+  FrankfurtTram16: line('16', [1871120], '#EF7D00'),
+  FrankfurtTram17: line('17', [1875171], '#E94E0F'),
+  FrankfurtTram18: line('18', [1875175], '#F7A600'),
+  FrankfurtTram20: line('20', [1875174], '#F7A600'),
+  FrankfurtTram21: line('21', [1871117], '#F7A600'),
 }
 
 // ----------------------------------------

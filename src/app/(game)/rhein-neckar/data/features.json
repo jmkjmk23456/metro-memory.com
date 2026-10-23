@@ -15,7 +15,8 @@
         "name": "Homburg (Saar) Hauptbahnhof",
         "alternate_names": [
           "Homburg Hauptbahnhof",
-          "Homburg (Saar) Hbf"
+          "Homburg (Saar) Hbf",
+          "SHO"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -34,6 +35,9 @@
       "properties": {
         "id": 2,
         "name": "Bruchmühlbach-Miesau",
+        "alternate_names": [
+          "SBUM"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -51,6 +55,9 @@
       "properties": {
         "id": 3,
         "name": "Hauptstuhl",
+        "alternate_names": [
+          "SHPT"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -68,6 +75,9 @@
       "properties": {
         "id": 4,
         "name": "Landstuhl",
+        "alternate_names": [
+          "SLD"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -85,6 +95,9 @@
       "properties": {
         "id": 5,
         "name": "Kindsbach",
+        "alternate_names": [
+          "SKIB"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -102,6 +115,9 @@
       "properties": {
         "id": 6,
         "name": "Einsiedlerhof",
+        "alternate_names": [
+          "SEF"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -119,6 +135,9 @@
       "properties": {
         "id": 7,
         "name": "Vogelweh",
+        "alternate_names": [
+          "SVO"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -136,6 +155,9 @@
       "properties": {
         "id": 8,
         "name": "Kennelgarten",
+        "alternate_names": [
+          "SKEN"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -154,7 +176,8 @@
         "id": 9,
         "name": "Kaiserslautern Hauptbahnhof",
         "alternate_names": [
-          "Kaiserslautern Hbf"
+          "Kaiserslautern Hbf",
+          "SKL"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -173,6 +196,9 @@
       "properties": {
         "id": 10,
         "name": "Hochspeyer",
+        "alternate_names": [
+          "SHY"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -191,7 +217,8 @@
         "id": 11,
         "name": "Frankenstein (Pfalz)",
         "alternate_names": [
-          "Frankenstein"
+          "Frankenstein",
+          "RFST"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -210,6 +237,9 @@
       "properties": {
         "id": 12,
         "name": "Weidenthal",
+        "alternate_names": [
+          "RWD"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -227,6 +257,9 @@
       "properties": {
         "id": 13,
         "name": "Neidenfels",
+        "alternate_names": [
+          "RNFL"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -245,7 +278,8 @@
         "id": 14,
         "name": "Lambrecht (Pfalz)",
         "alternate_names": [
-          "Lambrecht"
+          "Lambrecht",
+          "RLBP"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -267,7 +301,8 @@
         "alternate_names": [
           "Neustadt Hauptbahnhof",
           "Neustadt (Weinstr) Hauptbahnhof",
-          "Neustadt (Weinstraße) Hbf"
+          "Neustadt (Weinstraße) Hbf",
+          "RN"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -286,6 +321,9 @@
       "properties": {
         "id": 16,
         "name": "Neustadt-Böbig",
+        "alternate_names": [
+          "RNBO"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -304,7 +342,8 @@
         "id": 17,
         "name": "Haßloch (Pfalz)",
         "alternate_names": [
-          "Haßloch"
+          "Haßloch",
+          "RHLO"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -323,6 +362,9 @@
       "properties": {
         "id": 18,
         "name": "Böhl-Iggelheim",
+        "alternate_names": [
+          "RBOE"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -340,6 +382,9 @@
       "properties": {
         "id": 19,
         "name": "Schifferstadt",
+        "alternate_names": [
+          "RSD"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -357,6 +402,9 @@
       "properties": {
         "id": 20,
         "name": "Limburgerhof",
+        "alternate_names": [
+          "RLI"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -374,6 +422,9 @@
       "properties": {
         "id": 21,
         "name": "Ludwigshafen-Rheingönheim",
+        "alternate_names": [
+          "RLUR"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -391,6 +442,9 @@
       "properties": {
         "id": 22,
         "name": "Ludwigshafen-Mundenheim",
+        "alternate_names": [
+          "RLUM"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -410,7 +464,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -431,7 +486,8 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -452,7 +508,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -473,7 +530,8 @@
         "name": "Mannheim ARENA/Maimarkt",
         "alternate_names": [
           "SAP Arena S-Bahnhof",
-          "Mannheim Arena"
+          "Mannheim Arena",
+          "RMSM"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -492,6 +550,9 @@
       "properties": {
         "id": 27,
         "name": "Mannheim-Seckenheim",
+        "alternate_names": [
+          "RMSE"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -509,6 +570,9 @@
       "properties": {
         "id": 28,
         "name": "Mannheim-Friedrichsfeld Süd",
+        "alternate_names": [
+          "RMFS"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -527,7 +591,8 @@
         "id": 29,
         "name": "Heidelberg-Pfaffengrund/Wieblingen",
         "alternate_names": [
-          "Pfaffengrund/Wieblingen"
+          "Pfaffengrund/Wieblingen",
+          "RHBP"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -547,7 +612,8 @@
         "id": 30,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -567,7 +633,8 @@
         "id": 31,
         "name": "Heidelberg-Weststadt/Südstadt",
         "alternate_names": [
-          "Weststadt/Südstadt"
+          "Weststadt/Südstadt",
+          "RHBF"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -586,6 +653,9 @@
       "properties": {
         "id": 32,
         "name": "Heidelberg-Altstadt",
+        "alternate_names": [
+          "RHKA"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -604,7 +674,8 @@
         "id": 33,
         "name": "Heidelberg-Schlierbach/Ziegelhausen",
         "alternate_names": [
-          "Schlierbach/Ziegelhausen"
+          "Schlierbach/Ziegelhausen",
+          "RSR"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -623,6 +694,9 @@
       "properties": {
         "id": 34,
         "name": "Heidelberg Orthopädie",
+        "alternate_names": [
+          "RHBO"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -640,6 +714,9 @@
       "properties": {
         "id": 35,
         "name": "Neckargemünd",
+        "alternate_names": [
+          "RNM"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -657,6 +734,9 @@
       "properties": {
         "id": 36,
         "name": "Neckargemünd Altstadt",
+        "alternate_names": [
+          "RNMA"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -674,6 +754,9 @@
       "properties": {
         "id": 37,
         "name": "Neckarsteinach",
+        "alternate_names": [
+          "RNT"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -692,7 +775,8 @@
         "id": 38,
         "name": "Neckarhausen bei Neckarsteinach",
         "alternate_names": [
-          "Neckarhausen b. Neckarsteinach"
+          "Neckarhausen b. Neckarsteinach",
+          "RNH"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -712,7 +796,8 @@
         "id": 39,
         "name": "Hirschhorn (Neckar)",
         "alternate_names": [
-          "Hirschhorn"
+          "Hirschhorn",
+          "RHO"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -731,6 +816,9 @@
       "properties": {
         "id": 40,
         "name": "Eberbach",
+        "alternate_names": [
+          "REA"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -748,6 +836,9 @@
       "properties": {
         "id": 41,
         "name": "Lindach",
+        "alternate_names": [
+          "RLID"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -766,7 +857,8 @@
         "id": 42,
         "name": "Zwingenberg (Baden)",
         "alternate_names": [
-          "Zwingenberg"
+          "Zwingenberg",
+          "RZW"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -785,6 +877,9 @@
       "properties": {
         "id": 43,
         "name": "Neckargerach",
+        "alternate_names": [
+          "RNA"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -802,6 +897,9 @@
       "properties": {
         "id": 44,
         "name": "Binau",
+        "alternate_names": [
+          "RBIN"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -819,6 +917,9 @@
       "properties": {
         "id": 45,
         "name": "Mosbach-Neckarelz",
+        "alternate_names": [
+          "RNZ"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -834,12 +935,15 @@
         ]
       },
       "properties": {
-        "id": 46,
+        "id": 895,
         "name": "Mosbach West",
+        "alternate_names": [
+          "RMOW"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
-      "id": 46
+      "id": 895
     },
     {
       "type": "Feature",
@@ -854,7 +958,8 @@
         "id": 47,
         "name": "Mosbach (Baden)",
         "alternate_names": [
-          "Mosbach"
+          "Mosbach",
+          "RMO"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -873,6 +978,9 @@
       "properties": {
         "id": 48,
         "name": "Neckarburken",
+        "alternate_names": [
+          "RNB"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -890,6 +998,9 @@
       "properties": {
         "id": 49,
         "name": "Dallau",
+        "alternate_names": [
+          "RDL"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -909,7 +1020,8 @@
         "name": "Auerbach (bei Mosbach)",
         "alternate_names": [
           "Auerbach",
-          "Auerbach (b. Mosbach)"
+          "Auerbach (b. Mosbach)",
+          "RACH"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -928,6 +1040,9 @@
       "properties": {
         "id": 51,
         "name": "Oberschefflenz",
+        "alternate_names": [
+          "ROSC"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -945,6 +1060,9 @@
       "properties": {
         "id": 52,
         "name": "Eicholzheim",
+        "alternate_names": [
+          "REM"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -962,6 +1080,9 @@
       "properties": {
         "id": 53,
         "name": "Seckach",
+        "alternate_names": [
+          "RSE"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -981,7 +1102,8 @@
         "name": "Zimmern (bei Seckach)",
         "alternate_names": [
           "Zimmern",
-          "Zimmern (b. Seckach)"
+          "Zimmern (b. Seckach)",
+          "RZIM"
         ],
         "line": "RheinNeckarS1",
         "order": 1
@@ -1000,6 +1122,9 @@
       "properties": {
         "id": 55,
         "name": "Adelsheim-Nord",
+        "alternate_names": [
+          "RADN"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -1017,6 +1142,9 @@
       "properties": {
         "id": 56,
         "name": "Osterburken",
+        "alternate_names": [
+          "TO"
+        ],
         "line": "RheinNeckarS1",
         "order": 1
       },
@@ -1035,7 +1163,8 @@
         "id": 57,
         "name": "Kaiserslautern Hauptbahnhof",
         "alternate_names": [
-          "Kaiserslautern Hbf"
+          "Kaiserslautern Hbf",
+          "SKL"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1054,6 +1183,9 @@
       "properties": {
         "id": 58,
         "name": "Hochspeyer",
+        "alternate_names": [
+          "SHY"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1072,7 +1204,8 @@
         "id": 59,
         "name": "Frankenstein (Pfalz)",
         "alternate_names": [
-          "Frankenstein"
+          "Frankenstein",
+          "RFST"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1091,6 +1224,9 @@
       "properties": {
         "id": 60,
         "name": "Weidenthal",
+        "alternate_names": [
+          "RWD"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1108,6 +1244,9 @@
       "properties": {
         "id": 61,
         "name": "Neidenfels",
+        "alternate_names": [
+          "RNFL"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1126,7 +1265,8 @@
         "id": 62,
         "name": "Lambrecht (Pfalz)",
         "alternate_names": [
-          "Lambrecht"
+          "Lambrecht",
+          "RLBP"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1148,7 +1288,8 @@
         "alternate_names": [
           "Neustadt Hauptbahnhof",
           "Neustadt (Weinstr) Hauptbahnhof",
-          "Neustadt (Weinstraße) Hbf"
+          "Neustadt (Weinstraße) Hbf",
+          "RN"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1167,6 +1308,9 @@
       "properties": {
         "id": 64,
         "name": "Neustadt-Böbig",
+        "alternate_names": [
+          "RNBO"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1185,7 +1329,8 @@
         "id": 65,
         "name": "Haßloch (Pfalz)",
         "alternate_names": [
-          "Haßloch"
+          "Haßloch",
+          "RHLO"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1204,6 +1349,9 @@
       "properties": {
         "id": 66,
         "name": "Böhl-Iggelheim",
+        "alternate_names": [
+          "RBOE"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1221,6 +1369,9 @@
       "properties": {
         "id": 67,
         "name": "Schifferstadt",
+        "alternate_names": [
+          "RSD"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1238,6 +1389,9 @@
       "properties": {
         "id": 68,
         "name": "Limburgerhof",
+        "alternate_names": [
+          "RLI"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1255,6 +1409,9 @@
       "properties": {
         "id": 69,
         "name": "Ludwigshafen-Rheingönheim",
+        "alternate_names": [
+          "RLUR"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1272,6 +1429,9 @@
       "properties": {
         "id": 70,
         "name": "Ludwigshafen-Mundenheim",
+        "alternate_names": [
+          "RLUM"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1291,7 +1451,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1312,7 +1473,8 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1333,7 +1495,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1354,7 +1517,8 @@
         "name": "Mannheim ARENA/Maimarkt",
         "alternate_names": [
           "SAP Arena S-Bahnhof",
-          "Mannheim Arena"
+          "Mannheim Arena",
+          "RMSM"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1373,6 +1537,9 @@
       "properties": {
         "id": 75,
         "name": "Mannheim-Seckenheim",
+        "alternate_names": [
+          "RMSE"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1390,6 +1557,9 @@
       "properties": {
         "id": 76,
         "name": "Mannheim-Friedrichsfeld Süd",
+        "alternate_names": [
+          "RMFS"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1408,7 +1578,8 @@
         "id": 77,
         "name": "Heidelberg-Pfaffengrund/Wieblingen",
         "alternate_names": [
-          "Pfaffengrund/Wieblingen"
+          "Pfaffengrund/Wieblingen",
+          "RHBP"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1428,7 +1599,8 @@
         "id": 78,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1448,7 +1620,8 @@
         "id": 79,
         "name": "Heidelberg-Weststadt/Südstadt",
         "alternate_names": [
-          "Weststadt/Südstadt"
+          "Weststadt/Südstadt",
+          "RHBF"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1467,6 +1640,9 @@
       "properties": {
         "id": 80,
         "name": "Heidelberg-Altstadt",
+        "alternate_names": [
+          "RHKA"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1485,7 +1661,8 @@
         "id": 81,
         "name": "Heidelberg-Schlierbach/Ziegelhausen",
         "alternate_names": [
-          "Schlierbach/Ziegelhausen"
+          "Schlierbach/Ziegelhausen",
+          "RSR"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1504,6 +1681,9 @@
       "properties": {
         "id": 82,
         "name": "Heidelberg Orthopädie",
+        "alternate_names": [
+          "RHBO"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1521,6 +1701,9 @@
       "properties": {
         "id": 83,
         "name": "Neckargemünd",
+        "alternate_names": [
+          "RNM"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1538,6 +1721,9 @@
       "properties": {
         "id": 84,
         "name": "Neckargemünd Altstadt",
+        "alternate_names": [
+          "RNMA"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1555,6 +1741,9 @@
       "properties": {
         "id": 85,
         "name": "Neckarsteinach",
+        "alternate_names": [
+          "RNT"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1573,7 +1762,8 @@
         "id": 86,
         "name": "Neckarhausen bei Neckarsteinach",
         "alternate_names": [
-          "Neckarhausen b. Neckarsteinach"
+          "Neckarhausen b. Neckarsteinach",
+          "RNH"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1593,7 +1783,8 @@
         "id": 87,
         "name": "Hirschhorn (Neckar)",
         "alternate_names": [
-          "Hirschhorn"
+          "Hirschhorn",
+          "RHO"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1612,6 +1803,9 @@
       "properties": {
         "id": 88,
         "name": "Eberbach",
+        "alternate_names": [
+          "REA"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1629,6 +1823,9 @@
       "properties": {
         "id": 89,
         "name": "Lindach",
+        "alternate_names": [
+          "RLID"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1647,7 +1844,8 @@
         "id": 90,
         "name": "Zwingenberg (Baden)",
         "alternate_names": [
-          "Zwingenberg"
+          "Zwingenberg",
+          "RZW"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1666,6 +1864,9 @@
       "properties": {
         "id": 91,
         "name": "Neckargerach",
+        "alternate_names": [
+          "RNA"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1683,6 +1884,9 @@
       "properties": {
         "id": 92,
         "name": "Binau",
+        "alternate_names": [
+          "RBIN"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1700,6 +1904,9 @@
       "properties": {
         "id": 93,
         "name": "Mosbach-Neckarelz",
+        "alternate_names": [
+          "RNZ"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
@@ -1715,12 +1922,15 @@
         ]
       },
       "properties": {
-        "id": 94,
+        "id": 896,
         "name": "Mosbach West",
+        "alternate_names": [
+          "RMOW"
+        ],
         "line": "RheinNeckarS2",
         "order": 2
       },
-      "id": 94
+      "id": 896
     },
     {
       "type": "Feature",
@@ -1735,7 +1945,8 @@
         "id": 95,
         "name": "Mosbach (Baden)",
         "alternate_names": [
-          "Mosbach"
+          "Mosbach",
+          "RMO"
         ],
         "line": "RheinNeckarS2",
         "order": 2
@@ -1754,6 +1965,9 @@
       "properties": {
         "id": 96,
         "name": "Germersheim",
+        "alternate_names": [
+          "RGE"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1771,6 +1985,9 @@
       "properties": {
         "id": 97,
         "name": "Lingenfeld",
+        "alternate_names": [
+          "RLF"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1789,7 +2006,8 @@
         "id": 98,
         "name": "Heiligenstein (Pfalz)",
         "alternate_names": [
-          "Heiligenstein"
+          "Heiligenstein",
+          "RHN"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -1809,7 +2027,8 @@
         "id": 99,
         "name": "Berghausen (Pfalz)",
         "alternate_names": [
-          "Berghausen"
+          "Berghausen",
+          "RBGP"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -1829,7 +2048,8 @@
         "id": 100,
         "name": "Speyer Hauptbahnhof",
         "alternate_names": [
-          "Speyer Hbf"
+          "Speyer Hbf",
+          "RSP"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -1848,6 +2068,9 @@
       "properties": {
         "id": 101,
         "name": "Speyer Nord-West",
+        "alternate_names": [
+          "RSPN"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1865,6 +2088,9 @@
       "properties": {
         "id": 102,
         "name": "Schifferstadt Süd",
+        "alternate_names": [
+          "RSDS"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1882,6 +2108,9 @@
       "properties": {
         "id": 103,
         "name": "Schifferstadt",
+        "alternate_names": [
+          "RSD"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1899,6 +2128,9 @@
       "properties": {
         "id": 104,
         "name": "Limburgerhof",
+        "alternate_names": [
+          "RLI"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1916,6 +2148,9 @@
       "properties": {
         "id": 105,
         "name": "Ludwigshafen-Rheingönheim",
+        "alternate_names": [
+          "RLUR"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1933,6 +2168,9 @@
       "properties": {
         "id": 106,
         "name": "Ludwigshafen-Mundenheim",
+        "alternate_names": [
+          "RLUM"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -1952,7 +2190,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -1973,7 +2212,8 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -1994,7 +2234,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2015,7 +2256,8 @@
         "name": "Mannheim ARENA/Maimarkt",
         "alternate_names": [
           "SAP Arena S-Bahnhof",
-          "Mannheim Arena"
+          "Mannheim Arena",
+          "RMSM"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2034,6 +2276,9 @@
       "properties": {
         "id": 111,
         "name": "Mannheim-Seckenheim",
+        "alternate_names": [
+          "RMSE"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2051,6 +2296,9 @@
       "properties": {
         "id": 112,
         "name": "Mannheim-Friedrichsfeld Süd",
+        "alternate_names": [
+          "RMFS"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2069,7 +2317,8 @@
         "id": 113,
         "name": "Heidelberg-Pfaffengrund/Wieblingen",
         "alternate_names": [
-          "Pfaffengrund/Wieblingen"
+          "Pfaffengrund/Wieblingen",
+          "RHBP"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2089,7 +2338,8 @@
         "id": 114,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2109,7 +2359,8 @@
         "id": 115,
         "name": "Heidelberg-Kirchheim/Rohrbach",
         "alternate_names": [
-          "Kirchheim/Rohrbach"
+          "Kirchheim/Rohrbach",
+          "RHKM"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2130,7 +2381,8 @@
         "name": "St. Ilgen/Sandhausen",
         "alternate_names": [
           "St. Ilgen",
-          "Sankt Ilgen"
+          "Sankt Ilgen",
+          "RSIG"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2147,12 +2399,15 @@
         ]
       },
       "properties": {
-        "id": 117,
+        "id": 897,
         "name": "Wiesloch-Walldorf",
+        "alternate_names": [
+          "RWS"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
-      "id": 117
+      "id": 897
     },
     {
       "type": "Feature",
@@ -2164,12 +2419,15 @@
         ]
       },
       "properties": {
-        "id": 118,
+        "id": 898,
         "name": "Rot-Malsch",
+        "alternate_names": [
+          "RRM"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
-      "id": 118
+      "id": 898
     },
     {
       "type": "Feature",
@@ -2181,12 +2439,15 @@
         ]
       },
       "properties": {
-        "id": 119,
+        "id": 899,
         "name": "Bad Schönborn-Kronau",
+        "alternate_names": [
+          "RBSK"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
-      "id": 119
+      "id": 899
     },
     {
       "type": "Feature",
@@ -2200,6 +2461,9 @@
       "properties": {
         "id": 120,
         "name": "Bad Schönborn Süd",
+        "alternate_names": [
+          "RBS"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2215,12 +2479,15 @@
         ]
       },
       "properties": {
-        "id": 121,
+        "id": 900,
         "name": "Stettfeld-Weiher",
+        "alternate_names": [
+          "RSFW"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
-      "id": 121
+      "id": 900
     },
     {
       "type": "Feature",
@@ -2234,6 +2501,9 @@
       "properties": {
         "id": 122,
         "name": "Ubstadt-Weiher",
+        "alternate_names": [
+          "RUW"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2251,6 +2521,9 @@
       "properties": {
         "id": 123,
         "name": "Bruchsal",
+        "alternate_names": [
+          "RBR"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2268,6 +2541,9 @@
       "properties": {
         "id": 124,
         "name": "Bruchsal Gewerbliches Bildungszentrum",
+        "alternate_names": [
+          "RBRZ"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2285,6 +2561,9 @@
       "properties": {
         "id": 125,
         "name": "Untergrombach",
+        "alternate_names": [
+          "RURB"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2303,7 +2582,8 @@
         "id": 126,
         "name": "Weingarten (Baden)",
         "alternate_names": [
-          "Weingarten"
+          "Weingarten",
+          "RWGT"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2322,6 +2602,9 @@
       "properties": {
         "id": 127,
         "name": "Karlsruhe-Durlach",
+        "alternate_names": [
+          "RKDU"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2340,7 +2623,8 @@
         "id": 128,
         "name": "Karlsruhe Hauptbahnhof",
         "alternate_names": [
-          "Karlsruhe Hbf"
+          "Karlsruhe Hbf",
+          "RK"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2357,15 +2641,16 @@
         ]
       },
       "properties": {
-        "id": 129,
+        "id": 901,
         "name": "Wörth (Rhein)",
         "alternate_names": [
-          "Wörth"
+          "Wörth",
+          "RWRT"
         ],
         "line": "RheinNeckarS3",
         "order": 3
       },
-      "id": 129
+      "id": 901
     },
     {
       "type": "Feature",
@@ -2381,7 +2666,8 @@
         "name": "Jockgrim Bahnhof",
         "alternate_names": [
           "Jockgrim Bf",
-          "Jockgrim"
+          "Jockgrim",
+          "RJO"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2402,7 +2688,8 @@
         "name": "Rheinzabern Bahnhof",
         "alternate_names": [
           "Rheinzabern Bf",
-          "Rheinzabern"
+          "Rheinzabern",
+          "RRZA"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2421,6 +2708,9 @@
       "properties": {
         "id": 132,
         "name": "Rülzheim Freizeitzentrum",
+        "alternate_names": [
+          "RRZD"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2440,7 +2730,8 @@
         "name": "Rülzheim Bahnhof",
         "alternate_names": [
           "Rülzheim Bf",
-          "Rülzheim"
+          "Rülzheim",
+          "RRZH"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2461,7 +2752,8 @@
         "name": "Bellheim Bahnhof",
         "alternate_names": [
           "Bellheim Bf",
-          "Bellheim"
+          "Bellheim",
+          "RBLH"
         ],
         "line": "RheinNeckarS3",
         "order": 3
@@ -2480,6 +2772,9 @@
       "properties": {
         "id": 135,
         "name": "Sondernheim",
+        "alternate_names": [
+          "RSOH"
+        ],
         "line": "RheinNeckarS3",
         "order": 3
       },
@@ -2497,6 +2792,9 @@
       "properties": {
         "id": 136,
         "name": "Germersheim",
+        "alternate_names": [
+          "RGE"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2514,6 +2812,9 @@
       "properties": {
         "id": 137,
         "name": "Germersheim Mitte/Rhein",
+        "alternate_names": [
+          "RGEM"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2531,6 +2832,9 @@
       "properties": {
         "id": 138,
         "name": "Rheinsheim",
+        "alternate_names": [
+          "RRHH"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2549,7 +2853,8 @@
         "id": 139,
         "name": "Philippsburg (Baden)",
         "alternate_names": [
-          "Philippsburg"
+          "Philippsburg",
+          "RPB"
         ],
         "line": "RheinNeckarS33",
         "order": 4
@@ -2568,6 +2873,9 @@
       "properties": {
         "id": 140,
         "name": "Huttenheim",
+        "alternate_names": [
+          "RHTT"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2583,12 +2891,15 @@
         ]
       },
       "properties": {
-        "id": 141,
+        "id": 902,
         "name": "Graben-Neudorf Nord",
+        "alternate_names": [
+          "RGNN"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
-      "id": 141
+      "id": 902
     },
     {
       "type": "Feature",
@@ -2602,6 +2913,9 @@
       "properties": {
         "id": 142,
         "name": "Graben-Neudorf",
+        "alternate_names": [
+          "RGN"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2619,6 +2933,9 @@
       "properties": {
         "id": 143,
         "name": "Karlsdorf",
+        "alternate_names": [
+          "RKF"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2636,6 +2953,9 @@
       "properties": {
         "id": 144,
         "name": "Bruchsal Am Mantel",
+        "alternate_names": [
+          "RBMT"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2653,6 +2973,9 @@
       "properties": {
         "id": 145,
         "name": "Bruchsal Sportzentrum",
+        "alternate_names": [
+          "RBRP"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2670,6 +2993,9 @@
       "properties": {
         "id": 146,
         "name": "Bruchsal",
+        "alternate_names": [
+          "RBR"
+        ],
         "line": "RheinNeckarS33",
         "order": 4
       },
@@ -2687,6 +3013,9 @@
       "properties": {
         "id": 147,
         "name": "Germersheim",
+        "alternate_names": [
+          "RGE"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2704,6 +3033,9 @@
       "properties": {
         "id": 148,
         "name": "Lingenfeld",
+        "alternate_names": [
+          "RLF"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2722,7 +3054,8 @@
         "id": 149,
         "name": "Heiligenstein (Pfalz)",
         "alternate_names": [
-          "Heiligenstein"
+          "Heiligenstein",
+          "RHN"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -2742,7 +3075,8 @@
         "id": 150,
         "name": "Berghausen (Pfalz)",
         "alternate_names": [
-          "Berghausen"
+          "Berghausen",
+          "RBGP"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -2762,7 +3096,8 @@
         "id": 151,
         "name": "Speyer Hauptbahnhof",
         "alternate_names": [
-          "Speyer Hbf"
+          "Speyer Hbf",
+          "RSP"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -2781,6 +3116,9 @@
       "properties": {
         "id": 152,
         "name": "Speyer Nord-West",
+        "alternate_names": [
+          "RSPN"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2798,6 +3136,9 @@
       "properties": {
         "id": 153,
         "name": "Schifferstadt Süd",
+        "alternate_names": [
+          "RSDS"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2815,6 +3156,9 @@
       "properties": {
         "id": 154,
         "name": "Schifferstadt",
+        "alternate_names": [
+          "RSD"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2832,6 +3176,9 @@
       "properties": {
         "id": 155,
         "name": "Limburgerhof",
+        "alternate_names": [
+          "RLI"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2849,6 +3196,9 @@
       "properties": {
         "id": 156,
         "name": "Ludwigshafen-Rheingönheim",
+        "alternate_names": [
+          "RLUR"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2866,6 +3216,9 @@
       "properties": {
         "id": 157,
         "name": "Ludwigshafen-Mundenheim",
+        "alternate_names": [
+          "RLUM"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2885,7 +3238,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -2906,7 +3260,8 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -2927,7 +3282,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -2948,7 +3304,8 @@
         "name": "Mannheim ARENA/Maimarkt",
         "alternate_names": [
           "SAP Arena S-Bahnhof",
-          "Mannheim Arena"
+          "Mannheim Arena",
+          "RMSM"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -2967,6 +3324,9 @@
       "properties": {
         "id": 162,
         "name": "Mannheim-Seckenheim",
+        "alternate_names": [
+          "RMSE"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -2984,6 +3344,9 @@
       "properties": {
         "id": 163,
         "name": "Mannheim-Friedrichsfeld Süd",
+        "alternate_names": [
+          "RMFS"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -3002,7 +3365,8 @@
         "id": 164,
         "name": "Heidelberg-Pfaffengrund/Wieblingen",
         "alternate_names": [
-          "Pfaffengrund/Wieblingen"
+          "Pfaffengrund/Wieblingen",
+          "RHBP"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -3022,7 +3386,8 @@
         "id": 165,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -3042,7 +3407,8 @@
         "id": 166,
         "name": "Heidelberg-Kirchheim/Rohrbach",
         "alternate_names": [
-          "Kirchheim/Rohrbach"
+          "Kirchheim/Rohrbach",
+          "RHKM"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -3063,7 +3429,8 @@
         "name": "St. Ilgen/Sandhausen",
         "alternate_names": [
           "St. Ilgen",
-          "Sankt Ilgen"
+          "Sankt Ilgen",
+          "RSIG"
         ],
         "line": "RheinNeckarS4",
         "order": 5
@@ -3080,12 +3447,15 @@
         ]
       },
       "properties": {
-        "id": 168,
+        "id": 903,
         "name": "Wiesloch-Walldorf",
+        "alternate_names": [
+          "RWS"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
-      "id": 168
+      "id": 903
     },
     {
       "type": "Feature",
@@ -3097,12 +3467,15 @@
         ]
       },
       "properties": {
-        "id": 169,
+        "id": 904,
         "name": "Rot-Malsch",
+        "alternate_names": [
+          "RRM"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
-      "id": 169
+      "id": 904
     },
     {
       "type": "Feature",
@@ -3114,12 +3487,15 @@
         ]
       },
       "properties": {
-        "id": 170,
+        "id": 905,
         "name": "Bad Schönborn-Kronau",
+        "alternate_names": [
+          "RBSK"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
-      "id": 170
+      "id": 905
     },
     {
       "type": "Feature",
@@ -3133,6 +3509,9 @@
       "properties": {
         "id": 171,
         "name": "Bad Schönborn Süd",
+        "alternate_names": [
+          "RBS"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -3148,12 +3527,15 @@
         ]
       },
       "properties": {
-        "id": 172,
+        "id": 906,
         "name": "Stettfeld-Weiher",
+        "alternate_names": [
+          "RSFW"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
-      "id": 172
+      "id": 906
     },
     {
       "type": "Feature",
@@ -3167,6 +3549,9 @@
       "properties": {
         "id": 173,
         "name": "Ubstadt-Weiher",
+        "alternate_names": [
+          "RUW"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -3184,6 +3569,9 @@
       "properties": {
         "id": 174,
         "name": "Bruchsal",
+        "alternate_names": [
+          "RBR"
+        ],
         "line": "RheinNeckarS4",
         "order": 5
       },
@@ -3199,12 +3587,15 @@
         ]
       },
       "properties": {
-        "id": 175,
+        "id": 907,
         "name": "Ludwigshafen BASF Nord",
+        "alternate_names": [
+          "RLBN"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
-      "id": 175
+      "id": 907
     },
     {
       "type": "Feature",
@@ -3216,12 +3607,15 @@
         ]
       },
       "properties": {
-        "id": 176,
+        "id": 908,
         "name": "Ludwigshafen BASF Mitte",
+        "alternate_names": [
+          "RLBM"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
-      "id": 176
+      "id": 908
     },
     {
       "type": "Feature",
@@ -3233,12 +3627,15 @@
         ]
       },
       "properties": {
-        "id": 177,
+        "id": 909,
         "name": "Ludwigshafen BASF Süd",
+        "alternate_names": [
+          "RLBS"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
-      "id": 177
+      "id": 909
     },
     {
       "type": "Feature",
@@ -3254,7 +3651,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3273,6 +3671,9 @@
       "properties": {
         "id": 179,
         "name": "Limburgerhof",
+        "alternate_names": [
+          "RLI"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3290,6 +3691,9 @@
       "properties": {
         "id": 180,
         "name": "Schifferstadt",
+        "alternate_names": [
+          "RSD"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3307,6 +3711,9 @@
       "properties": {
         "id": 181,
         "name": "Schifferstadt Süd",
+        "alternate_names": [
+          "RSDS"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3324,6 +3731,9 @@
       "properties": {
         "id": 182,
         "name": "Speyer Nord-West",
+        "alternate_names": [
+          "RSPN"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3342,7 +3752,8 @@
         "id": 183,
         "name": "Speyer Hauptbahnhof",
         "alternate_names": [
-          "Speyer Hbf"
+          "Speyer Hbf",
+          "RSP"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3362,7 +3773,8 @@
         "id": 184,
         "name": "Berghausen (Pfalz)",
         "alternate_names": [
-          "Berghausen"
+          "Berghausen",
+          "RBGP"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3382,7 +3794,8 @@
         "id": 185,
         "name": "Heiligenstein (Pfalz)",
         "alternate_names": [
-          "Heiligenstein"
+          "Heiligenstein",
+          "RHN"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3401,6 +3814,9 @@
       "properties": {
         "id": 186,
         "name": "Lingenfeld",
+        "alternate_names": [
+          "RLF"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3418,6 +3834,9 @@
       "properties": {
         "id": 187,
         "name": "Germersheim",
+        "alternate_names": [
+          "RGE"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3435,6 +3854,9 @@
       "properties": {
         "id": 188,
         "name": "Sondernheim",
+        "alternate_names": [
+          "RSOH"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3454,7 +3876,8 @@
         "name": "Bellheim Bahnhof",
         "alternate_names": [
           "Bellheim Bf",
-          "Bellheim"
+          "Bellheim",
+          "RBLH"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3475,7 +3898,8 @@
         "name": "Rülzheim Bahnhof",
         "alternate_names": [
           "Rülzheim Bf",
-          "Rülzheim"
+          "Rülzheim",
+          "RRZH"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3496,7 +3920,8 @@
         "name": "Rheinzabern Bahnhof",
         "alternate_names": [
           "Rheinzabern Bf",
-          "Rheinzabern"
+          "Rheinzabern",
+          "RRZA"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3517,7 +3942,8 @@
         "name": "Jockgrim Bahnhof",
         "alternate_names": [
           "Jockgrim Bf",
-          "Jockgrim"
+          "Jockgrim",
+          "RJO"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3534,15 +3960,16 @@
         ]
       },
       "properties": {
-        "id": 193,
+        "id": 910,
         "name": "Wörth (Rhein)",
         "alternate_names": [
-          "Wörth"
+          "Wörth",
+          "RWRT"
         ],
         "line": "RheinNeckarS44",
         "order": 6
       },
-      "id": 193
+      "id": 910
     },
     {
       "type": "Feature",
@@ -3557,7 +3984,8 @@
         "id": 203,
         "name": "Kaiserslautern Hauptbahnhof",
         "alternate_names": [
-          "Kaiserslautern Hbf"
+          "Kaiserslautern Hbf",
+          "SKL"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3576,6 +4004,9 @@
       "properties": {
         "id": 202,
         "name": "Hochspeyer",
+        "alternate_names": [
+          "SHY"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3594,7 +4025,8 @@
         "id": 201,
         "name": "Frankenstein (Pfalz)",
         "alternate_names": [
-          "Frankenstein"
+          "Frankenstein",
+          "RFST"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3613,6 +4045,9 @@
       "properties": {
         "id": 200,
         "name": "Weidenthal",
+        "alternate_names": [
+          "RWD"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3630,6 +4065,9 @@
       "properties": {
         "id": 199,
         "name": "Neidenfels",
+        "alternate_names": [
+          "RNFL"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3648,7 +4086,8 @@
         "id": 198,
         "name": "Lambrecht (Pfalz)",
         "alternate_names": [
-          "Lambrecht"
+          "Lambrecht",
+          "RLBP"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3670,7 +4109,8 @@
         "alternate_names": [
           "Neustadt Hauptbahnhof",
           "Neustadt (Weinstr) Hauptbahnhof",
-          "Neustadt (Weinstraße) Hbf"
+          "Neustadt (Weinstraße) Hbf",
+          "RN"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3689,6 +4129,9 @@
       "properties": {
         "id": 196,
         "name": "Neustadt-Böbig",
+        "alternate_names": [
+          "RNBO"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3707,7 +4150,8 @@
         "id": 195,
         "name": "Haßloch (Pfalz)",
         "alternate_names": [
-          "Haßloch"
+          "Haßloch",
+          "RHLO"
         ],
         "line": "RheinNeckarS44",
         "order": 6
@@ -3726,6 +4170,9 @@
       "properties": {
         "id": 194,
         "name": "Böhl-Iggelheim",
+        "alternate_names": [
+          "RBOE"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3743,6 +4190,9 @@
       "properties": {
         "id": 204,
         "name": "Ludwigshafen-Rheingönheim",
+        "alternate_names": [
+          "RLUR"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3760,6 +4210,9 @@
       "properties": {
         "id": 205,
         "name": "Ludwigshafen-Mundenheim",
+        "alternate_names": [
+          "RLUM"
+        ],
         "line": "RheinNeckarS44",
         "order": 6
       },
@@ -3778,7 +4231,8 @@
         "id": 238,
         "name": "Wiesbaden Hauptbahnhof",
         "alternate_names": [
-          "Wiesbaden Hbf"
+          "Wiesbaden Hbf",
+          "FW"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -3798,7 +4252,8 @@
         "id": 237,
         "name": "Mainz Hauptbahnhof",
         "alternate_names": [
-          "Mainz Hbf"
+          "Mainz Hbf",
+          "FMZ"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -3817,6 +4272,9 @@
       "properties": {
         "id": 236,
         "name": "Mainz Römisches Theater",
+        "alternate_names": [
+          "FMS"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3834,6 +4292,9 @@
       "properties": {
         "id": 235,
         "name": "Mainz-Laubenheim",
+        "alternate_names": [
+          "FML"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3851,6 +4312,9 @@
       "properties": {
         "id": 234,
         "name": "Bodenheim",
+        "alternate_names": [
+          "FBOD"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3868,6 +4332,9 @@
       "properties": {
         "id": 233,
         "name": "Nackenheim",
+        "alternate_names": [
+          "FNAC"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3885,6 +4352,9 @@
       "properties": {
         "id": 232,
         "name": "Nierstein",
+        "alternate_names": [
+          "FNIR"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3902,6 +4372,9 @@
       "properties": {
         "id": 231,
         "name": "Oppenheim",
+        "alternate_names": [
+          "FOPP"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3919,6 +4392,9 @@
       "properties": {
         "id": 230,
         "name": "Dienheim",
+        "alternate_names": [
+          "FDHM"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3936,6 +4412,9 @@
       "properties": {
         "id": 229,
         "name": "Guntersblum",
+        "alternate_names": [
+          "FGUB"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3953,6 +4432,9 @@
       "properties": {
         "id": 228,
         "name": "Alsheim",
+        "alternate_names": [
+          "FAHM"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3970,6 +4452,9 @@
       "properties": {
         "id": 227,
         "name": "Mettenheim",
+        "alternate_names": [
+          "FMET"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -3987,6 +4472,9 @@
       "properties": {
         "id": 226,
         "name": "Osthofen",
+        "alternate_names": [
+          "FOHF"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4005,7 +4493,8 @@
         "id": 225,
         "name": "Worms Hauptbahnhof",
         "alternate_names": [
-          "Worms Hbf"
+          "Worms Hbf",
+          "FWOR"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4024,6 +4513,9 @@
       "properties": {
         "id": 224,
         "name": "Bobenheim",
+        "alternate_names": [
+          "RBOB"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4042,7 +4534,8 @@
         "id": 223,
         "name": "Frankenthal Hauptbahnhof",
         "alternate_names": [
-          "Frankenthal Hbf"
+          "Frankenthal Hbf",
+          "RFT"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4061,6 +4554,9 @@
       "properties": {
         "id": 222,
         "name": "Frankenthal Süd",
+        "alternate_names": [
+          "RFTS"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4078,6 +4574,9 @@
       "properties": {
         "id": 221,
         "name": "Ludwigshafen-Oggersheim",
+        "alternate_names": [
+          "RLO"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4097,7 +4596,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4118,7 +4618,8 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4139,7 +4640,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4160,7 +4662,8 @@
         "name": "Mannheim ARENA/Maimarkt",
         "alternate_names": [
           "SAP Arena S-Bahnhof",
-          "Mannheim Arena"
+          "Mannheim Arena",
+          "RMSM"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4179,6 +4682,9 @@
       "properties": {
         "id": 216,
         "name": "Mannheim-Seckenheim",
+        "alternate_names": [
+          "RMSE"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4198,7 +4704,8 @@
         "name": "Neu-Edingen/Friedrichsfeld",
         "alternate_names": [
           "Neu-Edingen",
-          "Friedrichsfeld"
+          "Friedrichsfeld",
+          "RMF"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4217,6 +4724,9 @@
       "properties": {
         "id": 214,
         "name": "Ladenburg",
+        "alternate_names": [
+          "RLD"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4235,7 +4745,8 @@
         "id": 213,
         "name": "Heddesheim/Hirschberg",
         "alternate_names": [
-          "Hirschberg"
+          "Hirschberg",
+          "RGCH"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4254,6 +4765,9 @@
       "properties": {
         "id": 212,
         "name": "Weinheim-Lützelsachsen",
+        "alternate_names": [
+          "RLUE"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4272,7 +4786,8 @@
         "id": 211,
         "name": "Weinheim Hauptbahnhof",
         "alternate_names": [
-          "Weinheim Hbf"
+          "Weinheim Hbf",
+          "RWE"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4291,6 +4806,9 @@
       "properties": {
         "id": 210,
         "name": "Weinheim-Sulzbach",
+        "alternate_names": [
+          "RWEZ"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4308,6 +4826,9 @@
       "properties": {
         "id": 209,
         "name": "Hemsbach",
+        "alternate_names": [
+          "RHCH"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4327,7 +4848,8 @@
         "name": "Laudenbach (Bergstraße)",
         "alternate_names": [
           "Laudenbach",
-          "Laudenbach (Bergstr)"
+          "Laudenbach (Bergstr)",
+          "RLCH"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4348,7 +4870,8 @@
         "name": "Heppenheim (Bergstraße)",
         "alternate_names": [
           "Heppenheim",
-          "Heppenheim (Bergstr)"
+          "Heppenheim (Bergstr)",
+          "FHP"
         ],
         "line": "RheinNeckarS5",
         "order": 7
@@ -4367,6 +4890,9 @@
       "properties": {
         "id": 206,
         "name": "Bensheim",
+        "alternate_names": [
+          "FBH"
+        ],
         "line": "RheinNeckarS5",
         "order": 7
       },
@@ -4385,7 +4911,8 @@
         "id": 254,
         "name": "Mainz Hauptbahnhof",
         "alternate_names": [
-          "Mainz Hbf"
+          "Mainz Hbf",
+          "FMZ"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4404,6 +4931,9 @@
       "properties": {
         "id": 255,
         "name": "Mainz Römisches Theater",
+        "alternate_names": [
+          "FMS"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4421,6 +4951,9 @@
       "properties": {
         "id": 256,
         "name": "Mainz-Laubenheim",
+        "alternate_names": [
+          "FML"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4438,6 +4971,9 @@
       "properties": {
         "id": 257,
         "name": "Bodenheim",
+        "alternate_names": [
+          "FBOD"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4455,6 +4991,9 @@
       "properties": {
         "id": 258,
         "name": "Nackenheim",
+        "alternate_names": [
+          "FNAC"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4472,6 +5011,9 @@
       "properties": {
         "id": 259,
         "name": "Nierstein",
+        "alternate_names": [
+          "FNIR"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4489,6 +5031,9 @@
       "properties": {
         "id": 260,
         "name": "Oppenheim",
+        "alternate_names": [
+          "FOPP"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4506,6 +5051,9 @@
       "properties": {
         "id": 261,
         "name": "Dienheim",
+        "alternate_names": [
+          "FDHM"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4523,6 +5071,9 @@
       "properties": {
         "id": 262,
         "name": "Guntersblum",
+        "alternate_names": [
+          "FGUB"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4540,6 +5091,9 @@
       "properties": {
         "id": 263,
         "name": "Alsheim",
+        "alternate_names": [
+          "FAHM"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4557,6 +5111,9 @@
       "properties": {
         "id": 264,
         "name": "Mettenheim",
+        "alternate_names": [
+          "FMET"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4574,6 +5131,9 @@
       "properties": {
         "id": 265,
         "name": "Osthofen",
+        "alternate_names": [
+          "FOHF"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4592,7 +5152,8 @@
         "id": 266,
         "name": "Worms Hauptbahnhof",
         "alternate_names": [
-          "Worms Hbf"
+          "Worms Hbf",
+          "FWOR"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4611,6 +5172,9 @@
       "properties": {
         "id": 267,
         "name": "Bobenheim",
+        "alternate_names": [
+          "RBOB"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4629,7 +5193,8 @@
         "id": 268,
         "name": "Frankenthal Hauptbahnhof",
         "alternate_names": [
-          "Frankenthal Hbf"
+          "Frankenthal Hbf",
+          "RFT"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4648,6 +5213,9 @@
       "properties": {
         "id": 269,
         "name": "Frankenthal Süd",
+        "alternate_names": [
+          "RFTS"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4665,6 +5233,9 @@
       "properties": {
         "id": 270,
         "name": "Ludwigshafen-Oggersheim",
+        "alternate_names": [
+          "RLO"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4684,7 +5255,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4705,7 +5277,8 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4726,7 +5299,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4746,7 +5320,8 @@
         "id": 252,
         "name": "Mannheim-Neckarau",
         "alternate_names": [
-          "Neckarau"
+          "Neckarau",
+          "RMN"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4766,7 +5341,8 @@
         "id": 251,
         "name": "Mannheim-Rheinau",
         "alternate_names": [
-          "Rheinau"
+          "Rheinau",
+          "RMA"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4785,6 +5361,9 @@
       "properties": {
         "id": 250,
         "name": "Schwetzingen-Hirschacker",
+        "alternate_names": [
+          "RHKR"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4802,6 +5381,9 @@
       "properties": {
         "id": 249,
         "name": "Schwetzingen",
+        "alternate_names": [
+          "RSZ"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4819,6 +5401,9 @@
       "properties": {
         "id": 248,
         "name": "Oftersheim",
+        "alternate_names": [
+          "ROFH"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4836,6 +5421,9 @@
       "properties": {
         "id": 247,
         "name": "Hockenheim",
+        "alternate_names": [
+          "RHK"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4853,6 +5441,9 @@
       "properties": {
         "id": 246,
         "name": "Neulußheim",
+        "alternate_names": [
+          "RNL"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4870,6 +5461,9 @@
       "properties": {
         "id": 245,
         "name": "Waghäusel",
+        "alternate_names": [
+          "RWG"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4887,6 +5481,9 @@
       "properties": {
         "id": 244,
         "name": "Wiesental",
+        "alternate_names": [
+          "RWI"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4904,6 +5501,9 @@
       "properties": {
         "id": 243,
         "name": "Graben-Neudorf",
+        "alternate_names": [
+          "RGN"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4922,7 +5522,8 @@
         "id": 242,
         "name": "Friedrichstal (Baden)",
         "alternate_names": [
-          "Friedrichstal"
+          "Friedrichstal",
+          "RFTL"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4941,6 +5542,9 @@
       "properties": {
         "id": 241,
         "name": "Blankenloch",
+        "alternate_names": [
+          "RBAN"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4958,6 +5562,9 @@
       "properties": {
         "id": 240,
         "name": "Karlsruhe-Hagsfeld",
+        "alternate_names": [
+          "RKHA"
+        ],
         "line": "RheinNeckarS6",
         "order": 8
       },
@@ -4976,7 +5583,8 @@
         "id": 239,
         "name": "Karlsruhe Hauptbahnhof",
         "alternate_names": [
-          "Karlsruhe Hbf"
+          "Karlsruhe Hbf",
+          "RK"
         ],
         "line": "RheinNeckarS6",
         "order": 8
@@ -4995,6 +5603,9 @@
       "properties": {
         "id": 291,
         "name": "Eppingen",
+        "alternate_names": [
+          "REP"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5010,16 +5621,17 @@
         ]
       },
       "properties": {
-        "id": 290,
+        "id": 914,
         "name": "Richen (bei Eppingen)",
         "alternate_names": [
           "Richen",
-          "Richen (b. Eppingen)"
+          "Richen (b. Eppingen)",
+          "RRIH"
         ],
         "line": "RheinNeckarS7",
         "order": 9
       },
-      "id": 290
+      "id": 914
     },
     {
       "type": "Feature",
@@ -5031,12 +5643,15 @@
         ]
       },
       "properties": {
-        "id": 289,
+        "id": 913,
         "name": "Ittlingen",
+        "alternate_names": [
+          "RITL"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
-      "id": 289
+      "id": 913
     },
     {
       "type": "Feature",
@@ -5050,6 +5665,9 @@
       "properties": {
         "id": 288,
         "name": "Reihen",
+        "alternate_names": [
+          "RRIN"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5067,6 +5685,9 @@
       "properties": {
         "id": 287,
         "name": "Steinsfurt",
+        "alternate_names": [
+          "RSS"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5084,6 +5705,9 @@
       "properties": {
         "id": 286,
         "name": "Sinsheim Museum/Arena",
+        "alternate_names": [
+          "RSMM"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5103,7 +5727,8 @@
         "name": "Sinsheim (Elsenz) Hauptbahnhof",
         "alternate_names": [
           "Sinsheim Hauptbahnhof",
-          "Sinsheim (Elsenz) Hbf"
+          "Sinsheim (Elsenz) Hbf",
+          "RSM"
         ],
         "line": "RheinNeckarS7",
         "order": 9
@@ -5122,6 +5747,9 @@
       "properties": {
         "id": 282,
         "name": "Hoffenheim",
+        "alternate_names": [
+          "RHFF"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5137,12 +5765,15 @@
         ]
       },
       "properties": {
-        "id": 281,
+        "id": 912,
         "name": "Zuzenhausen",
+        "alternate_names": [
+          "RZUN"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
-      "id": 281
+      "id": 912
     },
     {
       "type": "Feature",
@@ -5154,12 +5785,15 @@
         ]
       },
       "properties": {
-        "id": 280,
+        "id": 911,
         "name": "Meckesheim",
+        "alternate_names": [
+          "RMK"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
-      "id": 280
+      "id": 911
     },
     {
       "type": "Feature",
@@ -5175,7 +5809,8 @@
         "name": "Mauer (bei Heidelberg)",
         "alternate_names": [
           "Mauer",
-          "Mauer (b. Heidelberg)"
+          "Mauer (b. Heidelberg)",
+          "RMAU"
         ],
         "line": "RheinNeckarS7",
         "order": 9
@@ -5194,6 +5829,9 @@
       "properties": {
         "id": 278,
         "name": "Reilsheim",
+        "alternate_names": [
+          "RRHM"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5211,6 +5849,9 @@
       "properties": {
         "id": 277,
         "name": "Bammental",
+        "alternate_names": [
+          "RBAM"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5228,6 +5869,9 @@
       "properties": {
         "id": 276,
         "name": "Neckargemünd",
+        "alternate_names": [
+          "RNM"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5245,6 +5889,9 @@
       "properties": {
         "id": 285,
         "name": "Heidelberg Orthopädie",
+        "alternate_names": [
+          "RHBO"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5263,7 +5910,8 @@
         "id": 284,
         "name": "Heidelberg-Schlierbach/Ziegelhausen",
         "alternate_names": [
-          "Schlierbach/Ziegelhausen"
+          "Schlierbach/Ziegelhausen",
+          "RSR"
         ],
         "line": "RheinNeckarS7",
         "order": 9
@@ -5282,6 +5930,9 @@
       "properties": {
         "id": 275,
         "name": "Heidelberg-Altstadt",
+        "alternate_names": [
+          "RHKA"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5300,7 +5951,8 @@
         "id": 274,
         "name": "Heidelberg-Weststadt/Südstadt",
         "alternate_names": [
-          "Weststadt/Südstadt"
+          "Weststadt/Südstadt",
+          "RHBF"
         ],
         "line": "RheinNeckarS7",
         "order": 9
@@ -5320,7 +5972,8 @@
         "id": 273,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarS7",
         "order": 9
@@ -5339,6 +5992,9 @@
       "properties": {
         "id": 292,
         "name": "Grombach",
+        "alternate_names": [
+          "RGM"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5354,12 +6010,15 @@
         ]
       },
       "properties": {
-        "id": 293,
+        "id": 915,
         "name": "Babstadt",
+        "alternate_names": [
+          "RBST"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
-      "id": 293
+      "id": 915
     },
     {
       "type": "Feature",
@@ -5373,6 +6032,9 @@
       "properties": {
         "id": 294,
         "name": "Bad Rappenau",
+        "alternate_names": [
+          "RBRA"
+        ],
         "line": "RheinNeckarS7",
         "order": 9
       },
@@ -5390,6 +6052,9 @@
       "properties": {
         "id": 301,
         "name": "Aglasterhausen",
+        "alternate_names": [
+          "RAG"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5408,7 +6073,8 @@
         "id": 300,
         "name": "Helmstadt (Baden)",
         "alternate_names": [
-          "Helmstadt"
+          "Helmstadt",
+          "RHM"
         ],
         "line": "RheinNeckarS8",
         "order": 10
@@ -5427,6 +6093,9 @@
       "properties": {
         "id": 299,
         "name": "Neckarbischofsheim Nord",
+        "alternate_names": [
+          "RNHF"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5444,6 +6113,9 @@
       "properties": {
         "id": 298,
         "name": "Waibstadt",
+        "alternate_names": [
+          "RWB"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5459,12 +6131,15 @@
         ]
       },
       "properties": {
-        "id": 297,
+        "id": 917,
         "name": "Neidenstein",
+        "alternate_names": [
+          "RNST"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
-      "id": 297
+      "id": 917
     },
     {
       "type": "Feature",
@@ -5478,6 +6153,9 @@
       "properties": {
         "id": 296,
         "name": "Eschelbronn",
+        "alternate_names": [
+          "RESN"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5493,12 +6171,15 @@
         ]
       },
       "properties": {
-        "id": 295,
+        "id": 916,
         "name": "Meckesheim",
+        "alternate_names": [
+          "RMK"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
-      "id": 295
+      "id": 916
     },
     {
       "type": "Feature",
@@ -5514,7 +6195,8 @@
         "name": "Mauer (bei Heidelberg)",
         "alternate_names": [
           "Mauer",
-          "Mauer (b. Heidelberg)"
+          "Mauer (b. Heidelberg)",
+          "RMAU"
         ],
         "line": "RheinNeckarS8",
         "order": 10
@@ -5533,6 +6215,9 @@
       "properties": {
         "id": 309,
         "name": "Reilsheim",
+        "alternate_names": [
+          "RRHM"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5550,6 +6235,9 @@
       "properties": {
         "id": 308,
         "name": "Bammental",
+        "alternate_names": [
+          "RBAM"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5567,6 +6255,9 @@
       "properties": {
         "id": 307,
         "name": "Neckargemünd",
+        "alternate_names": [
+          "RNM"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5584,6 +6275,9 @@
       "properties": {
         "id": 306,
         "name": "Heidelberg Orthopädie",
+        "alternate_names": [
+          "RHBO"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5602,7 +6296,8 @@
         "id": 305,
         "name": "Heidelberg-Schlierbach/Ziegelhausen",
         "alternate_names": [
-          "Schlierbach/Ziegelhausen"
+          "Schlierbach/Ziegelhausen",
+          "RSR"
         ],
         "line": "RheinNeckarS8",
         "order": 10
@@ -5621,6 +6316,9 @@
       "properties": {
         "id": 304,
         "name": "Heidelberg-Altstadt",
+        "alternate_names": [
+          "RHKA"
+        ],
         "line": "RheinNeckarS8",
         "order": 10
       },
@@ -5639,7 +6337,8 @@
         "id": 303,
         "name": "Heidelberg-Weststadt/Südstadt",
         "alternate_names": [
-          "Weststadt/Südstadt"
+          "Weststadt/Südstadt",
+          "RHBF"
         ],
         "line": "RheinNeckarS8",
         "order": 10
@@ -5659,7 +6358,8 @@
         "id": 302,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarS8",
         "order": 10
@@ -5679,7 +6379,8 @@
         "id": 311,
         "name": "Karlsruhe Hauptbahnhof",
         "alternate_names": [
-          "Karlsruhe Hbf"
+          "Karlsruhe Hbf",
+          "RK"
         ],
         "line": "RheinNeckarS9",
         "order": 11
@@ -5698,6 +6399,9 @@
       "properties": {
         "id": 312,
         "name": "Karlsruhe-Hagsfeld",
+        "alternate_names": [
+          "RKHA"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5715,6 +6419,9 @@
       "properties": {
         "id": 313,
         "name": "Blankenloch",
+        "alternate_names": [
+          "RBAN"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5733,7 +6440,8 @@
         "id": 314,
         "name": "Friedrichstal (Baden)",
         "alternate_names": [
-          "Friedrichstal"
+          "Friedrichstal",
+          "RFTL"
         ],
         "line": "RheinNeckarS9",
         "order": 11
@@ -5752,6 +6460,9 @@
       "properties": {
         "id": 315,
         "name": "Graben-Neudorf",
+        "alternate_names": [
+          "RGN"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5769,6 +6480,9 @@
       "properties": {
         "id": 316,
         "name": "Wiesental",
+        "alternate_names": [
+          "RWI"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5786,6 +6500,9 @@
       "properties": {
         "id": 317,
         "name": "Waghäusel",
+        "alternate_names": [
+          "RWG"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5803,6 +6520,9 @@
       "properties": {
         "id": 318,
         "name": "Neulußheim",
+        "alternate_names": [
+          "RNL"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5820,6 +6540,9 @@
       "properties": {
         "id": 319,
         "name": "Hockenheim",
+        "alternate_names": [
+          "RHK"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5837,6 +6560,9 @@
       "properties": {
         "id": 320,
         "name": "Oftersheim",
+        "alternate_names": [
+          "ROFH"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5854,6 +6580,9 @@
       "properties": {
         "id": 321,
         "name": "Schwetzingen",
+        "alternate_names": [
+          "RSZ"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5872,7 +6601,8 @@
         "id": 322,
         "name": "Mannheim-Rheinau",
         "alternate_names": [
-          "Rheinau"
+          "Rheinau",
+          "RMA"
         ],
         "line": "RheinNeckarS9",
         "order": 11
@@ -5892,7 +6622,8 @@
         "id": 323,
         "name": "Mannheim-Neckarau",
         "alternate_names": [
-          "Neckarau"
+          "Neckarau",
+          "RMN"
         ],
         "line": "RheinNeckarS9",
         "order": 11
@@ -5913,7 +6644,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS9",
         "order": 11
@@ -5932,6 +6664,9 @@
       "properties": {
         "id": 325,
         "name": "Mannheim Handelshafen/Jungbusch",
+        "alternate_names": [
+          "RMHH"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -5947,12 +6682,15 @@
         ]
       },
       "properties": {
-        "id": 326,
+        "id": 918,
         "name": "Mannheim-Neckarstadt",
+        "alternate_names": [
+          "RMNS"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
-      "id": 326
+      "id": 918
     },
     {
       "type": "Feature",
@@ -5964,15 +6702,16 @@
         ]
       },
       "properties": {
-        "id": 327,
+        "id": 919,
         "name": "Mannheim-Luzenberg",
         "alternate_names": [
-          "Luzenberg"
+          "Luzenberg",
+          "RMLB"
         ],
         "line": "RheinNeckarS9",
         "order": 11
       },
-      "id": 327
+      "id": 919
     },
     {
       "type": "Feature",
@@ -5987,7 +6726,8 @@
         "id": 328,
         "name": "Mannheim-Waldhof",
         "alternate_names": [
-          "Waldhof"
+          "Waldhof",
+          "RMW"
         ],
         "line": "RheinNeckarS9",
         "order": 11
@@ -6006,6 +6746,9 @@
       "properties": {
         "id": 329,
         "name": "Lampertheim",
+        "alternate_names": [
+          "FLP"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -6021,12 +6764,16 @@
         ]
       },
       "properties": {
-        "id": 330,
+        "id": 920,
         "name": "Bürstadt",
+        "alternate_names": [
+          "FBUP",
+          "FBUE"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
-      "id": 330
+      "id": 920
     },
     {
       "type": "Feature",
@@ -6040,6 +6787,9 @@
       "properties": {
         "id": 331,
         "name": "Bobstadt",
+        "alternate_names": [
+          "FBST"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -6057,6 +6807,9 @@
       "properties": {
         "id": 332,
         "name": "Biblis",
+        "alternate_names": [
+          "FBL"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -6074,6 +6827,9 @@
       "properties": {
         "id": 333,
         "name": "Groß-Rohrheim",
+        "alternate_names": [
+          "FGRO"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -6091,6 +6847,9 @@
       "properties": {
         "id": 334,
         "name": "Schwetzingen-Hirschacker",
+        "alternate_names": [
+          "RHKR"
+        ],
         "line": "RheinNeckarS9",
         "order": 11
       },
@@ -6110,7 +6869,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarS10",
         "order": 12
@@ -6130,7 +6890,8 @@
         "id": 341,
         "name": "Mannheim-Käfertal",
         "alternate_names": [
-          "Käfertal"
+          "Käfertal",
+          "RMKL"
         ],
         "line": "RheinNeckarS10",
         "order": 12
@@ -6150,7 +6911,8 @@
         "id": 339,
         "name": "Mannheim-Waldhof",
         "alternate_names": [
-          "Waldhof"
+          "Waldhof",
+          "RMW"
         ],
         "line": "RheinNeckarS10",
         "order": 12
@@ -6169,6 +6931,9 @@
       "properties": {
         "id": 338,
         "name": "Lampertheim",
+        "alternate_names": [
+          "FLP"
+        ],
         "line": "RheinNeckarS10",
         "order": 12
       },
@@ -6184,12 +6949,16 @@
         ]
       },
       "properties": {
-        "id": 337,
+        "id": 921,
         "name": "Bürstadt",
+        "alternate_names": [
+          "FBUP",
+          "FBUE"
+        ],
         "line": "RheinNeckarS10",
         "order": 12
       },
-      "id": 337
+      "id": 921
     },
     {
       "type": "Feature",
@@ -6203,6 +6972,9 @@
       "properties": {
         "id": 336,
         "name": "Bobstadt",
+        "alternate_names": [
+          "FBST"
+        ],
         "line": "RheinNeckarS10",
         "order": 12
       },
@@ -6220,6 +6992,9 @@
       "properties": {
         "id": 335,
         "name": "Biblis",
+        "alternate_names": [
+          "FBL"
+        ],
         "line": "RheinNeckarS10",
         "order": 12
       },
@@ -6237,6 +7012,9 @@
       "properties": {
         "id": 342,
         "name": "Hockenheim",
+        "alternate_names": [
+          "RHK"
+        ],
         "line": "RheinNeckarS12",
         "order": 13
       },
@@ -6254,6 +7032,9 @@
       "properties": {
         "id": 343,
         "name": "Oftersheim",
+        "alternate_names": [
+          "ROFH"
+        ],
         "line": "RheinNeckarS12",
         "order": 13
       },
@@ -6271,6 +7052,9 @@
       "properties": {
         "id": 344,
         "name": "Schwetzingen",
+        "alternate_names": [
+          "RSZ"
+        ],
         "line": "RheinNeckarS12",
         "order": 13
       },
@@ -6290,7 +7074,8 @@
         "name": "Neu-Edingen/Friedrichsfeld",
         "alternate_names": [
           "Neu-Edingen",
-          "Friedrichsfeld"
+          "Friedrichsfeld",
+          "RMF"
         ],
         "line": "RheinNeckarS12",
         "order": 13
@@ -6310,7 +7095,8 @@
         "id": 346,
         "name": "Heidelberg-Pfaffengrund/Wieblingen",
         "alternate_names": [
-          "Pfaffengrund/Wieblingen"
+          "Pfaffengrund/Wieblingen",
+          "RHBP"
         ],
         "line": "RheinNeckarS12",
         "order": 13
@@ -6330,7 +7116,8 @@
         "id": 347,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarS12",
         "order": 13
@@ -6350,7 +7137,8 @@
         "id": 379,
         "name": "Mannheim-Rheinau",
         "alternate_names": [
-          "Rheinau"
+          "Rheinau",
+          "RMA"
         ],
         "line": "RheinNeckarTram1",
         "order": 14
@@ -6518,7 +7306,8 @@
         "id": 370,
         "name": "Mannheim-Neckarau",
         "alternate_names": [
-          "Neckarau"
+          "Neckarau",
+          "RMN"
         ],
         "line": "RheinNeckarTram1",
         "order": 14
@@ -6653,7 +7442,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram1",
         "order": 14
@@ -6852,7 +7642,8 @@
         "id": 353,
         "name": "Mannheim-Luzenberg",
         "alternate_names": [
-          "Luzenberg"
+          "Luzenberg",
+          "RMLB"
         ],
         "line": "RheinNeckarTram1",
         "order": 14
@@ -6872,7 +7663,8 @@
         "id": 352,
         "name": "Mannheim-Waldhof",
         "alternate_names": [
-          "Waldhof"
+          "Waldhof",
+          "RMW"
         ],
         "line": "RheinNeckarTram1",
         "order": 14
@@ -7574,7 +8366,8 @@
         "id": 429,
         "name": "Mannheim-Luzenberg",
         "alternate_names": [
-          "Luzenberg"
+          "Luzenberg",
+          "RMLB"
         ],
         "line": "RheinNeckarTram3",
         "order": 16
@@ -7782,8 +8575,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.4699892,
-          49.4801413
+          8.4706049,
+          49.4802998
         ]
       },
       "properties": {
@@ -7791,7 +8584,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram3",
         "order": 16
@@ -8422,8 +9216,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.4699892,
-          49.4801413
+          8.4706049,
+          49.4802998
         ]
       },
       "properties": {
@@ -8431,7 +9225,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram4",
         "order": 17
@@ -8547,7 +9342,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarTram4",
         "order": 17
@@ -9101,7 +9897,8 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarTram4A",
         "order": 18
@@ -9208,8 +10005,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.4699892,
-          49.4801413
+          8.4706049,
+          49.4802998
         ]
       },
       "properties": {
@@ -9217,7 +10014,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram4A",
         "order": 18
@@ -10050,7 +10848,8 @@
         "id": 551,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarTram5",
         "order": 19
@@ -10482,7 +11281,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram5",
         "order": 19
@@ -10698,7 +11498,8 @@
         "id": 587,
         "name": "Mannheim-Käfertal",
         "alternate_names": [
-          "Käfertal"
+          "Käfertal",
+          "RMKL"
         ],
         "line": "RheinNeckarTram5",
         "order": 19
@@ -10925,7 +11726,8 @@
         "id": 599,
         "name": "Weinheim Hauptbahnhof",
         "alternate_names": [
-          "Weinheim Hbf"
+          "Weinheim Hbf",
+          "RWE"
         ],
         "line": "RheinNeckarTram5",
         "order": 19
@@ -11215,7 +12017,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram6",
         "order": 20
@@ -11492,7 +12295,8 @@
         "name": "Mannheim ARENA/Maimarkt",
         "alternate_names": [
           "SAP Arena S-Bahnhof",
-          "Mannheim Arena"
+          "Mannheim Arena",
+          "RMSM"
         ],
         "line": "RheinNeckarTram6",
         "order": 20
@@ -11782,7 +12586,8 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram6A",
         "order": 21
@@ -11996,7 +12801,8 @@
         "name": "Mannheim ARENA/Maimarkt",
         "alternate_names": [
           "SAP Arena S-Bahnhof",
-          "Mannheim Arena"
+          "Mannheim Arena",
+          "RMSM"
         ],
         "line": "RheinNeckarTram6A",
         "order": 21
@@ -12469,8 +13275,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.4395735,
-          49.4720968
+          8.4399841,
+          49.4724889
         ]
       },
       "properties": {
@@ -12651,6 +13457,486 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.1705142,
+          49.4613301
+        ]
+      },
+      "properties": {
+        "id": 893,
+        "name": "Bad Dürkheim Bahnhof",
+        "alternate_names": [
+          "Bad Dürkheim Bf",
+          "Bad Dürkheim"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 893
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1847982,
+          49.4633341
+        ]
+      },
+      "properties": {
+        "id": 892,
+        "name": "Bad Dürkheim Ost",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 892
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2251016,
+          49.4579624
+        ]
+      },
+      "properties": {
+        "id": 891,
+        "name": "Friedelsheim",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 891
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2316162,
+          49.4579515
+        ]
+      },
+      "properties": {
+        "id": 890,
+        "name": "Gönnheim",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 890
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2546996,
+          49.4625607
+        ]
+      },
+      "properties": {
+        "id": 889,
+        "name": "Ellerstadt West",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 889
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2641,
+          49.4640306
+        ]
+      },
+      "properties": {
+        "id": 888,
+        "name": "Ellerstadt Ost",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 888
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2873956,
+          49.4662476
+        ]
+      },
+      "properties": {
+        "id": 887,
+        "name": "Fußgönheim",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 887
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2893205,
+          49.4765534
+        ]
+      },
+      "properties": {
+        "id": 886,
+        "name": "Maxdorf Süd",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 886
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2935445,
+          49.4801031
+        ]
+      },
+      "properties": {
+        "id": 885,
+        "name": "Maxdorf Bahnhof",
+        "alternate_names": [
+          "Maxdorf Bf",
+          "Maxdorf"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 885
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3275612,
+          49.4784943
+        ]
+      },
+      "properties": {
+        "id": 884,
+        "name": "Ruchheim",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 884
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3539773,
+          49.4834265
+        ]
+      },
+      "properties": {
+        "id": 883,
+        "name": "Westlich B 9",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 883
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3639438,
+          49.4882171
+        ]
+      },
+      "properties": {
+        "id": 882,
+        "name": "Oggersheim Comeniusstraße",
+        "alternate_names": [
+          "Oggersheim Comeniusstr"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 882
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3765466,
+          49.4924965
+        ]
+      },
+      "properties": {
+        "id": 881,
+        "name": "Oggersheim Hans-Warsch-Platz",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 881
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4240363,
+          49.4839249
+        ]
+      },
+      "properties": {
+        "id": 894,
+        "name": "Hauptfriedhof Ludwigshafen",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 894
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4297006,
+          49.4830972
+        ]
+      },
+      "properties": {
+        "id": 880,
+        "name": "Rohrlachstraße",
+        "alternate_names": [
+          "Rohrlachstr"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 880
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4347979,
+          49.478635
+        ]
+      },
+      "properties": {
+        "id": 879,
+        "name": "Ludwigshafen Hauptbahnhof",
+        "alternate_names": [
+          "LU Hbf",
+          "Ludwigshafen Hbf",
+          "RL"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 879
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4399841,
+          49.4724889
+        ]
+      },
+      "properties": {
+        "id": 878,
+        "name": "Südwest-Stadion",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 878
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4444367,
+          49.476018
+        ]
+      },
+      "properties": {
+        "id": 877,
+        "name": "Wittelsbachplatz",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 877
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4507987,
+          49.4781331
+        ]
+      },
+      "properties": {
+        "id": 876,
+        "name": "Ludwigshafen Mitte",
+        "alternate_names": [
+          "LU Mitte",
+          "Berliner Platz Süd",
+          "RLSM"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 876
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4699594,
+          49.4800881
+        ]
+      },
+      "properties": {
+        "id": 875,
+        "name": "Mannheim Hauptbahnhof",
+        "alternate_names": [
+          "Mannheim Hbf",
+          "MA Hbf",
+          "RM"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 875
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4732425,
+          49.4816824
+        ]
+      },
+      "properties": {
+        "id": 874,
+        "name": "Tattersall",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 874
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4781433,
+          49.4806809
+        ]
+      },
+      "properties": {
+        "id": 873,
+        "name": "Werderstraße",
+        "alternate_names": [
+          "Werderstr"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 873
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4824293,
+          49.4785669
+        ]
+      },
+      "properties": {
+        "id": 872,
+        "name": "Pestalozzischule",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 872
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4863356,
+          49.4764243
+        ]
+      },
+      "properties": {
+        "id": 871,
+        "name": "Weberstraße",
+        "alternate_names": [
+          "Weberstr"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 871
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.489616,
+          49.4766047
+        ]
+      },
+      "properties": {
+        "id": 870,
+        "name": "Planetarium",
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 870
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4964265,
+          49.4786343
+        ]
+      },
+      "properties": {
+        "id": 869,
+        "name": "Luisenpark/Technoseum",
+        "alternate_names": [
+          "Luisenpark"
+        ],
+        "line": "RheinNeckarTram9X",
+        "order": 23
+      },
+      "id": 869
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.4527686,
           49.4715395
         ]
@@ -12659,7 +13945,7 @@
         "id": 693,
         "name": "Luitpoldhafen",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 693
     },
@@ -12676,7 +13962,7 @@
         "id": 694,
         "name": "Amtsgericht",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 694
     },
@@ -12696,7 +13982,7 @@
           "Rottstr"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 695
     },
@@ -12716,7 +14002,7 @@
           "Schützenstr"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 696
     },
@@ -12734,10 +14020,11 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 697
     },
@@ -12754,7 +14041,7 @@
         "id": 698,
         "name": "Berliner Platz",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 698
     },
@@ -12774,7 +14061,7 @@
           "Kaiser-Wilhelm-Str"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 699
     },
@@ -12795,7 +14082,7 @@
           "Wilhelm-Hack-Museum"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 700
     },
@@ -12815,7 +14102,7 @@
           "Bürgermeister-Kutterer-Str"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 701
     },
@@ -12833,10 +14120,11 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 702
     },
@@ -12853,7 +14141,7 @@
         "id": 703,
         "name": "Marienkirche",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 703
     },
@@ -12870,7 +14158,7 @@
         "id": 704,
         "name": "Heinrich-Ries-Halle",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 704
     },
@@ -12887,7 +14175,7 @@
         "id": 705,
         "name": "Klinikum",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 705
     },
@@ -12908,7 +14196,7 @@
           "Ebertpark/Fichtestr"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 706
     },
@@ -12925,7 +14213,7 @@
         "id": 707,
         "name": "Schwalbenweg",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 707
     },
@@ -12945,7 +14233,7 @@
           "Sternstr"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 708
     },
@@ -12965,7 +14253,7 @@
           "Kreuzstr"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 709
     },
@@ -12985,7 +14273,7 @@
           "Hagellochstr"
         ],
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 710
     },
@@ -13002,7 +14290,7 @@
         "id": 711,
         "name": "Friesenheim Mitte",
         "line": "RheinNeckarTram10",
-        "order": 23
+        "order": 24
       },
       "id": 711
     },
@@ -13019,7 +14307,7 @@
         "id": 737,
         "name": "Rheingönheim Neubruch",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 737
     },
@@ -13036,7 +14324,7 @@
         "id": 736,
         "name": "Brückweg",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 736
     },
@@ -13056,7 +14344,7 @@
           "Friedensstr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 735
     },
@@ -13076,7 +14364,7 @@
           "Giulinistr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 734
     },
@@ -13096,7 +14384,7 @@
           "Hoheneckenstr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 733
     },
@@ -13113,7 +14401,7 @@
         "id": 732,
         "name": "Schillerschule",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 732
     },
@@ -13130,7 +14418,7 @@
         "id": 731,
         "name": "Am Schwanen",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 731
     },
@@ -13147,7 +14435,7 @@
         "id": 730,
         "name": "Mundenheim Nord",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 730
     },
@@ -13167,7 +14455,7 @@
           "Stifterstr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 729
     },
@@ -13176,15 +14464,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.4395735,
-          49.4720968
+          8.4399841,
+          49.4724889
         ]
       },
       "properties": {
         "id": 728,
         "name": "Südwest-Stadion",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 728
     },
@@ -13201,7 +14489,7 @@
         "id": 727,
         "name": "Wittelsbachplatz",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 727
     },
@@ -13221,7 +14509,7 @@
           "Schützenstr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 726
     },
@@ -13239,10 +14527,11 @@
         "name": "Ludwigshafen Mitte",
         "alternate_names": [
           "LU Mitte",
-          "Berliner Platz Süd"
+          "Berliner Platz Süd",
+          "RLSM"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 725
     },
@@ -13259,7 +14548,7 @@
         "id": 724,
         "name": "Berliner Platz",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 724
     },
@@ -13279,7 +14568,7 @@
           "Ludwigstr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 723
     },
@@ -13296,7 +14585,7 @@
         "id": 722,
         "name": "Rathaus",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 722
     },
@@ -13316,7 +14605,7 @@
           "Gartenstr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 721
     },
@@ -13337,7 +14626,7 @@
           "Hemshofstr (BASF Tor 1+7)"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 720
     },
@@ -13357,7 +14646,7 @@
           "BASF"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 719
     },
@@ -13378,7 +14667,7 @@
           "Schopenhauerstr (AWETA)"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 718
     },
@@ -13399,7 +14688,7 @@
           "Rheinfeldstr (BASF Tor 3)"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 717
     },
@@ -13416,7 +14705,7 @@
         "id": 716,
         "name": "Friesenheim Ost",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 716
     },
@@ -13433,7 +14722,7 @@
         "id": 715,
         "name": "Rottstückerweg",
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 715
     },
@@ -13453,7 +14742,7 @@
           "Ammoniakstr"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 714
     },
@@ -13473,7 +14762,7 @@
           "Oppau Süd"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 713
     },
@@ -13494,7 +14783,7 @@
           "Oppau Fritz-Haber-Str (BASF Tor 12+13)"
         ],
         "line": "RheinNeckarTram12",
-        "order": 24
+        "order": 25
       },
       "id": 712
     },
@@ -13511,7 +14800,7 @@
         "id": 738,
         "name": "Ebertpark",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 738
     },
@@ -13532,7 +14821,7 @@
           "Ebertpark/Fichtestr"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 739
     },
@@ -13549,7 +14838,7 @@
         "id": 740,
         "name": "Klinikum",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 740
     },
@@ -13566,7 +14855,7 @@
         "id": 741,
         "name": "Heinrich-Ries-Halle",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 741
     },
@@ -13583,7 +14872,7 @@
         "id": 742,
         "name": "Marienkirche",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 742
     },
@@ -13601,10 +14890,11 @@
         "name": "Ludwigshafen Hauptbahnhof",
         "alternate_names": [
           "LU Hbf",
-          "Ludwigshafen Hbf"
+          "Ludwigshafen Hbf",
+          "RL"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 743
     },
@@ -13624,7 +14914,7 @@
           "Bürgermeister-Kutterer-Str"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 744
     },
@@ -13645,7 +14935,7 @@
           "Wilhelm-Hack-Museum"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 745
     },
@@ -13665,7 +14955,7 @@
           "Kaiser-Wilhelm-Str"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 746
     },
@@ -13682,7 +14972,7 @@
         "id": 747,
         "name": "Berliner Platz",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 747
     },
@@ -13699,7 +14989,7 @@
         "id": 748,
         "name": "Universität",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 748
     },
@@ -13717,10 +15007,11 @@
         "name": "Mannheim Hauptbahnhof",
         "alternate_names": [
           "Mannheim Hbf",
-          "MA Hbf"
+          "MA Hbf",
+          "RM"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 749
     },
@@ -13737,7 +15028,7 @@
         "id": 750,
         "name": "Kunsthalle",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 750
     },
@@ -13754,7 +15045,7 @@
         "id": 751,
         "name": "Rosengarten",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 751
     },
@@ -13771,7 +15062,7 @@
         "id": 752,
         "name": "Nationaltheater",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 752
     },
@@ -13788,7 +15079,7 @@
         "id": 753,
         "name": "Theresienkrankenhaus",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 753
     },
@@ -13805,7 +15096,7 @@
         "id": 754,
         "name": "Universitätsklinikum",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 754
     },
@@ -13825,7 +15116,7 @@
           "Lange Rötterstr"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 755
     },
@@ -13842,7 +15133,7 @@
         "id": 756,
         "name": "Bonifatiuskirche",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 756
     },
@@ -13859,7 +15150,7 @@
         "id": 757,
         "name": "Exerzierplatz",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 757
     },
@@ -13879,7 +15170,7 @@
           "Boveristr"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 758
     },
@@ -13896,7 +15187,7 @@
         "id": 759,
         "name": "Käfertal Süd",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 759
     },
@@ -13916,7 +15207,7 @@
           "Mannheimer Str"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 760
     },
@@ -13933,7 +15224,7 @@
         "id": 761,
         "name": "Im Rott",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 761
     },
@@ -13950,7 +15241,7 @@
         "id": 762,
         "name": "Vogelstang West",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 762
     },
@@ -13967,7 +15258,7 @@
         "id": 763,
         "name": "Wallstadt West",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 763
     },
@@ -13988,7 +15279,7 @@
           "Wallstadt"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 764
     },
@@ -14005,7 +15296,7 @@
         "id": 765,
         "name": "Wallstadt Ost",
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 765
     },
@@ -14026,7 +15317,7 @@
           "Heddesheim"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 766
     },
@@ -14043,10 +15334,11 @@
         "id": 767,
         "name": "Mannheim-Käfertal",
         "alternate_names": [
-          "Käfertal"
+          "Käfertal",
+          "RMKL"
         ],
         "line": "RheinNeckarTram15",
-        "order": 25
+        "order": 26
       },
       "id": 767
     },
@@ -14066,7 +15358,7 @@
           "Bensheimer Str"
         ],
         "line": "RheinNeckarTram16",
-        "order": 26
+        "order": 27
       },
       "id": 768
     },
@@ -14083,7 +15375,7 @@
         "id": 769,
         "name": "Franklinschule",
         "line": "RheinNeckarTram16",
-        "order": 26
+        "order": 27
       },
       "id": 769
     },
@@ -14100,7 +15392,7 @@
         "id": 770,
         "name": "Franklin Mitte",
         "line": "RheinNeckarTram16",
-        "order": 26
+        "order": 27
       },
       "id": 770
     },
@@ -14117,7 +15409,7 @@
         "id": 771,
         "name": "Sullivan",
         "line": "RheinNeckarTram16",
-        "order": 26
+        "order": 27
       },
       "id": 771
     },
@@ -14138,7 +15430,7 @@
           "Schriesheim"
         ],
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 791
     },
@@ -14155,7 +15447,7 @@
         "id": 792,
         "name": "Schriesheim Süd",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 792
     },
@@ -14172,7 +15464,7 @@
         "id": 790,
         "name": "Dossenheim Nord",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 790
     },
@@ -14193,7 +15485,7 @@
           "Dossenheim"
         ],
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 789
     },
@@ -14210,7 +15502,7 @@
         "id": 788,
         "name": "Dossenheim Süd",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 788
     },
@@ -14230,7 +15522,7 @@
           "Burgstr"
         ],
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 787
     },
@@ -14250,7 +15542,7 @@
           "Johann-Fischer-Str"
         ],
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 786
     },
@@ -14267,7 +15559,7 @@
         "id": 772,
         "name": "Hans-Thoma-Platz",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 772
     },
@@ -14284,7 +15576,7 @@
         "id": 773,
         "name": "Heiligenbergschule",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 773
     },
@@ -14301,7 +15593,7 @@
         "id": 774,
         "name": "Technologiepark",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 774
     },
@@ -14318,7 +15610,7 @@
         "id": 775,
         "name": "Bunsengymnasium",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 775
     },
@@ -14338,7 +15630,7 @@
           "Jahnstr"
         ],
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 776
     },
@@ -14355,7 +15647,7 @@
         "id": 785,
         "name": "Betriebshof",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 785
     },
@@ -14372,10 +15664,11 @@
         "id": 783,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 783
     },
@@ -14392,7 +15685,7 @@
         "id": 782,
         "name": "Stadtwerke",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 782
     },
@@ -14409,7 +15702,7 @@
         "id": 781,
         "name": "Stadtbücherei",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 781
     },
@@ -14426,7 +15719,7 @@
         "id": 780,
         "name": "Seegarten",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 780
     },
@@ -14443,7 +15736,7 @@
         "id": 784,
         "name": "Bismarckplatz",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 784
     },
@@ -14460,7 +15753,7 @@
         "id": 777,
         "name": "Volkshochschule",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 777
     },
@@ -14477,7 +15770,7 @@
         "id": 778,
         "name": "Campus Bergheim",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 778
     },
@@ -14494,7 +15787,7 @@
         "id": 779,
         "name": "Altes Hallenbad",
         "line": "RheinNeckarTram21",
-        "order": 27
+        "order": 28
       },
       "id": 779
     },
@@ -14511,7 +15804,7 @@
         "id": 793,
         "name": "Bismarckplatz",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 793
     },
@@ -14528,7 +15821,7 @@
         "id": 794,
         "name": "Seegarten",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 794
     },
@@ -14545,7 +15838,7 @@
         "id": 795,
         "name": "Stadtbücherei",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 795
     },
@@ -14565,7 +15858,7 @@
           "Ringstr"
         ],
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 796
     },
@@ -14582,7 +15875,7 @@
         "id": 797,
         "name": "Montpellierbrücke",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 797
     },
@@ -14602,7 +15895,7 @@
           "Heidelberg Hbf Süd"
         ],
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 798
     },
@@ -14619,7 +15912,7 @@
         "id": 799,
         "name": "Gadamerplatz",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 799
     },
@@ -14636,7 +15929,7 @@
         "id": 800,
         "name": "Eppelheimer Terrasse",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 800
     },
@@ -14656,7 +15949,7 @@
           "Henkel-Teroson-Str"
         ],
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 801
     },
@@ -14676,7 +15969,7 @@
           "Marktstr"
         ],
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 802
     },
@@ -14693,7 +15986,7 @@
         "id": 803,
         "name": "Kranichweg/Stotz",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 803
     },
@@ -14710,7 +16003,7 @@
         "id": 804,
         "name": "Jakobsgasse",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 804
     },
@@ -14727,7 +16020,7 @@
         "id": 805,
         "name": "Eppelheim Rathaus",
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 805
     },
@@ -14747,7 +16040,7 @@
           "Kirchheimer Str"
         ],
         "line": "RheinNeckarTram22",
-        "order": 28
+        "order": 29
       },
       "id": 806
     },
@@ -14764,7 +16057,7 @@
         "id": 827,
         "name": "Friedhof",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 827
     },
@@ -14784,7 +16077,7 @@
           "Moltkestr"
         ],
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 826
     },
@@ -14801,7 +16094,7 @@
         "id": 825,
         "name": "Kurpfalz-Centrum",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 825
     },
@@ -14818,7 +16111,7 @@
         "id": 824,
         "name": "Georgi-Marktplatz",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 824
     },
@@ -14838,7 +16131,7 @@
           "Johannes-Reidel-Str"
         ],
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 823
     },
@@ -14855,7 +16148,7 @@
         "id": 822,
         "name": "Zementwerk",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 822
     },
@@ -14872,7 +16165,7 @@
         "id": 821,
         "name": "Rohrbach Süd",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 821
     },
@@ -14892,7 +16185,7 @@
           "Freiburger Str"
         ],
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 820
     },
@@ -14912,7 +16205,7 @@
           "Ortenauer Str"
         ],
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 819
     },
@@ -14929,7 +16222,7 @@
         "id": 818,
         "name": "Rohrbach Markt",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 818
     },
@@ -14946,7 +16239,7 @@
         "id": 817,
         "name": "Eichendorffplatz",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 817
     },
@@ -14963,7 +16256,7 @@
         "id": 816,
         "name": "Markscheide",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 816
     },
@@ -14983,7 +16276,7 @@
           "Heidelberg Rheinstr"
         ],
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 815
     },
@@ -15000,7 +16293,7 @@
         "id": 814,
         "name": "Bethanien-Krankenhaus",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 814
     },
@@ -15017,7 +16310,7 @@
         "id": 813,
         "name": "Bergfriedhof",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 813
     },
@@ -15034,10 +16327,11 @@
         "id": 812,
         "name": "Heidelberg-Weststadt/Südstadt",
         "alternate_names": [
-          "Weststadt/Südstadt"
+          "Weststadt/Südstadt",
+          "RHBF"
         ],
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 812
     },
@@ -15054,7 +16348,7 @@
         "id": 811,
         "name": "Christuskirche",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 811
     },
@@ -15071,7 +16365,7 @@
         "id": 810,
         "name": "Römerkreis Süd",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 810
     },
@@ -15088,7 +16382,7 @@
         "id": 809,
         "name": "Stadtbücherei",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 809
     },
@@ -15105,7 +16399,7 @@
         "id": 808,
         "name": "Seegarten",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 808
     },
@@ -15122,7 +16416,7 @@
         "id": 807,
         "name": "Bismarckplatz",
         "line": "RheinNeckarTram23",
-        "order": 29
+        "order": 30
       },
       "id": 807
     },
@@ -15139,7 +16433,7 @@
         "id": 828,
         "name": "Heiligenbergschule",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 828
     },
@@ -15156,7 +16450,7 @@
         "id": 829,
         "name": "Technologiepark",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 829
     },
@@ -15173,7 +16467,7 @@
         "id": 830,
         "name": "Bunsengymnasium",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 830
     },
@@ -15193,7 +16487,7 @@
           "Jahnstr"
         ],
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 831
     },
@@ -15210,7 +16504,7 @@
         "id": 832,
         "name": "Betriebshof",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 832
     },
@@ -15227,10 +16521,11 @@
         "id": 833,
         "name": "Heidelberg Hauptbahnhof",
         "alternate_names": [
-          "Heidelberg Hbf"
+          "Heidelberg Hbf",
+          "RH"
         ],
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 833
     },
@@ -15247,7 +16542,7 @@
         "id": 834,
         "name": "Stadtwerke",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 834
     },
@@ -15264,7 +16559,7 @@
         "id": 835,
         "name": "Römerkreis Süd",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 835
     },
@@ -15281,7 +16576,7 @@
         "id": 836,
         "name": "Christuskirche",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 836
     },
@@ -15298,10 +16593,11 @@
         "id": 837,
         "name": "Heidelberg-Weststadt/Südstadt",
         "alternate_names": [
-          "Weststadt/Südstadt"
+          "Weststadt/Südstadt",
+          "RHBF"
         ],
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 837
     },
@@ -15318,7 +16614,7 @@
         "id": 838,
         "name": "Bergfriedhof",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 838
     },
@@ -15335,7 +16631,7 @@
         "id": 839,
         "name": "Bethanien-Krankenhaus",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 839
     },
@@ -15355,7 +16651,7 @@
           "Heidelberg Rheinstr"
         ],
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 840
     },
@@ -15372,7 +16668,7 @@
         "id": 841,
         "name": "Markscheide",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 841
     },
@@ -15389,7 +16685,7 @@
         "id": 842,
         "name": "Eichendorffplatz",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 842
     },
@@ -15406,7 +16702,7 @@
         "id": 843,
         "name": "Rohrbach Markt",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 843
     },
@@ -15426,7 +16722,7 @@
           "Ortenauer Str"
         ],
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 844
     },
@@ -15446,7 +16742,7 @@
           "Freiburger Str"
         ],
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 845
     },
@@ -15463,7 +16759,7 @@
         "id": 846,
         "name": "Rohrbach Süd",
         "line": "RheinNeckarTram24",
-        "order": 30
+        "order": 31
       },
       "id": 846
     },
@@ -15480,7 +16776,7 @@
         "id": 868,
         "name": "Kirchheim Friedhof",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 868
     },
@@ -15497,7 +16793,7 @@
         "id": 867,
         "name": "Kirchheim Rathaus",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 867
     },
@@ -15517,7 +16813,7 @@
           "Odenwaldstr"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 866
     },
@@ -15537,7 +16833,7 @@
           "Albert-Fritz-Str"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 865
     },
@@ -15557,7 +16853,7 @@
           "Ilse-Krall-Str"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 864
     },
@@ -15574,7 +16870,7 @@
         "id": 863,
         "name": "Messplatz",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 863
     },
@@ -15594,7 +16890,7 @@
           "Rudolf-Diesel-Str"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 862
     },
@@ -15614,7 +16910,7 @@
           "Heidelberg Hbf Süd"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 861
     },
@@ -15631,7 +16927,7 @@
         "id": 860,
         "name": "Gadamerplatz",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 860
     },
@@ -15648,7 +16944,7 @@
         "id": 859,
         "name": "Czernybrücke",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 859
     },
@@ -15665,7 +16961,7 @@
         "id": 858,
         "name": "Betriebshof",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 858
     },
@@ -15682,7 +16978,7 @@
         "id": 857,
         "name": "Volkshochschule",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 857
     },
@@ -15699,7 +16995,7 @@
         "id": 856,
         "name": "Campus Bergheim",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 856
     },
@@ -15716,7 +17012,7 @@
         "id": 855,
         "name": "Altes Hallenbad",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 855
     },
@@ -15733,7 +17029,7 @@
         "id": 854,
         "name": "Bismarckplatz",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 854
     },
@@ -15753,7 +17049,7 @@
           "Brückenstr"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 853
     },
@@ -15773,7 +17069,7 @@
           "Kußmaulstr"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 852
     },
@@ -15793,7 +17089,7 @@
           "Blumenthalstr"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 851
     },
@@ -15810,7 +17106,7 @@
         "id": 850,
         "name": "Kapellenweg",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 850
     },
@@ -15827,7 +17123,7 @@
         "id": 849,
         "name": "Hans-Thoma-Platz",
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 849
     },
@@ -15847,7 +17143,7 @@
           "Johann-Fischer-Str"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 848
     },
@@ -15867,7 +17163,7 @@
           "Burgstr"
         ],
         "line": "RheinNeckarTram26",
-        "order": 31
+        "order": 32
       },
       "id": 847
     }
@@ -15897,6 +17193,7 @@
       "RheinNeckarTram6": 30,
       "RheinNeckarTram6A": 27,
       "RheinNeckarTram7": 36,
+      "RheinNeckarTram9X": 26,
       "RheinNeckarTram10": 19,
       "RheinNeckarTram12": 26,
       "RheinNeckarTram15": 30,
@@ -15907,6 +17204,6 @@
       "RheinNeckarTram24": 19,
       "RheinNeckarTram26": 22
     },
-    "nextStationId": 869
+    "nextStationId": 922
   }
 }

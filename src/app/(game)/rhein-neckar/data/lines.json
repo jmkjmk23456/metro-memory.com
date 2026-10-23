@@ -92,22 +92,22 @@
   },
   "RheinNeckarTram1": {
     "name": "1",
-    "color": "#F39B9B",
-    "backgroundColor": "#B21515",
+    "color": "#F39B9A",
+    "backgroundColor": "#B11715",
     "textColor": "#FFFFFF",
     "order": 14
   },
   "RheinNeckarTram2": {
     "name": "2",
-    "color": "#B10346",
-    "backgroundColor": "#590123",
+    "color": "#B00044",
+    "backgroundColor": "#580022",
     "textColor": "#FFFFFF",
     "order": 15
   },
   "RheinNeckarTram3": {
     "name": "3",
-    "color": "#D6AD00",
-    "backgroundColor": "#6B5600",
+    "color": "#D5AD00",
+    "backgroundColor": "#6B5700",
     "textColor": "#FFFFFF",
     "order": 16
   },
@@ -127,22 +127,22 @@
   },
   "RheinNeckarTram5": {
     "name": "5",
-    "color": "#00975F",
-    "backgroundColor": "#004C2F",
+    "color": "#00AC6F",
+    "backgroundColor": "#005637",
     "textColor": "#FFFFFF",
     "order": 19
   },
   "RheinNeckarTram6": {
     "name": "6",
-    "color": "#966C29",
-    "backgroundColor": "#4B3614",
+    "color": "#956B25",
+    "backgroundColor": "#4B3613",
     "textColor": "#FFFFFF",
     "order": 20
   },
   "RheinNeckarTram6A": {
     "name": "6A",
-    "color": "#966C29",
-    "backgroundColor": "#4B3614",
+    "color": "#956B25",
+    "backgroundColor": "#4B3613",
     "textColor": "#FFFFFF",
     "order": 21
   },
@@ -153,67 +153,74 @@
     "textColor": "#FFFFFF",
     "order": 22
   },
-  "RheinNeckarTram10": {
-    "name": "10",
-    "color": "#7EC3E6",
-    "backgroundColor": "#1D6D95",
+  "RheinNeckarTram9X": {
+    "name": "9X",
+    "color": "#93C23B",
+    "backgroundColor": "#4A611D",
     "textColor": "#FFFFFF",
     "order": 23
   },
-  "RheinNeckarTram12": {
-    "name": "12",
-    "color": "#DA603B",
-    "backgroundColor": "#752C16",
+  "RheinNeckarTram10": {
+    "name": "10",
+    "color": "#A60F80",
+    "backgroundColor": "#530840",
     "textColor": "#FFFFFF",
     "order": 24
   },
-  "RheinNeckarTram15": {
-    "name": "15",
-    "color": "#F7AB64",
-    "backgroundColor": "#A55409",
+  "RheinNeckarTram12": {
+    "name": "12",
+    "color": "#DB603C",
+    "backgroundColor": "#762B16",
     "textColor": "#FFFFFF",
     "order": 25
   },
-  "RheinNeckarTram16": {
-    "name": "16",
-    "color": "#5A8DCA",
-    "backgroundColor": "#23466F",
+  "RheinNeckarTram15": {
+    "name": "15",
+    "color": "#F7AB63",
+    "backgroundColor": "#A55408",
     "textColor": "#FFFFFF",
     "order": 26
   },
-  "RheinNeckarTram21": {
-    "name": "21",
-    "color": "#E2000A",
-    "backgroundColor": "#710005",
+  "RheinNeckarTram16": {
+    "name": "16",
+    "color": "#5E6BAF",
+    "backgroundColor": "#2D345A",
     "textColor": "#FFFFFF",
     "order": 27
   },
-  "RheinNeckarTram22": {
-    "name": "22",
-    "color": "#FCC200",
-    "backgroundColor": "#7E6100",
+  "RheinNeckarTram21": {
+    "name": "21",
+    "color": "#E3000B",
+    "backgroundColor": "#720005",
     "textColor": "#FFFFFF",
     "order": 28
+  },
+  "RheinNeckarTram22": {
+    "name": "22",
+    "color": "#FDC300",
+    "backgroundColor": "#7F6200",
+    "textColor": "#FFFFFF",
+    "order": 29
   },
   "RheinNeckarTram23": {
     "name": "23",
     "color": "#E48E00",
     "backgroundColor": "#724700",
     "textColor": "#FFFFFF",
-    "order": 29
+    "order": 30
   },
   "RheinNeckarTram24": {
     "name": "24",
-    "color": "#8B1C75",
-    "backgroundColor": "#460E3A",
+    "color": "#8C1D75",
+    "backgroundColor": "#460F3A",
     "textColor": "#FFFFFF",
-    "order": 30
+    "order": 31
   },
   "RheinNeckarTram26": {
     "name": "26",
-    "color": "#F39A9A",
-    "backgroundColor": "#B11515",
+    "color": "#F39B9A",
+    "backgroundColor": "#B11715",
     "textColor": "#FFFFFF",
-    "order": 31
+    "order": 32
   }
 }

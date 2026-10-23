@@ -14,7 +14,8 @@
         "id": 1,
         "name": "Wiesbaden Hauptbahnhof",
         "alternate_names": [
-          "Wiesbaden Hbf"
+          "Wiesbaden Hbf",
+          "FW"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -33,6 +34,9 @@
       "properties": {
         "id": 2,
         "name": "Wiesbaden Ost",
+        "alternate_names": [
+          "FWO"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -50,6 +54,9 @@
       "properties": {
         "id": 3,
         "name": "Mainz-Kastel",
+        "alternate_names": [
+          "FMK"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -68,7 +75,8 @@
         "id": 4,
         "name": "Hochheim (Main)",
         "alternate_names": [
-          "Hochheim"
+          "Hochheim",
+          "FHM"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -88,7 +96,8 @@
         "id": 5,
         "name": "Flörsheim (Main)",
         "alternate_names": [
-          "Flörsheim"
+          "Flörsheim",
+          "FFH"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -107,6 +116,9 @@
       "properties": {
         "id": 6,
         "name": "Eddersheim",
+        "alternate_names": [
+          "FED"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -125,7 +137,8 @@
         "id": 7,
         "name": "Hattersheim (Main)",
         "alternate_names": [
-          "Hattersheim"
+          "Hattersheim",
+          "FHAS"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -144,6 +157,9 @@
       "properties": {
         "id": 8,
         "name": "Sindlingen",
+        "alternate_names": [
+          "FSIN"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -162,7 +178,8 @@
         "id": 9,
         "name": "Höchst Farbwerke",
         "alternate_names": [
-          "Farbwerke"
+          "Farbwerke",
+          "FFAW"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -181,6 +198,9 @@
       "properties": {
         "id": 10,
         "name": "Höchst",
+        "alternate_names": [
+          "FHOE"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -198,6 +218,9 @@
       "properties": {
         "id": 11,
         "name": "Nied",
+        "alternate_names": [
+          "FFND"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -215,6 +238,9 @@
       "properties": {
         "id": 12,
         "name": "Griesheim",
+        "alternate_names": [
+          "FGM"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -235,7 +261,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -254,6 +282,9 @@
       "properties": {
         "id": 14,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -271,6 +302,9 @@
       "properties": {
         "id": 15,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -288,6 +322,9 @@
       "properties": {
         "id": 16,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -306,7 +343,8 @@
         "id": 17,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -325,6 +363,9 @@
       "properties": {
         "id": 18,
         "name": "Mühlberg",
+        "alternate_names": [
+          "FMUL"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -343,7 +384,8 @@
         "id": 19,
         "name": "Offenbach Kaiserlei",
         "alternate_names": [
-          "Kaiserlei"
+          "Kaiserlei",
+          "FOKL"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -363,7 +405,8 @@
         "id": 20,
         "name": "Offenbach Ledermuseum",
         "alternate_names": [
-          "Ledermuseum"
+          "Ledermuseum",
+          "FOLM"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -383,7 +426,8 @@
         "id": 21,
         "name": "Offenbach Marktplatz",
         "alternate_names": [
-          "Marktplatz"
+          "Marktplatz",
+          "FOMP"
         ],
         "line": "FrankfurtS1",
         "order": 1
@@ -402,6 +446,9 @@
       "properties": {
         "id": 22,
         "name": "Offenbach Ost",
+        "alternate_names": [
+          "FOO"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -419,6 +466,9 @@
       "properties": {
         "id": 23,
         "name": "Offenbach-Bieber",
+        "alternate_names": [
+          "FOBI"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -436,6 +486,9 @@
       "properties": {
         "id": 24,
         "name": "Offenbach-Waldhof",
+        "alternate_names": [
+          "FOWH"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -470,6 +523,9 @@
       "properties": {
         "id": 26,
         "name": "Rodgau-Weiskirchen",
+        "alternate_names": [
+          "FWEK"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -487,6 +543,9 @@
       "properties": {
         "id": 27,
         "name": "Rodgau-Hainhausen",
+        "alternate_names": [
+          "FHHN"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -504,6 +563,9 @@
       "properties": {
         "id": 28,
         "name": "Rodgau-Jügesheim",
+        "alternate_names": [
+          "FJUE"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -521,6 +583,9 @@
       "properties": {
         "id": 29,
         "name": "Rodgau-Dudenhofen",
+        "alternate_names": [
+          "FDU"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -538,6 +603,9 @@
       "properties": {
         "id": 30,
         "name": "Rodgau-Nieder-Roden",
+        "alternate_names": [
+          "FNRO"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -555,6 +623,9 @@
       "properties": {
         "id": 31,
         "name": "Rodgau-Rollwald",
+        "alternate_names": [
+          "FROL"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -572,6 +643,9 @@
       "properties": {
         "id": 32,
         "name": "Rödermark-Ober-Roden",
+        "alternate_names": [
+          "FORD"
+        ],
         "line": "FrankfurtS1",
         "order": 1
       },
@@ -587,12 +661,15 @@
         ]
       },
       "properties": {
-        "id": 33,
+        "id": 634,
         "name": "Niedernhausen",
+        "alternate_names": [
+          "FNSD"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
-      "id": 33
+      "id": 634
     },
     {
       "type": "Feature",
@@ -604,12 +681,15 @@
         ]
       },
       "properties": {
-        "id": 34,
+        "id": 635,
         "name": "Niederjosbach",
+        "alternate_names": [
+          "FNJ"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
-      "id": 34
+      "id": 635
     },
     {
       "type": "Feature",
@@ -623,6 +703,9 @@
       "properties": {
         "id": 35,
         "name": "Eppstein-Bremthal",
+        "alternate_names": [
+          "FEPB"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -640,6 +723,9 @@
       "properties": {
         "id": 36,
         "name": "Eppstein",
+        "alternate_names": [
+          "FEP"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -657,6 +743,9 @@
       "properties": {
         "id": 37,
         "name": "Lorsbach",
+        "alternate_names": [
+          "FLB"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -675,7 +764,8 @@
         "id": 38,
         "name": "Hofheim (Taunus)",
         "alternate_names": [
-          "Hofheim"
+          "Hofheim",
+          "FHF"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -694,6 +784,9 @@
       "properties": {
         "id": 39,
         "name": "Kriftel",
+        "alternate_names": [
+          "FKRI"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -711,6 +804,9 @@
       "properties": {
         "id": 40,
         "name": "Zeilsheim",
+        "alternate_names": [
+          "FFZH"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -729,7 +825,8 @@
         "id": 41,
         "name": "Höchst Farbwerke",
         "alternate_names": [
-          "Farbwerke"
+          "Farbwerke",
+          "FFAW"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -748,6 +845,9 @@
       "properties": {
         "id": 42,
         "name": "Höchst",
+        "alternate_names": [
+          "FHOE"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -765,6 +865,9 @@
       "properties": {
         "id": 43,
         "name": "Nied",
+        "alternate_names": [
+          "FFND"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -782,6 +885,9 @@
       "properties": {
         "id": 44,
         "name": "Griesheim",
+        "alternate_names": [
+          "FGM"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -802,7 +908,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -821,6 +929,9 @@
       "properties": {
         "id": 46,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -838,6 +949,9 @@
       "properties": {
         "id": 47,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -855,6 +969,9 @@
       "properties": {
         "id": 48,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -873,7 +990,8 @@
         "id": 49,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -892,6 +1010,9 @@
       "properties": {
         "id": 50,
         "name": "Mühlberg",
+        "alternate_names": [
+          "FMUL"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -910,7 +1031,8 @@
         "id": 51,
         "name": "Offenbach Kaiserlei",
         "alternate_names": [
-          "Kaiserlei"
+          "Kaiserlei",
+          "FOKL"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -930,7 +1052,8 @@
         "id": 52,
         "name": "Offenbach Ledermuseum",
         "alternate_names": [
-          "Ledermuseum"
+          "Ledermuseum",
+          "FOLM"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -950,7 +1073,8 @@
         "id": 53,
         "name": "Offenbach Marktplatz",
         "alternate_names": [
-          "Marktplatz"
+          "Marktplatz",
+          "FOMP"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -969,6 +1093,9 @@
       "properties": {
         "id": 54,
         "name": "Offenbach Ost",
+        "alternate_names": [
+          "FOO"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -986,6 +1113,9 @@
       "properties": {
         "id": 55,
         "name": "Offenbach-Bieber",
+        "alternate_names": [
+          "FOBI"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -1003,6 +1133,9 @@
       "properties": {
         "id": 56,
         "name": "Heusenstamm",
+        "alternate_names": [
+          "FHEU"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -1020,6 +1153,9 @@
       "properties": {
         "id": 57,
         "name": "Dietzenbach-Steinberg",
+        "alternate_names": [
+          "FDZS"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -1037,6 +1173,9 @@
       "properties": {
         "id": 58,
         "name": "Dietzenbach Mitte",
+        "alternate_names": [
+          "FDZM"
+        ],
         "line": "FrankfurtS2",
         "order": 2
       },
@@ -1056,7 +1195,8 @@
         "name": "Dietzenbach Bahnhof",
         "alternate_names": [
           "Dietzenbach Bf",
-          "Dietzenbach"
+          "Dietzenbach",
+          "FDZ"
         ],
         "line": "FrankfurtS2",
         "order": 2
@@ -1075,6 +1215,9 @@
       "properties": {
         "id": 60,
         "name": "Bad Soden",
+        "alternate_names": [
+          "FBSO"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1092,6 +1235,9 @@
       "properties": {
         "id": 61,
         "name": "Sulzbach Nord",
+        "alternate_names": [
+          "FSZN"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1109,6 +1255,9 @@
       "properties": {
         "id": 62,
         "name": "Schwalbach Limes",
+        "alternate_names": [
+          "FSTS"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1126,6 +1275,9 @@
       "properties": {
         "id": 63,
         "name": "Schwalbach Nord",
+        "alternate_names": [
+          "FSLN"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1143,6 +1295,9 @@
       "properties": {
         "id": 64,
         "name": "Niederhöchstadt",
+        "alternate_names": [
+          "FNH"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1160,6 +1315,9 @@
       "properties": {
         "id": 65,
         "name": "Eschborn",
+        "alternate_names": [
+          "FES"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1177,6 +1335,9 @@
       "properties": {
         "id": 66,
         "name": "Eschborn Süd",
+        "alternate_names": [
+          "FESS"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1194,6 +1355,9 @@
       "properties": {
         "id": 67,
         "name": "Rödelheim",
+        "alternate_names": [
+          "FRH"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1213,7 +1377,8 @@
         "name": "Westbahnhof",
         "alternate_names": [
           "Frankfurt West",
-          "West"
+          "West",
+          "FFW"
         ],
         "line": "FrankfurtS3",
         "order": 3
@@ -1230,15 +1395,16 @@
         ]
       },
       "properties": {
-        "id": 69,
+        "id": 636,
         "name": "Messe",
         "alternate_names": [
-          "Frankfurt Messe"
+          "Frankfurt Messe",
+          "FFME"
         ],
         "line": "FrankfurtS3",
         "order": 3
       },
-      "id": 69
+      "id": 636
     },
     {
       "type": "Feature",
@@ -1252,6 +1418,9 @@
       "properties": {
         "id": 70,
         "name": "Galluswarte",
+        "alternate_names": [
+          "FFGA"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1272,7 +1441,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS3",
         "order": 3
@@ -1291,6 +1462,9 @@
       "properties": {
         "id": 72,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1308,6 +1482,9 @@
       "properties": {
         "id": 73,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1325,6 +1502,9 @@
       "properties": {
         "id": 74,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1343,7 +1523,8 @@
         "id": 75,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS3",
         "order": 3
@@ -1362,6 +1543,9 @@
       "properties": {
         "id": 76,
         "name": "Lokalbahnhof",
+        "alternate_names": [
+          "FLBF"
+        ],
         "line": "FrankfurtS3",
         "order": 3
       },
@@ -1381,7 +1565,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtS3",
         "order": 3
@@ -1400,6 +1585,9 @@
       "properties": {
         "id": 78,
         "name": "Kronberg",
+        "alternate_names": [
+          "FKRO"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1417,6 +1605,9 @@
       "properties": {
         "id": 79,
         "name": "Kronberg Süd",
+        "alternate_names": [
+          "FKRS"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1434,6 +1625,9 @@
       "properties": {
         "id": 80,
         "name": "Niederhöchstadt",
+        "alternate_names": [
+          "FNH"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1451,6 +1645,9 @@
       "properties": {
         "id": 81,
         "name": "Eschborn",
+        "alternate_names": [
+          "FES"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1468,6 +1665,9 @@
       "properties": {
         "id": 82,
         "name": "Eschborn Süd",
+        "alternate_names": [
+          "FESS"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1485,6 +1685,9 @@
       "properties": {
         "id": 83,
         "name": "Rödelheim",
+        "alternate_names": [
+          "FRH"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1504,7 +1707,8 @@
         "name": "Westbahnhof",
         "alternate_names": [
           "Frankfurt West",
-          "West"
+          "West",
+          "FFW"
         ],
         "line": "FrankfurtS4",
         "order": 4
@@ -1521,15 +1725,16 @@
         ]
       },
       "properties": {
-        "id": 85,
+        "id": 637,
         "name": "Messe",
         "alternate_names": [
-          "Frankfurt Messe"
+          "Frankfurt Messe",
+          "FFME"
         ],
         "line": "FrankfurtS4",
         "order": 4
       },
-      "id": 85
+      "id": 637
     },
     {
       "type": "Feature",
@@ -1543,6 +1748,9 @@
       "properties": {
         "id": 86,
         "name": "Galluswarte",
+        "alternate_names": [
+          "FFGA"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1563,7 +1771,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS4",
         "order": 4
@@ -1582,6 +1792,9 @@
       "properties": {
         "id": 88,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1599,6 +1812,9 @@
       "properties": {
         "id": 89,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1616,6 +1832,9 @@
       "properties": {
         "id": 90,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1634,7 +1853,8 @@
         "id": 91,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS4",
         "order": 4
@@ -1653,6 +1873,9 @@
       "properties": {
         "id": 92,
         "name": "Lokalbahnhof",
+        "alternate_names": [
+          "FLBF"
+        ],
         "line": "FrankfurtS4",
         "order": 4
       },
@@ -1672,7 +1895,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtS4",
         "order": 4
@@ -1691,6 +1915,9 @@
       "properties": {
         "id": 94,
         "name": "Friedrichsdorf",
+        "alternate_names": [
+          "FFRI"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1708,6 +1935,9 @@
       "properties": {
         "id": 95,
         "name": "Seulberg",
+        "alternate_names": [
+          "FSG"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1726,7 +1956,8 @@
         "id": 96,
         "name": "Bad Homburg",
         "alternate_names": [
-          "Bad Homburg vor der Höhe"
+          "Bad Homburg vor der Höhe",
+          "FHO"
         ],
         "line": "FrankfurtS5",
         "order": 5
@@ -1746,7 +1977,8 @@
         "id": 97,
         "name": "Oberursel (Taunus)",
         "alternate_names": [
-          "Oberursel"
+          "Oberursel",
+          "FOU"
         ],
         "line": "FrankfurtS5",
         "order": 5
@@ -1765,6 +1997,9 @@
       "properties": {
         "id": 98,
         "name": "Stierstadt",
+        "alternate_names": [
+          "FOUS"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1784,7 +2019,8 @@
         "name": "Weißkirchen/Steinbach",
         "alternate_names": [
           "Weißkirchen",
-          "Steinbach"
+          "Steinbach",
+          "FWN"
         ],
         "line": "FrankfurtS5",
         "order": 5
@@ -1803,6 +2039,9 @@
       "properties": {
         "id": 100,
         "name": "Rödelheim",
+        "alternate_names": [
+          "FRH"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1822,7 +2061,8 @@
         "name": "Westbahnhof",
         "alternate_names": [
           "Frankfurt West",
-          "West"
+          "West",
+          "FFW"
         ],
         "line": "FrankfurtS5",
         "order": 5
@@ -1839,15 +2079,16 @@
         ]
       },
       "properties": {
-        "id": 102,
+        "id": 638,
         "name": "Messe",
         "alternate_names": [
-          "Frankfurt Messe"
+          "Frankfurt Messe",
+          "FFME"
         ],
         "line": "FrankfurtS5",
         "order": 5
       },
-      "id": 102
+      "id": 638
     },
     {
       "type": "Feature",
@@ -1861,6 +2102,9 @@
       "properties": {
         "id": 103,
         "name": "Galluswarte",
+        "alternate_names": [
+          "FFGA"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1881,7 +2125,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS5",
         "order": 5
@@ -1900,6 +2146,9 @@
       "properties": {
         "id": 105,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1917,6 +2166,9 @@
       "properties": {
         "id": 106,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1934,6 +2186,9 @@
       "properties": {
         "id": 107,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1952,7 +2207,8 @@
         "id": 108,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS5",
         "order": 5
@@ -1971,6 +2227,9 @@
       "properties": {
         "id": 109,
         "name": "Lokalbahnhof",
+        "alternate_names": [
+          "FLBF"
+        ],
         "line": "FrankfurtS5",
         "order": 5
       },
@@ -1990,7 +2249,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtS5",
         "order": 5
@@ -2010,7 +2270,8 @@
         "id": 139,
         "name": "Darmstadt Hauptbahnhof",
         "alternate_names": [
-          "Darmstadt Hbf"
+          "Darmstadt Hbf",
+          "FD"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -2029,6 +2290,9 @@
       "properties": {
         "id": 140,
         "name": "Darmstadt-Arheilgen",
+        "alternate_names": [
+          "FDA"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2046,6 +2310,9 @@
       "properties": {
         "id": 141,
         "name": "Darmstadt-Wixhausen",
+        "alternate_names": [
+          "FWX"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2063,6 +2330,9 @@
       "properties": {
         "id": 142,
         "name": "Erzhausen",
+        "alternate_names": [
+          "FEZS"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2080,6 +2350,9 @@
       "properties": {
         "id": 143,
         "name": "Egelsbach",
+        "alternate_names": [
+          "FEGB"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2098,7 +2371,8 @@
         "id": 111,
         "name": "Langen (Hessen)",
         "alternate_names": [
-          "Langen"
+          "Langen",
+          "FLG"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -2117,6 +2391,9 @@
       "properties": {
         "id": 112,
         "name": "Langen Flugsicherung",
+        "alternate_names": [
+          "FLGF"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2132,12 +2409,16 @@
         ]
       },
       "properties": {
-        "id": 113,
+        "id": 639,
         "name": "Dreieich-Buchschlag",
+        "alternate_names": [
+          "FBUS",
+          "FBUSS"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
-      "id": 113
+      "id": 639
     },
     {
       "type": "Feature",
@@ -2151,6 +2432,9 @@
       "properties": {
         "id": 114,
         "name": "Neu-Isenburg",
+        "alternate_names": [
+          "FNIU"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2168,6 +2452,9 @@
       "properties": {
         "id": 115,
         "name": "Louisa",
+        "alternate_names": [
+          "FLSS"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2185,6 +2472,9 @@
       "properties": {
         "id": 116,
         "name": "Stresemannallee",
+        "alternate_names": [
+          "FSTL"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2204,7 +2494,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -2223,6 +2514,9 @@
       "properties": {
         "id": 118,
         "name": "Lokalbahnhof",
+        "alternate_names": [
+          "FLBF"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2241,7 +2535,8 @@
         "id": 119,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -2260,6 +2555,9 @@
       "properties": {
         "id": 120,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2277,6 +2575,9 @@
       "properties": {
         "id": 121,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2294,6 +2595,9 @@
       "properties": {
         "id": 122,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2314,7 +2618,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -2333,6 +2639,9 @@
       "properties": {
         "id": 124,
         "name": "Galluswarte",
+        "alternate_names": [
+          "FFGA"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2348,15 +2657,16 @@
         ]
       },
       "properties": {
-        "id": 125,
+        "id": 640,
         "name": "Messe",
         "alternate_names": [
-          "Frankfurt Messe"
+          "Frankfurt Messe",
+          "FFME"
         ],
         "line": "FrankfurtS6",
         "order": 6
       },
-      "id": 125
+      "id": 640
     },
     {
       "type": "Feature",
@@ -2372,7 +2682,8 @@
         "name": "Westbahnhof",
         "alternate_names": [
           "Frankfurt West",
-          "West"
+          "West",
+          "FFW"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -2391,6 +2702,9 @@
       "properties": {
         "id": 127,
         "name": "Ginnheim",
+        "alternate_names": [
+          "FFGI"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2408,6 +2722,9 @@
       "properties": {
         "id": 128,
         "name": "Eschersheim",
+        "alternate_names": [
+          "FFES"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2425,6 +2742,9 @@
       "properties": {
         "id": 129,
         "name": "Frankfurter Berg",
+        "alternate_names": [
+          "FFBS"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2440,12 +2760,15 @@
         ]
       },
       "properties": {
-        "id": 130,
+        "id": 641,
         "name": "Berkersheim",
+        "alternate_names": [
+          "FFBK"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
-      "id": 130
+      "id": 641
     },
     {
       "type": "Feature",
@@ -2459,6 +2782,9 @@
       "properties": {
         "id": 131,
         "name": "Bad Vilbel Süd",
+        "alternate_names": [
+          "FVLS"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2476,6 +2802,9 @@
       "properties": {
         "id": 132,
         "name": "Bad Vilbel",
+        "alternate_names": [
+          "FVL"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2493,6 +2822,9 @@
       "properties": {
         "id": 133,
         "name": "Dortelweil",
+        "alternate_names": [
+          "FDW"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2510,6 +2842,9 @@
       "properties": {
         "id": 134,
         "name": "Groß Karben",
+        "alternate_names": [
+          "FGKA"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2527,6 +2862,9 @@
       "properties": {
         "id": 135,
         "name": "Okarben",
+        "alternate_names": [
+          "FOK"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2544,6 +2882,9 @@
       "properties": {
         "id": 136,
         "name": "Nieder-Wöllstadt",
+        "alternate_names": [
+          "FNRW"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2561,6 +2902,9 @@
       "properties": {
         "id": 137,
         "name": "Bruchenbrücken",
+        "alternate_names": [
+          "FBB"
+        ],
         "line": "FrankfurtS6",
         "order": 6
       },
@@ -2579,7 +2923,8 @@
         "id": 138,
         "name": "Friedberg (Hessen)",
         "alternate_names": [
-          "Friedberg"
+          "Friedberg",
+          "FFG"
         ],
         "line": "FrankfurtS6",
         "order": 6
@@ -2596,12 +2941,15 @@
         ]
       },
       "properties": {
-        "id": 144,
+        "id": 642,
         "name": "Riedstadt-Goddelau",
+        "alternate_names": [
+          "FGE"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
-      "id": 144
+      "id": 642
     },
     {
       "type": "Feature",
@@ -2615,6 +2963,9 @@
       "properties": {
         "id": 145,
         "name": "Riedstadt-Wolfskehlen",
+        "alternate_names": [
+          "FLW"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2632,6 +2983,9 @@
       "properties": {
         "id": 146,
         "name": "Groß-Gerau-Dornheim",
+        "alternate_names": [
+          "FDOH"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2649,6 +3003,9 @@
       "properties": {
         "id": 147,
         "name": "Groß-Gerau-Dornberg",
+        "alternate_names": [
+          "FDG"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2666,6 +3023,9 @@
       "properties": {
         "id": 148,
         "name": "Mörfelden",
+        "alternate_names": [
+          "FMF"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2683,6 +3043,9 @@
       "properties": {
         "id": 149,
         "name": "Walldorf",
+        "alternate_names": [
+          "FWF"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2700,6 +3063,9 @@
       "properties": {
         "id": 150,
         "name": "Zeppelinheim",
+        "alternate_names": [
+          "FZEP"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2717,6 +3083,9 @@
       "properties": {
         "id": 151,
         "name": "Stadion",
+        "alternate_names": [
+          "FSP"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2734,6 +3103,9 @@
       "properties": {
         "id": 152,
         "name": "Niederrad",
+        "alternate_names": [
+          "FNI"
+        ],
         "line": "FrankfurtS7",
         "order": 7
       },
@@ -2754,7 +3126,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS7",
         "order": 7
@@ -2774,7 +3148,8 @@
         "id": 154,
         "name": "Wiesbaden Hauptbahnhof",
         "alternate_names": [
-          "Wiesbaden Hbf"
+          "Wiesbaden Hbf",
+          "FW"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -2793,6 +3168,9 @@
       "properties": {
         "id": 155,
         "name": "Wiesbaden Ost",
+        "alternate_names": [
+          "FWO"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2810,6 +3188,9 @@
       "properties": {
         "id": 156,
         "name": "Mainz Nord",
+        "alternate_names": [
+          "FMN"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2828,7 +3209,8 @@
         "id": 157,
         "name": "Mainz Hauptbahnhof",
         "alternate_names": [
-          "Mainz Hbf"
+          "Mainz Hbf",
+          "FMZ"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -2847,6 +3229,9 @@
       "properties": {
         "id": 158,
         "name": "Mainz Römisches Theater",
+        "alternate_names": [
+          "FMS"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2864,6 +3249,9 @@
       "properties": {
         "id": 159,
         "name": "Mainz-Gustavsburg",
+        "alternate_names": [
+          "FMG"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2881,6 +3269,9 @@
       "properties": {
         "id": 160,
         "name": "Mainz-Bischofsheim",
+        "alternate_names": [
+          "FMB"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2899,7 +3290,8 @@
         "id": 161,
         "name": "Rüsselsheim Opelwerk",
         "alternate_names": [
-          "Opelwerk"
+          "Opelwerk",
+          "FRUO"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -2918,6 +3310,9 @@
       "properties": {
         "id": 162,
         "name": "Rüsselsheim",
+        "alternate_names": [
+          "FRUE"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2935,6 +3330,9 @@
       "properties": {
         "id": 163,
         "name": "Raunheim",
+        "alternate_names": [
+          "FRA"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2952,6 +3350,9 @@
       "properties": {
         "id": 164,
         "name": "Kelsterbach",
+        "alternate_names": [
+          "FKCH"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -2971,7 +3372,8 @@
         "name": "Flughafen Regionalbahnhof",
         "alternate_names": [
           "Flughafen",
-          "Frankfurt Flughafen"
+          "Frankfurt Flughafen",
+          "FFLU"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -2990,6 +3392,9 @@
       "properties": {
         "id": 166,
         "name": "Gateway Gardens",
+        "alternate_names": [
+          "FFGG"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3007,6 +3412,9 @@
       "properties": {
         "id": 167,
         "name": "Stadion",
+        "alternate_names": [
+          "FSP"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3024,6 +3432,9 @@
       "properties": {
         "id": 168,
         "name": "Niederrad",
+        "alternate_names": [
+          "FNI"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3044,7 +3455,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3063,6 +3476,9 @@
       "properties": {
         "id": 170,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3080,6 +3496,9 @@
       "properties": {
         "id": 171,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3097,6 +3516,9 @@
       "properties": {
         "id": 172,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3115,7 +3537,8 @@
         "id": 173,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3134,6 +3557,9 @@
       "properties": {
         "id": 174,
         "name": "Mühlberg",
+        "alternate_names": [
+          "FMUL"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3152,7 +3578,8 @@
         "id": 175,
         "name": "Offenbach Kaiserlei",
         "alternate_names": [
-          "Kaiserlei"
+          "Kaiserlei",
+          "FOKL"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3172,7 +3599,8 @@
         "id": 176,
         "name": "Offenbach Ledermuseum",
         "alternate_names": [
-          "Ledermuseum"
+          "Ledermuseum",
+          "FOLM"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3192,7 +3620,8 @@
         "id": 177,
         "name": "Offenbach Marktplatz",
         "alternate_names": [
-          "Marktplatz"
+          "Marktplatz",
+          "FOMP"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3211,6 +3640,9 @@
       "properties": {
         "id": 178,
         "name": "Offenbach Ost",
+        "alternate_names": [
+          "FOO"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3229,7 +3661,8 @@
         "id": 179,
         "name": "Mühlheim (Main)",
         "alternate_names": [
-          "Mühlheim"
+          "Mühlheim",
+          "FMH"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3248,6 +3681,9 @@
       "properties": {
         "id": 180,
         "name": "Mühlheim-Dietesheim",
+        "alternate_names": [
+          "FMHD"
+        ],
         "line": "FrankfurtS8",
         "order": 8
       },
@@ -3266,7 +3702,8 @@
         "id": 181,
         "name": "Steinheim (Main)",
         "alternate_names": [
-          "Steinheim"
+          "Steinheim",
+          "FSHM"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3286,7 +3723,8 @@
         "id": 182,
         "name": "Hanau Hauptbahnhof",
         "alternate_names": [
-          "Hanau Hbf"
+          "Hanau Hbf",
+          "FH"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -3306,7 +3744,8 @@
         "id": 183,
         "name": "Wiesbaden Hauptbahnhof",
         "alternate_names": [
-          "Wiesbaden Hbf"
+          "Wiesbaden Hbf",
+          "FW"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3325,6 +3764,9 @@
       "properties": {
         "id": 184,
         "name": "Wiesbaden Ost",
+        "alternate_names": [
+          "FWO"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3342,6 +3784,9 @@
       "properties": {
         "id": 185,
         "name": "Mainz-Kastel",
+        "alternate_names": [
+          "FMK"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3359,6 +3804,9 @@
       "properties": {
         "id": 186,
         "name": "Mainz-Bischofsheim",
+        "alternate_names": [
+          "FMB"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3377,7 +3825,8 @@
         "id": 187,
         "name": "Rüsselsheim Opelwerk",
         "alternate_names": [
-          "Opelwerk"
+          "Opelwerk",
+          "FRUO"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3396,6 +3845,9 @@
       "properties": {
         "id": 188,
         "name": "Rüsselsheim",
+        "alternate_names": [
+          "FRUE"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3413,6 +3865,9 @@
       "properties": {
         "id": 189,
         "name": "Raunheim",
+        "alternate_names": [
+          "FRA"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3430,6 +3885,9 @@
       "properties": {
         "id": 190,
         "name": "Kelsterbach",
+        "alternate_names": [
+          "FKCH"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3449,7 +3907,8 @@
         "name": "Flughafen Regionalbahnhof",
         "alternate_names": [
           "Flughafen",
-          "Frankfurt Flughafen"
+          "Frankfurt Flughafen",
+          "FFLU"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3468,6 +3927,9 @@
       "properties": {
         "id": 192,
         "name": "Gateway Gardens",
+        "alternate_names": [
+          "FFGG"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3485,6 +3947,9 @@
       "properties": {
         "id": 193,
         "name": "Stadion",
+        "alternate_names": [
+          "FSP"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3502,6 +3967,9 @@
       "properties": {
         "id": 194,
         "name": "Niederrad",
+        "alternate_names": [
+          "FNI"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3522,7 +3990,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3541,6 +4011,9 @@
       "properties": {
         "id": 196,
         "name": "Taunusanlage",
+        "alternate_names": [
+          "FFTA"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3558,6 +4031,9 @@
       "properties": {
         "id": 197,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3575,6 +4051,9 @@
       "properties": {
         "id": 198,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3593,7 +4072,8 @@
         "id": 199,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3612,6 +4092,9 @@
       "properties": {
         "id": 200,
         "name": "Mühlberg",
+        "alternate_names": [
+          "FMUL"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3630,7 +4113,8 @@
         "id": 201,
         "name": "Offenbach Kaiserlei",
         "alternate_names": [
-          "Kaiserlei"
+          "Kaiserlei",
+          "FOKL"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3650,7 +4134,8 @@
         "id": 202,
         "name": "Offenbach Ledermuseum",
         "alternate_names": [
-          "Ledermuseum"
+          "Ledermuseum",
+          "FOLM"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3670,7 +4155,8 @@
         "id": 203,
         "name": "Offenbach Marktplatz",
         "alternate_names": [
-          "Marktplatz"
+          "Marktplatz",
+          "FOMP"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3689,6 +4175,9 @@
       "properties": {
         "id": 204,
         "name": "Offenbach Ost",
+        "alternate_names": [
+          "FOO"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3707,7 +4196,8 @@
         "id": 205,
         "name": "Mühlheim (Main)",
         "alternate_names": [
-          "Mühlheim"
+          "Mühlheim",
+          "FMH"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3726,6 +4216,9 @@
       "properties": {
         "id": 206,
         "name": "Mühlheim-Dietesheim",
+        "alternate_names": [
+          "FMHD"
+        ],
         "line": "FrankfurtS9",
         "order": 9
       },
@@ -3744,7 +4237,8 @@
         "id": 207,
         "name": "Steinheim (Main)",
         "alternate_names": [
-          "Steinheim"
+          "Steinheim",
+          "FSHM"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -3764,7 +4258,8 @@
         "id": 208,
         "name": "Hanau Hauptbahnhof",
         "alternate_names": [
-          "Hanau Hbf"
+          "Hanau Hbf",
+          "FH"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -4074,6 +4569,9 @@
       "properties": {
         "id": 225,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtU1",
         "order": 10
       },
@@ -4127,7 +4625,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtU1",
         "order": 10
@@ -4452,6 +4951,9 @@
       "properties": {
         "id": 246,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtU2",
         "order": 11
       },
@@ -4505,7 +5007,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtU2",
         "order": 11
@@ -4607,7 +5110,7 @@
         ]
       },
       "properties": {
-        "id": 255,
+        "id": 643,
         "name": "Lahnstraße",
         "alternate_names": [
           "Lahnstr"
@@ -4615,7 +5118,7 @@
         "line": "FrankfurtU3",
         "order": 12
       },
-      "id": 255
+      "id": 643
     },
     {
       "type": "Feature",
@@ -4682,12 +5185,12 @@
         ]
       },
       "properties": {
-        "id": 259,
+        "id": 644,
         "name": "Bommersheim",
         "line": "FrankfurtU3",
         "order": 12
       },
-      "id": 259
+      "id": 644
     },
     {
       "type": "Feature",
@@ -4952,6 +5455,9 @@
       "properties": {
         "id": 274,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtU3",
         "order": 12
       },
@@ -5005,7 +5511,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtU3",
         "order": 12
@@ -5064,7 +5571,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtU4",
         "order": 13
@@ -5121,6 +5630,9 @@
       "properties": {
         "id": 283,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtU4",
         "order": 13
       },
@@ -5494,6 +6006,9 @@
       "properties": {
         "id": 296,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtU5",
         "order": 14
       },
@@ -5552,7 +6067,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtU5",
         "order": 14
@@ -5713,6 +6230,9 @@
       "properties": {
         "id": 315,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtU6",
         "order": 15
       },
@@ -5730,6 +6250,9 @@
       "properties": {
         "id": 316,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtU6",
         "order": 15
       },
@@ -5963,6 +6486,9 @@
       "properties": {
         "id": 331,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtU7",
         "order": 16
       },
@@ -5980,6 +6506,9 @@
       "properties": {
         "id": 330,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtU7",
         "order": 16
       },
@@ -6461,6 +6990,9 @@
       "properties": {
         "id": 357,
         "name": "Hauptwache",
+        "alternate_names": [
+          "FHAU"
+        ],
         "line": "FrankfurtU8",
         "order": 17
       },
@@ -6514,7 +7046,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtU8",
         "order": 17
@@ -6991,6 +7524,9 @@
       "properties": {
         "id": 386,
         "name": "Galluswarte",
+        "alternate_names": [
+          "FFGA"
+        ],
         "line": "FrankfurtTram11",
         "order": 19
       },
@@ -7065,7 +7601,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtTram11",
         "order": 19
@@ -7235,7 +7773,8 @@
         "id": 399,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtTram11",
         "order": 19
@@ -7553,8 +8092,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5945914,
-          50.0810429
+          8.5948018,
+          50.0810211
         ]
       },
       "properties": {
@@ -7645,6 +8184,9 @@
       "properties": {
         "id": 442,
         "name": "Niederrad",
+        "alternate_names": [
+          "FNI"
+        ],
         "line": "FrankfurtTram12",
         "order": 20
       },
@@ -7756,8 +8298,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6603489,
-          50.0963263
+          8.6596605,
+          50.09607
         ]
       },
       "properties": {
@@ -7947,6 +8489,9 @@
       "properties": {
         "id": 426,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtTram12",
         "order": 20
       },
@@ -8277,6 +8822,9 @@
       "properties": {
         "id": 455,
         "name": "Galluswarte",
+        "alternate_names": [
+          "FFGA"
+        ],
         "line": "FrankfurtTram14",
         "order": 21
       },
@@ -8351,7 +8899,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtTram14",
         "order": 21
@@ -8521,7 +9071,8 @@
         "id": 468,
         "name": "Ostendstraße",
         "alternate_names": [
-          "Ostendstr"
+          "Ostendstr",
+          "FOST"
         ],
         "line": "FrankfurtTram14",
         "order": 21
@@ -8779,6 +9330,9 @@
       "properties": {
         "id": 491,
         "name": "Mühlberg",
+        "alternate_names": [
+          "FMUL"
+        ],
         "line": "FrankfurtTram15",
         "order": 22
       },
@@ -8816,6 +9370,9 @@
       "properties": {
         "id": 489,
         "name": "Lokalbahnhof",
+        "alternate_names": [
+          "FLBF"
+        ],
         "line": "FrankfurtTram15",
         "order": 22
       },
@@ -8866,8 +9423,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6858249,
-          50.0999534
+          8.6855118,
+          50.09985
         ]
       },
       "properties": {
@@ -8875,7 +9432,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtTram15",
         "order": 22
@@ -8887,8 +9445,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.681209,
-          50.1011645
+          8.6815344,
+          50.1008256
         ]
       },
       "properties": {
@@ -8907,8 +9465,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6792986,
-          50.1032305
+          8.679772,
+          50.1031023
         ]
       },
       "properties": {
@@ -8981,8 +9539,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6603489,
-          50.0963263
+          8.6596605,
+          50.09607
         ]
       },
       "properties": {
@@ -9254,6 +9812,9 @@
       "properties": {
         "id": 522,
         "name": "Mühlberg",
+        "alternate_names": [
+          "FMUL"
+        ],
         "line": "FrankfurtTram16",
         "order": 23
       },
@@ -9291,6 +9852,9 @@
       "properties": {
         "id": 520,
         "name": "Lokalbahnhof",
+        "alternate_names": [
+          "FLBF"
+        ],
         "line": "FrankfurtTram16",
         "order": 23
       },
@@ -9341,8 +9905,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6858249,
-          50.0999534
+          8.6855118,
+          50.09985
         ]
       },
       "properties": {
@@ -9350,7 +9914,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtTram16",
         "order": 23
@@ -9362,8 +9927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.681209,
-          50.1011645
+          8.6815344,
+          50.1008256
         ]
       },
       "properties": {
@@ -9382,8 +9947,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6792986,
-          50.1032305
+          8.679772,
+          50.1031023
         ]
       },
       "properties": {
@@ -9463,7 +10028,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtTram16",
         "order": 23
@@ -9718,6 +10285,9 @@
       "properties": {
         "id": 545,
         "name": "Louisa",
+        "alternate_names": [
+          "FLSS"
+        ],
         "line": "FrankfurtTram17",
         "order": 24
       },
@@ -9755,6 +10325,9 @@
       "properties": {
         "id": 543,
         "name": "Stresemannallee",
+        "alternate_names": [
+          "FSTL"
+        ],
         "line": "FrankfurtTram17",
         "order": 24
       },
@@ -9809,7 +10382,9 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtTram17",
         "order": 24
@@ -10209,6 +10784,9 @@
       "properties": {
         "id": 559,
         "name": "Konstablerwache",
+        "alternate_names": [
+          "FKON"
+        ],
         "line": "FrankfurtTram18",
         "order": 25
       },
@@ -10280,6 +10858,9 @@
       "properties": {
         "id": 563,
         "name": "Lokalbahnhof",
+        "alternate_names": [
+          "FLBF"
+        ],
         "line": "FrankfurtTram18",
         "order": 25
       },
@@ -10330,8 +10911,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6858249,
-          50.0999534
+          8.6855118,
+          50.09985
         ]
       },
       "properties": {
@@ -10339,7 +10920,8 @@
         "name": "Südbahnhof",
         "alternate_names": [
           "Frankfurt Süd",
-          "Süd"
+          "Süd",
+          "FFS"
         ],
         "line": "FrankfurtTram18",
         "order": 25
@@ -10351,8 +10933,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.681209,
-          50.1011645
+          8.6815344,
+          50.1008256
         ]
       },
       "properties": {
@@ -10371,8 +10953,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6792986,
-          50.1032305
+          8.679772,
+          50.1031023
         ]
       },
       "properties": {
@@ -10408,8 +10990,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6692209,
-          50.0990195
+          8.6693475,
+          50.0995363
         ]
       },
       "properties": {
@@ -10432,6 +11014,9 @@
       "properties": {
         "id": 571,
         "name": "Stresemannallee",
+        "alternate_names": [
+          "FSTL"
+        ],
         "line": "FrankfurtTram18",
         "order": 25
       },
@@ -10482,378 +11067,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5814124,
-          50.082324
-        ]
-      },
-      "properties": {
-        "id": 574,
-        "name": "Rheinlandstraße",
-        "alternate_names": [
-          "Rheinlandstr"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 574
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5880526,
-          50.0826441
-        ]
-      },
-      "properties": {
-        "id": 575,
-        "name": "Ferdinand-Dirichs-Weg",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 575
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5945914,
-          50.0810429
-        ]
-      },
-      "properties": {
-        "id": 576,
-        "name": "Harthweg",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 576
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6038934,
-          50.0768343
-        ]
-      },
-      "properties": {
-        "id": 577,
-        "name": "Waldfriedhof Goldstein",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 577
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6103062,
-          50.0770069
-        ]
-      },
-      "properties": {
-        "id": 578,
-        "name": "Waldau",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 578
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6176289,
-          50.0764907
-        ]
-      },
-      "properties": {
-        "id": 579,
-        "name": "Kiesschneise",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 579
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6280763,
-          50.0780281
-        ]
-      },
-      "properties": {
-        "id": 580,
-        "name": "Bürostadt Niederrad",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 580
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.63716,
-          50.0808012
-        ]
-      },
-      "properties": {
-        "id": 581,
-        "name": "Niederrad",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 581
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.639611,
-          50.0816854
-        ]
-      },
-      "properties": {
-        "id": 582,
-        "name": "Melibocusstraße",
-        "alternate_names": [
-          "Melibocusstr"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 582
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6451226,
-          50.0839592
-        ]
-      },
-      "properties": {
-        "id": 583,
-        "name": "Gerauer Straße",
-        "alternate_names": [
-          "Gerauer Str"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 583
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6505202,
-          50.0870822
-        ]
-      },
-      "properties": {
-        "id": 584,
-        "name": "Triftstraße",
-        "alternate_names": [
-          "Triftstr"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 584
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6513363,
-          50.0882841
-        ]
-      },
-      "properties": {
-        "id": 585,
-        "name": "Niederräder Landstraße",
-        "alternate_names": [
-          "Niederräder Landstr"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 585
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6530645,
-          50.0921305
-        ]
-      },
-      "properties": {
-        "id": 586,
-        "name": "Heinrich-Hoffmann-Straße/Blutspendedienst",
-        "alternate_names": [
-          "Heinrich-Hoffmann-Straße",
-          "Heinrich-Hoffmann-Str/Blutspendedienst"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 586
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6603489,
-          50.0963263
-        ]
-      },
-      "properties": {
-        "id": 587,
-        "name": "Universitätsklinikum",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 587
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6651832,
-          50.0976056
-        ]
-      },
-      "properties": {
-        "id": 588,
-        "name": "Vogelweidstraße",
-        "alternate_names": [
-          "Vogelweidstr"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 588
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6692209,
-          50.0990195
-        ]
-      },
-      "properties": {
-        "id": 589,
-        "name": "Friedensbrücke",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 589
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6756495,
-          50.1018267
-        ]
-      },
-      "properties": {
-        "id": 590,
-        "name": "Otto-Hahn-Platz",
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 590
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6792986,
-          50.1032305
-        ]
-      },
-      "properties": {
-        "id": 591,
-        "name": "Schweizer-/Gartenstraße",
-        "alternate_names": [
-          "Schweizer-/Gartenstr"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 591
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.681209,
-          50.1011645
-        ]
-      },
-      "properties": {
-        "id": 592,
-        "name": "Schwanthalerstraße",
-        "alternate_names": [
-          "Schwanthalerstr"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 592
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6858249,
-          50.0999534
-        ]
-      },
-      "properties": {
-        "id": 593,
-        "name": "Südbahnhof",
-        "alternate_names": [
-          "Frankfurt Süd",
-          "Süd"
-        ],
-        "line": "FrankfurtTram19",
-        "order": 26
-      },
-      "id": 593
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.6616505,
           50.108965
         ]
@@ -10862,7 +11075,7 @@
         "id": 594,
         "name": "Platz der Republik",
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 594
     },
@@ -10881,10 +11094,12 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 595
     },
@@ -10901,7 +11116,7 @@
         "id": 596,
         "name": "Baseler Platz",
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 596
     },
@@ -10918,7 +11133,7 @@
         "id": 597,
         "name": "Friedensbrücke",
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 597
     },
@@ -10938,7 +11153,7 @@
           "Vogelweidstr"
         ],
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 598
     },
@@ -10947,15 +11162,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6603489,
-          50.0963263
+          8.6596605,
+          50.09607
         ]
       },
       "properties": {
         "id": 599,
         "name": "Universitätsklinikum",
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 599
     },
@@ -10976,7 +11191,7 @@
           "Heinrich-Hoffmann-Str/Blutspendedienst"
         ],
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 600
     },
@@ -10996,7 +11211,7 @@
           "Niederräder Landstr"
         ],
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 601
     },
@@ -11016,7 +11231,7 @@
           "Triftstr"
         ],
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 602
     },
@@ -11033,7 +11248,7 @@
         "id": 603,
         "name": "DFB-Campus",
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 603
     },
@@ -11050,7 +11265,7 @@
         "id": 604,
         "name": "Oberforsthaus",
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 604
     },
@@ -11066,8 +11281,11 @@
       "properties": {
         "id": 605,
         "name": "Stadion",
+        "alternate_names": [
+          "FSP"
+        ],
         "line": "FrankfurtTram20",
-        "order": 27
+        "order": 26
       },
       "id": 605
     },
@@ -11083,8 +11301,11 @@
       "properties": {
         "id": 630,
         "name": "Stadion",
+        "alternate_names": [
+          "FSP"
+        ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 630
     },
@@ -11101,7 +11322,7 @@
         "id": 629,
         "name": "Oberforsthaus",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 629
     },
@@ -11118,7 +11339,7 @@
         "id": 628,
         "name": "DFB-Campus",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 628
     },
@@ -11138,7 +11359,7 @@
           "Triftstr"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 627
     },
@@ -11158,7 +11379,7 @@
           "Niederräder Landstr"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 626
     },
@@ -11179,7 +11400,7 @@
           "Heinrich-Hoffmann-Str/Blutspendedienst"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 625
     },
@@ -11188,15 +11409,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6603489,
-          50.0963263
+          8.6596605,
+          50.09607
         ]
       },
       "properties": {
         "id": 624,
         "name": "Universitätsklinikum",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 624
     },
@@ -11216,7 +11437,7 @@
           "Vogelweidstr"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 623
     },
@@ -11233,7 +11454,7 @@
         "id": 622,
         "name": "Friedensbrücke",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 622
     },
@@ -11250,7 +11471,7 @@
         "id": 621,
         "name": "Baseler Platz",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 621
     },
@@ -11269,10 +11490,12 @@
         "alternate_names": [
           "Frankfurt Hauptbahnhof",
           "Frankfurt Hbf",
-          "Hbf"
+          "Hbf",
+          "FFT",
+          "FF"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 620
     },
@@ -11289,7 +11512,7 @@
         "id": 619,
         "name": "Platz der Republik",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 619
     },
@@ -11306,7 +11529,7 @@
         "id": 618,
         "name": "Güterplatz",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 618
     },
@@ -11326,7 +11549,7 @@
           "Speyerer Str"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 617
     },
@@ -11342,8 +11565,11 @@
       "properties": {
         "id": 616,
         "name": "Galluswarte",
+        "alternate_names": [
+          "FFGA"
+        ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 616
     },
@@ -11363,7 +11589,7 @@
           "Schwalbacher Str"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 615
     },
@@ -11383,7 +11609,7 @@
           "Rebstöcker Str"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 614
     },
@@ -11403,7 +11629,7 @@
           "Wickerer Str"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 613
     },
@@ -11423,7 +11649,7 @@
           "Mönchhofstr"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 612
     },
@@ -11443,7 +11669,7 @@
           "Waldschulstr"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 611
     },
@@ -11460,7 +11686,7 @@
         "id": 610,
         "name": "Linnegraben",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 610
     },
@@ -11477,7 +11703,7 @@
         "id": 609,
         "name": "Jägerallee",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 609
     },
@@ -11497,7 +11723,7 @@
           "Birminghamstr"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 608
     },
@@ -11517,7 +11743,7 @@
           "Luthmerstr"
         ],
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 607
     },
@@ -11534,7 +11760,7 @@
         "id": 606,
         "name": "Nied Kirche",
         "line": "FrankfurtTram21",
-        "order": 28
+        "order": 27
       },
       "id": 606
     }
@@ -11567,10 +11793,9 @@
       "FrankfurtTram16": 30,
       "FrankfurtTram17": 18,
       "FrankfurtTram18": 26,
-      "FrankfurtTram19": 20,
       "FrankfurtTram20": 12,
       "FrankfurtTram21": 25
     },
-    "nextStationId": 631
+    "nextStationId": 645
   }
 }

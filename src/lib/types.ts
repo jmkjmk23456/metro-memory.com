@@ -40,6 +40,7 @@ export interface Line {
 
 export interface Config {
   MAP_FROM_DATA?: boolean
+  HIDE_BASEMAP_LABELS?: boolean
   GAUGE_COLORS?: 'inverted' | 'default'
   LOCALE: string
   CITY_NAME: string

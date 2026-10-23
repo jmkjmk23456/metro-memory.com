@@ -136,7 +136,8 @@ function isDefined<T>(arg: T): arg is Exclude<T, null | undefined> {
 
 const main = async () => {
   const data = Bun.file(path.join(__dirname, './source.json'))
-  const { lines, nodes, ways } = (await data.json()) as SourceJson
+  const { lines, nodes, ways, railwayStations } =
+    (await data.json()) as SourceJson
 
   // unify station names (OSM names differ between S-Bahn, U-Bahn and tram stops)
   for (const node of nodes) {
@@ -188,7 +189,8 @@ const main = async () => {
     }
   >()
   // lines keep the order of the config (S-Bahn, U-Bahn, tram)
-  const sortedLineIds = Object.entries(linesMetadata).map(([lineId, lineMetadata], ix, arr): string => {
+  const sortedLineIds = Object.entries(linesMetadata).map(
+    ([lineId, lineMetadata], ix, arr): string => {
       const numLines = arr.length
       augmentedLinesMetadataMap.set(lineId, {
         ...lineMetadata,
@@ -197,7 +199,8 @@ const main = async () => {
         latLonOffset: (ix / (numLines - 1) - 0.5) * 0.000_015,
       })
       return lineId
-    })
+    },
+  )
 
   console.debug(`Writing ${sortedLineIds.length} lines to lines.json ...`)
   Bun.write(
@@ -379,17 +382,51 @@ const main = async () => {
         }`,
       )
     }
-    // same name far apart usually means two different stations got merged by name
+    const distanceKm = (
+      a: { lat: number; lon: number },
+      b: { lat: number; lon: number },
+    ) =>
+      Math.hypot(
+        (a.lat - b.lat) * 111,
+        (a.lon - b.lon) * 111 * Math.cos((a.lat * Math.PI) / 180),
+      )
     for (const station of stationSortedAtoZ) {
-      const { lat, lon } = station.coords[0]
+      // S-Bahn stations can also be entered by their DS100 code (e.g. "FF")
+      const sBahnCoords = station.coords.filter((coords) =>
+        [...coords.lineIds.keys()].some((lineId) =>
+          linesMetadata[lineId].name.startsWith('S'),
+        ),
+      )
+      const nearbyRailwayStations = railwayStations
+        .map((railwayStation) => ({
+          ...railwayStation,
+          distance: Math.min(
+            ...sBahnCoords.map((c) => distanceKm(c, railwayStation)),
+          ),
+        }))
+        .filter((railwayStation) => railwayStation.distance < 0.4)
+        .sort((s1, s2) => s1.distance - s2.distance)
+      // prefer stations with the same (renamed) name, otherwise take the nearest one
+      const sameName = nearbyRailwayStations.filter(
+        (railwayStation) =>
+          railwayStation.name &&
+          (renamedStations[railwayStation.name] ?? railwayStation.name) ===
+            station.name,
+      )
+      for (const railwayStation of sameName.length > 0
+        ? sameName
+        : nearbyRailwayStations.slice(0, 1)) {
+        station.alternateNames.push(...railwayStation.ds100)
+      }
+
+      // same name far apart usually means two different stations got merged by name
       for (const coords of station.coords) {
-        const distanceKm = Math.hypot(
-          (coords.lat - lat) * 111,
-          (coords.lon - lon) * 111 * Math.cos((lat * Math.PI) / 180),
-        )
-        if (distanceKm > 1.5) {
+        const distance = distanceKm(station.coords[0], coords)
+        if (distance > 1.5) {
           console.debug(
-            ` *** Warning: Station ${station.name} has nodes ${distanceKm.toFixed(1)} km apart ***`,
+            ` *** Warning: Station ${station.name} has nodes ${distance.toFixed(
+              1,
+            )} km apart ***`,
           )
           break
         }
@@ -551,10 +588,7 @@ const main = async () => {
   }
 
   console.debug(`Writing ${routes.features.length} paths to routes.json ...`)
-  Bun.write(
-    path.join(__dirname, './routes.json'),
-    JSON.stringify(routes),
-  )
+  Bun.write(path.join(__dirname, './routes.json'), JSON.stringify(routes))
 
   // line icons: S-Bahn as pill, U-Bahn as square, tram as rounded square
   console.debug(`Writing ${sortedLineIds.length} line icons ...`)
@@ -564,14 +598,16 @@ const main = async () => {
     const shape = name.startsWith('S')
       ? `<rect x="10" y="117" width="455" height="241" rx="120" fill="${color}"/>`
       : name.startsWith('U')
-        ? `<rect x="40" y="40" width="395" height="395" fill="${color}"/>`
-        : `<rect x="18" y="18" width="439" height="439" rx="72" fill="${color}"/>`
+      ? `<rect x="40" y="40" width="395" height="395" fill="${color}"/>`
+      : `<rect x="18" y="18" width="439" height="439" rx="72" fill="${color}"/>`
     const fontSize = name.length > 2 ? 170 : 210
     Bun.write(
       path.join(__dirname, `../../../../../public/images/${lineId}.svg`),
       `<svg xmlns="http://www.w3.org/2000/svg" width="475" height="475" viewBox="0 0 475 475">
   ${shape}
-  <text x="237.5" y="${237.5 + fontSize * 0.36}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="${fontSize}" font-weight="700" fill="${textColor}">${name}</text>
+  <text x="237.5" y="${
+    237.5 + fontSize * 0.36
+  }" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="${fontSize}" font-weight="700" fill="${textColor}">${name}</text>
 </svg>
 `,
     )

@@ -63,6 +63,8 @@ async function getOsmElements(relationIds: number[]) {
     .routes out body;
     node(r.routes)->.stops;
     .stops out body;
+    node(around.stops:600)["railway"~"^(station|halt)$"]["railway:ref"]["station"!~"^(subway|light_rail)$"];
+    out body;
     way(r.routes)->.ways;
     .ways out body;
     node(w.ways);
@@ -72,18 +74,34 @@ async function getOsmElements(relationIds: number[]) {
   const relations = new Map<number, OsmMember[]>()
   const ways = new Map<number, number[]>()
   const nodes = new Map<number, SourceJson['nodes'][number]>()
+  const railwayStations = new Map<
+    number,
+    SourceJson['railwayStations'][number]
+  >()
   for (const element of elements) {
     if (element.type === 'relation') relations.set(element.id, element.members)
     else if (element.type === 'way') ways.set(element.id, element.nodes)
-    else if (element.type === 'node' && !nodes.get(element.id)?.name)
-      nodes.set(element.id, {
-        nodeId: element.id,
-        name: element.tags?.name,
-        lat: element.lat,
-        lon: element.lon,
-      })
+    else if (element.type === 'node') {
+      if (!nodes.get(element.id)?.name)
+        nodes.set(element.id, {
+          nodeId: element.id,
+          name: element.tags?.name,
+          lat: element.lat,
+          lon: element.lon,
+        })
+      const { railway, 'railway:ref': ref } = element.tags ?? {}
+      if (ref && (railway === 'station' || railway === 'halt'))
+        // DS100 codes of railway stations, e.g. "FF" for Frankfurt Hbf
+        railwayStations.set(element.id, {
+          nodeId: element.id,
+          name: element.tags!.name,
+          ds100: ref.split(';').map((code) => code.trim()),
+          lat: element.lat,
+          lon: element.lon,
+        })
+    }
   }
-  return { relations, ways, nodes }
+  return { relations, ways, nodes, railwayStations }
 }
 
 /**
@@ -123,7 +141,9 @@ const main = async () => {
       Object.keys(linesMetadata).length
     } lines from Overpass ...`,
   )
-  const { relations, ways, nodes } = await getOsmElements(allRelationIds)
+  const { relations, ways, nodes, railwayStations } = await getOsmElements(
+    allRelationIds,
+  )
   console.debug(
     `Fetched ${relations.size} relations, ${ways.size} ways, ${nodes.size} nodes`,
   )
@@ -167,6 +187,7 @@ const main = async () => {
     nodes: [...usedNodeIds]
       .filter((nodeId) => nodes.has(nodeId))
       .map((nodeId) => nodes.get(nodeId)!),
+    railwayStations: [...railwayStations.values()],
   }
   console.debug(
     `Saving ${sourceData.ways.length} ways and ${sourceData.nodes.length} nodes ...`,

@@ -33,8 +33,14 @@ export default function GamePage({
   routes?: RoutesFeatureCollection
   callout?: React.ReactNode
 }) {
-  const { BEG_THRESHOLD, CITY_NAME, MAP_CONFIG, LINES, MAP_FROM_DATA } =
-    useConfig()
+  const {
+    BEG_THRESHOLD,
+    CITY_NAME,
+    MAP_CONFIG,
+    LINES,
+    MAP_FROM_DATA,
+    HIDE_BASEMAP_LABELS,
+  } = useConfig()
   const { t } = useTranslation()
 
   const normalizeString = useNormalizeString()
@@ -167,6 +173,15 @@ export default function GamePage({
     const mapboxMap = new mapboxgl.Map(MAP_CONFIG)
 
     mapboxMap.on('load', () => {
+      if (HIDE_BASEMAP_LABELS) {
+        // street, place and transit labels of the base style would reveal station names
+        for (const layer of mapboxMap.getStyle().layers) {
+          if (layer.type === 'symbol') {
+            mapboxMap.setLayoutProperty(layer.id, 'visibility', 'none')
+          }
+        }
+      }
+
       mapboxMap.addSource('features', {
         type: 'geojson',
         data: fc,
@@ -412,7 +427,15 @@ export default function GamePage({
     return () => {
       mapboxMap.remove()
     }
-  }, [setMap, fc, LINES, MAP_CONFIG, MAP_FROM_DATA, routes])
+  }, [
+    setMap,
+    fc,
+    LINES,
+    MAP_CONFIG,
+    MAP_FROM_DATA,
+    HIDE_BASEMAP_LABELS,
+    routes,
+  ])
 
   useEffect(() => {
     if (!map) {

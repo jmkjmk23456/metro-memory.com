@@ -127,72 +127,65 @@
   },
   "FrankfurtTram11": {
     "name": "11",
-    "color": "#9C1C26",
-    "backgroundColor": "#4E0E13",
+    "color": "#FDC300",
+    "backgroundColor": "#7F6200",
     "textColor": "#FFFFFF",
     "order": 19
   },
   "FrankfurtTram12": {
     "name": "12",
-    "color": "#7A4E9C",
-    "backgroundColor": "#3D274E",
+    "color": "#C54409",
+    "backgroundColor": "#632204",
     "textColor": "#FFFFFF",
     "order": 20
   },
   "FrankfurtTram14": {
     "name": "14",
-    "color": "#2F8F83",
-    "backgroundColor": "#184842",
+    "color": "#E94E0F",
+    "backgroundColor": "#752708",
     "textColor": "#FFFFFF",
     "order": 21
   },
   "FrankfurtTram15": {
     "name": "15",
-    "color": "#D0711E",
-    "backgroundColor": "#68390F",
+    "color": "#FDC300",
+    "backgroundColor": "#7F6200",
     "textColor": "#FFFFFF",
     "order": 22
   },
   "FrankfurtTram16": {
     "name": "16",
-    "color": "#5C8F2E",
-    "backgroundColor": "#2E4817",
+    "color": "#EF7D00",
+    "backgroundColor": "#773E00",
     "textColor": "#FFFFFF",
     "order": 23
   },
   "FrankfurtTram17": {
     "name": "17",
-    "color": "#C2185B",
-    "backgroundColor": "#610C2D",
+    "color": "#E94E0F",
+    "backgroundColor": "#752708",
     "textColor": "#FFFFFF",
     "order": 24
   },
   "FrankfurtTram18": {
     "name": "18",
-    "color": "#1F6FB2",
-    "backgroundColor": "#103859",
+    "color": "#F7A600",
+    "backgroundColor": "#7C5300",
     "textColor": "#FFFFFF",
     "order": 25
   },
-  "FrankfurtTram19": {
-    "name": "19",
-    "color": "#8D6E63",
-    "backgroundColor": "#463731",
+  "FrankfurtTram20": {
+    "name": "20",
+    "color": "#F7A600",
+    "backgroundColor": "#7C5300",
     "textColor": "#FFFFFF",
     "order": 26
   },
-  "FrankfurtTram20": {
-    "name": "20",
-    "color": "#E53935",
-    "backgroundColor": "#7D1310",
-    "textColor": "#FFFFFF",
-    "order": 27
-  },
   "FrankfurtTram21": {
     "name": "21",
-    "color": "#546E7A",
-    "backgroundColor": "#2A373D",
+    "color": "#F7A600",
+    "backgroundColor": "#7C5300",
     "textColor": "#FFFFFF",
-    "order": 28
+    "order": 27
   }
 }
