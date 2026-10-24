@@ -142,6 +142,9 @@ export const renamedStations: { [osmName: string]: string } = {
   'Pfalzbau / Wilhelm-Hack-Museum': 'Pfalzbau/Wilhelm-Hack-Museum',
 }
 
+// district names as commonly used (OSM splits some districts into parts)
+export const renamedDistricts: { [osmName: string]: string } = {}
+
 // stop positions without name in OSM
 export const stationNamesByNodeId: { [nodeId: number]: string } = {
   1587114239: 'Waibstadt',

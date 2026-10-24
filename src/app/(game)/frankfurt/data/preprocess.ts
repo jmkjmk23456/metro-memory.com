@@ -4,6 +4,7 @@ import * as path from 'path'
 import {
   alternateNames,
   linesMetadata,
+  renamedDistricts,
   renamedStations,
   renamedStationsInArea,
   stationNamesByNodeId,
@@ -586,8 +587,9 @@ const main = async () => {
       )
       const districts = areas
         .filter((area) => area.level === 9 || area.level === 10)
-        .map((area) =>
-          cleanAreaName(area.name)
+        .map((area) => renamedDistricts[area.name] ?? area.name)
+        .map((name) =>
+          cleanAreaName(name)
             .replace(new RegExp(`^${town}[- ]`), '')
             .replace(new RegExp(`^${town}$`), ''),
         )

@@ -163,6 +163,12 @@ export const renamedStations: { [osmName: string]: string } = {
   Opelwerk: 'Rüsselsheim Opelwerk',
 }
 
+// district names as commonly used (OSM splits some districts into parts)
+export const renamedDistricts: { [osmName: string]: string } = {
+  'Sachsenhausen Nord': 'Sachsenhausen',
+  'Sachsenhausen Süd': 'Sachsenhausen',
+}
+
 // stop positions without name in OSM
 export const stationNamesByNodeId: { [nodeId: number]: string } = {}
 
@@ -198,6 +204,7 @@ export const alternateNames: { [stationName: string]: string[] | undefined } = {
   'Heinrich-Hoffmann-Straße/Blutspendedienst': ['Heinrich-Hoffmann-Straße'],
   'Weißkirchen/Steinbach': ['Weißkirchen', 'Steinbach'],
   'Schwalbach Limes': ['Schwalbach'],
+  Friedensbrücke: ['Stresemannallee/Gartenstraße'], // former name
   Ostbahnhof: ['Frankfurt Ost', 'Frankfurt Ostbahnhof', 'Frankfurt (Main) Ost'],
   Heerstraße: ['Praunheim Heerstraße', 'Praunheim'],
 }
