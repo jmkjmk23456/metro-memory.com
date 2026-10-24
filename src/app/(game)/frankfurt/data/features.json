@@ -4737,7 +4737,7 @@
         "name": "Dornbusch",
         "alternate_names": [
           "Frankfurt Dornbusch",
-          "Westend Nord Dornbusch",
+          "Westend Dornbusch",
           "DO"
         ],
         "line": "FrankfurtU1",
@@ -4761,7 +4761,7 @@
           "Miquelallee",
           "Adickesallee",
           "Frankfurt Miquel-/Adickesallee",
-          "Nordend West Miquel-/Adickesallee"
+          "Nordend Miquel-/Adickesallee"
         ],
         "line": "FrankfurtU1",
         "order": 10
@@ -4783,7 +4783,7 @@
         "alternate_names": [
           "Holzhausenstr",
           "Frankfurt Holzhausenstraße",
-          "Westend Nord Holzhausenstraße",
+          "Westend Holzhausenstraße",
           "HO"
         ],
         "line": "FrankfurtU1",
@@ -4805,7 +4805,7 @@
         "name": "Grüneburgweg",
         "alternate_names": [
           "Frankfurt Grüneburgweg",
-          "Nordend West Grüneburgweg",
+          "Nordend Grüneburgweg",
           "GW"
         ],
         "line": "FrankfurtU1",
@@ -5206,7 +5206,7 @@
         "name": "Dornbusch",
         "alternate_names": [
           "Frankfurt Dornbusch",
-          "Westend Nord Dornbusch",
+          "Westend Dornbusch",
           "DO"
         ],
         "line": "FrankfurtU2",
@@ -5230,7 +5230,7 @@
           "Miquelallee",
           "Adickesallee",
           "Frankfurt Miquel-/Adickesallee",
-          "Nordend West Miquel-/Adickesallee"
+          "Nordend Miquel-/Adickesallee"
         ],
         "line": "FrankfurtU2",
         "order": 11
@@ -5252,7 +5252,7 @@
         "alternate_names": [
           "Holzhausenstr",
           "Frankfurt Holzhausenstraße",
-          "Westend Nord Holzhausenstraße",
+          "Westend Holzhausenstraße",
           "HO"
         ],
         "line": "FrankfurtU2",
@@ -5274,7 +5274,7 @@
         "name": "Grüneburgweg",
         "alternate_names": [
           "Frankfurt Grüneburgweg",
-          "Nordend West Grüneburgweg",
+          "Nordend Grüneburgweg",
           "GW"
         ],
         "line": "FrankfurtU2",
@@ -5818,7 +5818,7 @@
         "name": "Dornbusch",
         "alternate_names": [
           "Frankfurt Dornbusch",
-          "Westend Nord Dornbusch",
+          "Westend Dornbusch",
           "DO"
         ],
         "line": "FrankfurtU3",
@@ -5842,7 +5842,7 @@
           "Miquelallee",
           "Adickesallee",
           "Frankfurt Miquel-/Adickesallee",
-          "Nordend West Miquel-/Adickesallee"
+          "Nordend Miquel-/Adickesallee"
         ],
         "line": "FrankfurtU3",
         "order": 12
@@ -5864,7 +5864,7 @@
         "alternate_names": [
           "Holzhausenstr",
           "Frankfurt Holzhausenstraße",
-          "Westend Nord Holzhausenstraße",
+          "Westend Holzhausenstraße",
           "HO"
         ],
         "line": "FrankfurtU3",
@@ -5886,7 +5886,7 @@
         "name": "Grüneburgweg",
         "alternate_names": [
           "Frankfurt Grüneburgweg",
-          "Nordend West Grüneburgweg",
+          "Nordend Grüneburgweg",
           "GW"
         ],
         "line": "FrankfurtU3",
@@ -6023,7 +6023,7 @@
         "name": "Bockenheimer Warte",
         "alternate_names": [
           "Frankfurt Bockenheimer Warte",
-          "Westend Süd Bockenheimer Warte",
+          "Westend Bockenheimer Warte",
           "BW",
           "BWC",
           "BWD"
@@ -6048,7 +6048,7 @@
         "alternate_names": [
           "Festhalle",
           "Frankfurt Festhalle/Messe",
-          "Westend Süd Festhalle/Messe",
+          "Westend Festhalle/Messe",
           "MS"
         ],
         "line": "FrankfurtU4",
@@ -6167,7 +6167,7 @@
         "name": "Merianplatz",
         "alternate_names": [
           "Frankfurt Merianplatz",
-          "Nordend Ost Merianplatz",
+          "Nordend Merianplatz",
           "ME"
         ],
         "line": "FrankfurtU4",
@@ -6190,7 +6190,7 @@
         "alternate_names": [
           "Höhenstr",
           "Frankfurt Höhenstraße",
-          "Nordend Ost Höhenstraße",
+          "Nordend Höhenstraße",
           "HS"
         ],
         "line": "FrankfurtU4",
@@ -6504,7 +6504,7 @@
         "name": "Hauptfriedhof",
         "alternate_names": [
           "Frankfurt Hauptfriedhof",
-          "Nordend West Hauptfriedhof",
+          "Nordend Hauptfriedhof",
           "HF"
         ],
         "line": "FrankfurtU5",
@@ -6526,7 +6526,7 @@
         "name": "Deutsche Nationalbibliothek",
         "alternate_names": [
           "Frankfurt Deutsche Nationalbibliothek",
-          "Nordend West Deutsche Nationalbibliothek",
+          "Nordend Deutsche Nationalbibliothek",
           "DN"
         ],
         "line": "FrankfurtU5",
@@ -6549,7 +6549,7 @@
         "alternate_names": [
           "Glauburgstr",
           "Frankfurt Glauburgstraße",
-          "Nordend West Glauburgstraße",
+          "Nordend Glauburgstraße",
           "GB"
         ],
         "line": "FrankfurtU5",
@@ -6571,7 +6571,7 @@
         "name": "Musterschule",
         "alternate_names": [
           "Frankfurt Musterschule",
-          "Nordend West Musterschule",
+          "Nordend Musterschule",
           "MU"
         ],
         "line": "FrankfurtU5",
@@ -6802,7 +6802,7 @@
         "name": "Bockenheimer Warte",
         "alternate_names": [
           "Frankfurt Bockenheimer Warte",
-          "Westend Süd Bockenheimer Warte",
+          "Westend Bockenheimer Warte",
           "BW",
           "BWC",
           "BWD"
@@ -6826,7 +6826,6 @@
         "name": "Westend",
         "alternate_names": [
           "Frankfurt Westend",
-          "Westend Süd Westend",
           "WD"
         ],
         "line": "FrankfurtU6",
@@ -7256,7 +7255,6 @@
         "name": "Westend",
         "alternate_names": [
           "Frankfurt Westend",
-          "Westend Süd Westend",
           "WD"
         ],
         "line": "FrankfurtU7",
@@ -7278,7 +7276,7 @@
         "name": "Bockenheimer Warte",
         "alternate_names": [
           "Frankfurt Bockenheimer Warte",
-          "Westend Süd Bockenheimer Warte",
+          "Westend Bockenheimer Warte",
           "BW",
           "BWC",
           "BWD"
@@ -7704,7 +7702,7 @@
         "name": "Dornbusch",
         "alternate_names": [
           "Frankfurt Dornbusch",
-          "Westend Nord Dornbusch",
+          "Westend Dornbusch",
           "DO"
         ],
         "line": "FrankfurtU8",
@@ -7728,7 +7726,7 @@
           "Miquelallee",
           "Adickesallee",
           "Frankfurt Miquel-/Adickesallee",
-          "Nordend West Miquel-/Adickesallee"
+          "Nordend Miquel-/Adickesallee"
         ],
         "line": "FrankfurtU8",
         "order": 17
@@ -7750,7 +7748,7 @@
         "alternate_names": [
           "Holzhausenstr",
           "Frankfurt Holzhausenstraße",
-          "Westend Nord Holzhausenstraße",
+          "Westend Holzhausenstraße",
           "HO"
         ],
         "line": "FrankfurtU8",
@@ -7772,7 +7770,7 @@
         "name": "Grüneburgweg",
         "alternate_names": [
           "Frankfurt Grüneburgweg",
-          "Nordend West Grüneburgweg",
+          "Nordend Grüneburgweg",
           "GW"
         ],
         "line": "FrankfurtU8",
@@ -9634,7 +9632,7 @@
         "name": "Hessendenkmal",
         "alternate_names": [
           "Frankfurt Hessendenkmal",
-          "Nordend Ost Hessendenkmal",
+          "Nordend Hessendenkmal",
           "HESS"
         ],
         "line": "FrankfurtTram12",
@@ -9656,7 +9654,7 @@
         "name": "Friedberger Platz",
         "alternate_names": [
           "Frankfurt Friedberger Platz",
-          "Nordend Ost Friedberger Platz",
+          "Nordend Friedberger Platz",
           "FRIP"
         ],
         "line": "FrankfurtTram12",
@@ -9678,7 +9676,7 @@
         "name": "Matthias-Beltz-Platz",
         "alternate_names": [
           "Frankfurt Matthias-Beltz-Platz",
-          "Nordend West Matthias-Beltz-Platz"
+          "Nordend Matthias-Beltz-Platz"
         ],
         "line": "FrankfurtTram12",
         "order": 20
@@ -9699,7 +9697,7 @@
         "name": "Rothschildallee",
         "alternate_names": [
           "Frankfurt Rothschildallee",
-          "Nordend Ost Rothschildallee",
+          "Nordend Rothschildallee",
           "ROTH"
         ],
         "line": "FrankfurtTram12",
@@ -9722,7 +9720,7 @@
         "alternate_names": [
           "Günthersburgpark",
           "Frankfurt Günthersburgpark (Jina-Mahsa-Amini-Platz)",
-          "Nordend Ost Günthersburgpark (Jina-Mahsa-Amini-Platz)",
+          "Nordend Günthersburgpark (Jina-Mahsa-Amini-Platz)",
           "GUEP"
         ],
         "line": "FrankfurtTram12",
@@ -9745,7 +9743,7 @@
         "alternate_names": [
           "Hartmann-Ibach-Str",
           "Frankfurt Hartmann-Ibach-Straße",
-          "Nordend Ost Hartmann-Ibach-Straße",
+          "Nordend Hartmann-Ibach-Straße",
           "HAIB"
         ],
         "line": "FrankfurtTram12",
@@ -11480,7 +11478,7 @@
         "alternate_names": [
           "Hohenstaufenstr",
           "Frankfurt Hohenstaufenstraße",
-          "Westend Süd Hohenstaufenstraße",
+          "Westend Hohenstaufenstraße",
           "HOSS"
         ],
         "line": "FrankfurtTram16",
@@ -11503,7 +11501,7 @@
         "alternate_names": [
           "Festhalle",
           "Frankfurt Festhalle/Messe",
-          "Westend Süd Festhalle/Messe",
+          "Westend Festhalle/Messe",
           "MS"
         ],
         "line": "FrankfurtTram16",
@@ -11525,7 +11523,7 @@
         "name": "Ludwig-Erhard-Anlage",
         "alternate_names": [
           "Frankfurt Ludwig-Erhard-Anlage",
-          "Westend Süd Ludwig-Erhard-Anlage",
+          "Westend Ludwig-Erhard-Anlage",
           "LUER"
         ],
         "line": "FrankfurtTram16",
@@ -11548,7 +11546,7 @@
         "alternate_names": [
           "Varrentrappstr",
           "Frankfurt Varrentrappstraße",
-          "Westend Süd Varrentrappstraße",
+          "Westend Varrentrappstraße",
           "VARR"
         ],
         "line": "FrankfurtTram16",
@@ -11593,7 +11591,7 @@
         "name": "Bockenheimer Warte",
         "alternate_names": [
           "Frankfurt Bockenheimer Warte",
-          "Westend Süd Bockenheimer Warte",
+          "Westend Bockenheimer Warte",
           "BW",
           "BWC",
           "BWD"
@@ -11911,7 +11909,7 @@
         "alternate_names": [
           "Hohenstaufenstr",
           "Frankfurt Hohenstaufenstraße",
-          "Westend Süd Hohenstaufenstraße",
+          "Westend Hohenstaufenstraße",
           "HOSS"
         ],
         "line": "FrankfurtTram17",
@@ -11934,7 +11932,7 @@
         "alternate_names": [
           "Festhalle",
           "Frankfurt Festhalle/Messe",
-          "Westend Süd Festhalle/Messe",
+          "Westend Festhalle/Messe",
           "MS"
         ],
         "line": "FrankfurtTram17",
@@ -11956,7 +11954,7 @@
         "name": "Ludwig-Erhard-Anlage",
         "alternate_names": [
           "Frankfurt Ludwig-Erhard-Anlage",
-          "Westend Süd Ludwig-Erhard-Anlage",
+          "Westend Ludwig-Erhard-Anlage",
           "LUER"
         ],
         "line": "FrankfurtTram17",
@@ -11979,7 +11977,7 @@
         "alternate_names": [
           "Varrentrappstr",
           "Frankfurt Varrentrappstraße",
-          "Westend Süd Varrentrappstraße",
+          "Westend Varrentrappstraße",
           "VARR"
         ],
         "line": "FrankfurtTram17",
@@ -12203,7 +12201,7 @@
         "name": "Friedberger Warte",
         "alternate_names": [
           "Frankfurt Friedberger Warte",
-          "Nordend West Friedberger Warte",
+          "Nordend Friedberger Warte",
           "FRIW"
         ],
         "line": "FrankfurtTram18",
@@ -12225,7 +12223,7 @@
         "name": "Wasserpark",
         "alternate_names": [
           "Frankfurt Wasserpark",
-          "Nordend West Wasserpark",
+          "Nordend Wasserpark",
           "WASS"
         ],
         "line": "FrankfurtTram18",
@@ -12248,7 +12246,7 @@
         "alternate_names": [
           "Münzenberger Str",
           "Frankfurt Münzenberger Straße",
-          "Nordend West Münzenberger Straße",
+          "Nordend Münzenberger Straße",
           "MUEN"
         ],
         "line": "FrankfurtTram18",
@@ -12271,7 +12269,7 @@
         "alternate_names": [
           "Nibelungenplatz",
           "Frankfurt Nibelungenplatz (UAS)",
-          "Nordend West Nibelungenplatz (UAS)"
+          "Nordend Nibelungenplatz (UAS)"
         ],
         "line": "FrankfurtTram18",
         "order": 25
@@ -12292,7 +12290,7 @@
         "name": "Matthias-Beltz-Platz",
         "alternate_names": [
           "Frankfurt Matthias-Beltz-Platz",
-          "Nordend West Matthias-Beltz-Platz"
+          "Nordend Matthias-Beltz-Platz"
         ],
         "line": "FrankfurtTram18",
         "order": 25
@@ -12313,7 +12311,7 @@
         "name": "Friedberger Platz",
         "alternate_names": [
           "Frankfurt Friedberger Platz",
-          "Nordend Ost Friedberger Platz",
+          "Nordend Friedberger Platz",
           "FRIP"
         ],
         "line": "FrankfurtTram18",
@@ -12335,7 +12333,7 @@
         "name": "Hessendenkmal",
         "alternate_names": [
           "Frankfurt Hessendenkmal",
-          "Nordend Ost Hessendenkmal",
+          "Nordend Hessendenkmal",
           "HESS"
         ],
         "line": "FrankfurtTram18",

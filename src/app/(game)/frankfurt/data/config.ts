@@ -167,6 +167,10 @@ export const renamedStations: { [osmName: string]: string } = {
 export const renamedDistricts: { [osmName: string]: string } = {
   'Sachsenhausen Nord': 'Sachsenhausen',
   'Sachsenhausen Süd': 'Sachsenhausen',
+  'Westend Nord': 'Westend',
+  'Westend Süd': 'Westend',
+  'Nordend Ost': 'Nordend',
+  'Nordend West': 'Nordend',
 }
 
 // stop positions without name in OSM
