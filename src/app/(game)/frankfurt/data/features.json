@@ -3235,10 +3235,7 @@
         "id": 151,
         "name": "Stadion",
         "alternate_names": [
-          "FSP",
-          "Frankfurt Stadion",
-          "Sachsenhausen Stadion",
-          "ST"
+          "FSP"
         ],
         "line": "FrankfurtS7",
         "order": 7
@@ -3576,10 +3573,7 @@
         "id": 167,
         "name": "Stadion",
         "alternate_names": [
-          "FSP",
-          "Frankfurt Stadion",
-          "Sachsenhausen Stadion",
-          "ST"
+          "FSP"
         ],
         "line": "FrankfurtS8",
         "order": 8
@@ -4139,10 +4133,7 @@
         "id": 193,
         "name": "Stadion",
         "alternate_names": [
-          "FSP",
-          "Frankfurt Stadion",
-          "Sachsenhausen Stadion",
-          "ST"
+          "FSP"
         ],
         "line": "FrankfurtS9",
         "order": 9
@@ -13396,18 +13387,18 @@
         ]
       },
       "properties": {
-        "id": 605,
-        "name": "Stadion",
+        "id": 674,
+        "name": "Stadion Straßenbahn",
         "alternate_names": [
-          "FSP",
-          "Frankfurt Stadion",
-          "Sachsenhausen Stadion",
-          "ST"
+          "Stadion Strnbahn",
+          "Frankfurt Stadion Straßenbahn",
+          "Sachsenhausen Stadion Straßenbahn",
+          "STAD"
         ],
         "line": "FrankfurtTram20",
         "order": 27
       },
-      "id": 605
+      "id": 674
     },
     {
       "type": "Feature",
@@ -13419,18 +13410,18 @@
         ]
       },
       "properties": {
-        "id": 630,
-        "name": "Stadion",
+        "id": 675,
+        "name": "Stadion Straßenbahn",
         "alternate_names": [
-          "FSP",
-          "Frankfurt Stadion",
-          "Sachsenhausen Stadion",
-          "ST"
+          "Stadion Strnbahn",
+          "Frankfurt Stadion Straßenbahn",
+          "Sachsenhausen Stadion Straßenbahn",
+          "STAD"
         ],
         "line": "FrankfurtTram21",
         "order": 28
       },
-      "id": 630
+      "id": 675
     },
     {
       "type": "Feature",
@@ -13978,7 +13969,7 @@
     }
   ],
   "properties": {
-    "totalStations": 310,
+    "totalStations": 311,
     "stationsPerLine": {
       "FrankfurtS1": 32,
       "FrankfurtS2": 27,
@@ -14009,6 +14000,6 @@
       "FrankfurtTram20": 12,
       "FrankfurtTram21": 25
     },
-    "nextStationId": 674
+    "nextStationId": 676
   }
 }

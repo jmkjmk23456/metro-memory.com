@@ -138,7 +138,6 @@ export const renamedStations: { [osmName: string]: string } = {
   'Frankfurt-Niederrad': 'Niederrad',
   'Niederrad Bahnhof': 'Niederrad',
   'Frankfurt am Main Stadion': 'Stadion',
-  'Stadion Straßenbahn': 'Stadion',
   'Frankfurt am Main Flughafen Regionalbahnhof': 'Flughafen Regionalbahnhof',
   'Frankfurt-Gateway Gardens': 'Gateway Gardens',
   'Hugo-Junkers-Straße/Schleife': 'Hugo-Junkers-Straße',
